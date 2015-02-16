@@ -1,0 +1,228 @@
+
+.xoverlay {
+position: relative;
+overflow: hidden;
+perspective: 300px;
+-webkit-perspective: 300px;
+-ms-perspective: 300px;
+-o-perspective: 300px;
+}
+
+.xoverlay .x-img-main {width: 100%;}
+
+.xoverlay-data {
+width: 100%;
+height: 100%; 
+text-align: center;
+}
+
+@media(max-width:530px) {.xoverlay span i}
+
+{}
+
+@media(max-width:530px) {.xoverlay span i}
+
+{}
+
+@media(max-width:302px) {.xoverlay span i}
+
+{}
+
+/*===== RED =====*/
+.x-top-red .xoverlay-box {
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0;
+right: 0;
+top: -500px;
+background: #444444;
+-webkit-transition: all .3s;
+-moz-transition: all .3s;
+transition: all .3s;
+}
+
+.x-top-red:hover .xoverlay-box {
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+background: #E34139;
+}
+
+/*===== BLUE =====*/
+
+.x-top-blue .xoverlay-box {
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0;
+right: 0;
+top: -500px;
+background: #444444;
+-webkit-transition: all .3s;
+-moz-transition: all .3s;
+transition: all .3s;
+}
+
+.x-top-blue:hover .xoverlay-box {
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+background: #1BAAE2;
+}
+
+/*===== YELLOW =====*/
+
+.x-top-yellow .xoverlay-box {
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0;
+right: 0;
+top: -500px;
+background: #444444;
+-webkit-transition: all .3s;
+-moz-transition: all .3s;
+transition: all .3s;
+}
+
+.x-top-yellow:hover .xoverlay-box {
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+background: #EF9C07;
+}
+
+/*===== PINK =====*/
+
+.x-top-pink .xoverlay-box {
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0;
+right: 0;
+top: -500px;
+background: #444444;
+-webkit-transition: all .3s;
+-moz-transition: all .3s;
+transition: all .3s;
+}
+
+.x-top-pink:hover .xoverlay-box {
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+background: #D58079;
+}
+
+/*===== LIGHTBLUE =====*/
+
+.x-top-lightblue .xoverlay-box {
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0;
+right: 0;
+top: -500px;
+background: #444444;
+-webkit-transition: all .3s;
+-moz-transition: all .3s;
+transition: all .3s;
+}
+
+.x-top-lightblue:hover .xoverlay-box {
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+background: #7AD6E5;
+}
+
+/*===== DARKYELLOW =====*/
+
+.x-top-darkyellow .xoverlay-box {
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0;
+right: 0;
+top: -500px;
+background: #444444;
+-webkit-transition: all .3s;
+-moz-transition: all .3s;
+transition: all .3s;
+}
+
+.x-top-darkyellow:hover .xoverlay-box {
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+background: #F0CE32;
+}
+
+/*===== LIGHTPINK =====*/
+
+.x-top-lightpink .xoverlay-box {
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0;
+right: 0;
+top: -500px;
+background: #444444;
+-webkit-transition: all .5s;
+-moz-transition: all .5s;
+transition: all .5s;
+}
+
+.x-top-lightpink:hover .xoverlay-box {
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+background: #7D354B;
+}
+
+/*===== BROWN =====*/
+
+.x-top-brown .xoverlay-box {
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0;
+right: 0;
+top: -500px;
+background: #444444;
+-webkit-transition: all .5s;
+-moz-transition: all .5s;
+transition: all .5s;
+}
+
+.x-top-brown:hover .xoverlay-box {
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+background: #A2572C;
+}

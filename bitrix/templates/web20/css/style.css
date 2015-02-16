@@ -1,0 +1,23 @@
+#page {
+	margin-top: 51px;
+}
+
+.image-responsive {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.data-info {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.125em;
+}
+
+
+.social {
+	text-align: center;
+	display: block;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}

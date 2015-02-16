@@ -21,21 +21,23 @@
     <![endif]-->
 </head>
 <body>
-<div class="navbar navbar-inverse navbar-fixed-top container">
-    <div class="navbar-header">
-        <a href="#" class="navbar-brand">8-800-555-55-55</a>
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
-            <span class="sr-only">Открыть навигацию</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-    </div>
-    <div class="collapse navbar-collapse" id="responsive-menu">
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">О нас</a></li>
-            <li><a href="#">Готовые решения</a></li>
-        </ul>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">8-800-555-55-55</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                <span class="sr-only">Открыть навигацию</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="responsive-menu">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Готовые решения</a></li>
+            </ul>
+        </div>
     </div>
 </div>

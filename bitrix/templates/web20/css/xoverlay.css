@@ -37,9 +37,9 @@ left: 0;
 right: 0;
 top: -500px;
 background: #444444;
--webkit-transition: all .3s;
--moz-transition: all .3s;
-transition: all .3s;
+-webkit-transition: all .5s;
+-moz-transition: all .5s;
+transition: all .5s;
 }
 
 .x-top-red:hover .xoverlay-box {
@@ -62,9 +62,9 @@ left: 0;
 right: 0;
 top: -500px;
 background: #444444;
--webkit-transition: all .3s;
--moz-transition: all .3s;
-transition: all .3s;
+-webkit-transition: all .5s;
+-moz-transition: all .5s;
+transition: all .5s;
 }
 
 .x-top-blue:hover .xoverlay-box {
@@ -87,9 +87,9 @@ left: 0;
 right: 0;
 top: -500px;
 background: #444444;
--webkit-transition: all .3s;
--moz-transition: all .3s;
-transition: all .3s;
+-webkit-transition: all .5s;
+-moz-transition: all .5s;
+transition: all .5s;
 }
 
 .x-top-yellow:hover .xoverlay-box {
@@ -112,9 +112,9 @@ left: 0;
 right: 0;
 top: -500px;
 background: #444444;
--webkit-transition: all .3s;
--moz-transition: all .3s;
-transition: all .3s;
+-webkit-transition: all .5s;
+-moz-transition: all .5s;
+transition: all .5s;
 }
 
 .x-top-pink:hover .xoverlay-box {
@@ -137,9 +137,9 @@ left: 0;
 right: 0;
 top: -500px;
 background: #444444;
--webkit-transition: all .3s;
--moz-transition: all .3s;
-transition: all .3s;
+-webkit-transition: all .5s;
+-moz-transition: all .5s;
+transition: all .5s;
 }
 
 .x-top-lightblue:hover .xoverlay-box {
@@ -162,9 +162,9 @@ left: 0;
 right: 0;
 top: -500px;
 background: #444444;
--webkit-transition: all .3s;
--moz-transition: all .3s;
-transition: all .3s;
+-webkit-transition: all .5s;
+-moz-transition: all .5s;
+transition: all .5s;
 }
 
 .x-top-darkyellow:hover .xoverlay-box {

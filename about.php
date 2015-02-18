@@ -8,7 +8,7 @@
             <img src="http://placehold.it/300" alt="" class="image-responsive">
             <div class="xoverlay-box">
                 <div class="xoverlay-data">
-                    <h1 class="data-info">Text</h1>
+                    <span class="data-info">Text</span>
                     <p class="data-info">Text</p>
                 </div>
             </div>
@@ -19,7 +19,7 @@
             <img src="http://placehold.it/300" alt="" class="image-responsive">
             <div class="xoverlay-box">
                 <div class="xoverlay-data">
-                    <h1 class="data-info">Text</h1>
+                    <span class="data-info">Text</span>
                     <p class="data-info">Text</p>
                 </div>
             </div>
@@ -30,7 +30,7 @@
             <img src="http://placehold.it/300" alt="" class="image-responsive">
             <div class="xoverlay-box">
                 <div class="xoverlay-data">
-                    <h1 class="data-info">Text</h1>
+                    <span class="data-info">Text</span>
                     <p class="data-info">Text</p>
                 </div>
             </div>
@@ -41,7 +41,7 @@
             <img src="http://placehold.it/300" alt="" class="image-responsive">
             <div class="xoverlay-box">
                 <div class="xoverlay-data">
-                    <h1 class="data-info">Text</h1>
+                    <span class="data-info">Text</span>
                     <p class="data-info">Text</p>
                 </div>
             </div>
@@ -52,7 +52,7 @@
             <img src="http://placehold.it/300" alt="" class="image-responsive">
             <div class="xoverlay-box">
                 <div class="xoverlay-data">
-                    <h1 class="data-info">Text</h1>
+                    <span class="data-info">Text</span>
                     <p class="data-info">Text</p>
                 </div>
             </div>
@@ -63,7 +63,7 @@
             <img src="http://placehold.it/300" alt="" class="image-responsive">
             <div class="xoverlay-box">
                 <div class="xoverlay-data">
-                    <h1 class="data-info">Text</h1>
+                    <span class="data-info">Text</span>
                     <p class="data-info">Text</p>
                 </div>
             </div>
@@ -74,7 +74,7 @@
             <img src="http://placehold.it/300" alt="" class="image-responsive">
             <div class="xoverlay-box">
                 <div class="xoverlay-data">
-                    <h1 class="data-info">Text</h1>
+                    <span class="data-info">Text</span>
                     <p class="data-info">Text</p>
 
                 </div>
@@ -86,7 +86,7 @@
             <img src="http://placehold.it/300" alt="" class="image-responsive">
             <div class="xoverlay-box">
                 <div class="xoverlay-data">
-                    <h1 class="data-info">Text</h1>
+                    <span class="data-info">Text</span>
                     <p class="data-info">Text</p>
                 </div>
             </div>
@@ -97,7 +97,7 @@
             <img src="http://placehold.it/300" alt="" class="image-responsive">
             <div class="xoverlay-box">
                 <div class="xoverlay-data">
-                    <h1 class="data-info">Text</h1>
+                    <span class="data-info">Text</span>
                     <p class="data-info">Text</p>
                 </div>
             </div>
@@ -108,7 +108,7 @@
             <img src="http://placehold.it/300" alt="" class="image-responsive">
             <div class="xoverlay-box">
                 <div class="xoverlay-data">
-                    <h1 class="data-info">Text</h1>
+                    <span class="data-info">Text</span>
                     <p class="data-info">Text</p>
                 </div>
             </div>
@@ -119,7 +119,7 @@
             <img src="http://placehold.it/300" alt="" class="image-responsive">
             <div class="xoverlay-box">
                 <div class="xoverlay-data">
-                    <h1 class="data-info">Text</h1>
+                    <span class="data-info">Text</span>
                     <p class="data-info">Text</p>
                 </div>
             </div>
@@ -130,7 +130,7 @@
             <img src="http://placehold.it/300" alt="" class="image-responsive">
             <div class="xoverlay-box">
                 <div class="xoverlay-data">
-                    <h1 class="data-info">Text</h1>
+                    <span class="data-info">Text</span>
                     <p class="data-info">Text</p>
                 </div>
             </div>

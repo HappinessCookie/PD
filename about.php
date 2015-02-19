@@ -4,135 +4,98 @@
     </div>
     <!--MIN-PORTFOLIO-->
     <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-        <div class="xoverlay x-top-red">
+        <div class="sticker sticker-top">
             <img src="http://placehold.it/300" alt="" class="image-responsive">
-            <div class="xoverlay-box">
-                <div class="xoverlay-data">
-                    <span class="data-info">Text</span>
-                    <p class="data-info">Text</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-        <div class="xoverlay x-top-blue">
-            <img src="http://placehold.it/300" alt="" class="image-responsive">
-            <div class="xoverlay-box">
-                <div class="xoverlay-data">
-                    <span class="data-info">Text</span>
-                    <p class="data-info">Text</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-        <div class="xoverlay x-top-yellow">
-            <img src="http://placehold.it/300" alt="" class="image-responsive">
-            <div class="xoverlay-box">
-                <div class="xoverlay-data">
-                    <span class="data-info">Text</span>
-                    <p class="data-info">Text</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-        <div class="xoverlay x-top-pink">
-            <img src="http://placehold.it/300" alt="" class="image-responsive">
-            <div class="xoverlay-box">
-                <div class="xoverlay-data">
-                    <span class="data-info">Text</span>
-                    <p class="data-info">Text</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-        <div class="xoverlay x-top-darkyellow">
-            <img src="http://placehold.it/300" alt="" class="image-responsive">
-            <div class="xoverlay-box">
-                <div class="xoverlay-data">
-                    <span class="data-info">Text</span>
-                    <p class="data-info">Text</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-        <div class="xoverlay x-top-lightpink">
-            <img src="http://placehold.it/300" alt="" class="image-responsive">
-            <div class="xoverlay-box">
-                <div class="xoverlay-data">
-                    <span class="data-info">Text</span>
-                    <p class="data-info">Text</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-        <div class="xoverlay x-top-brown">
-            <img src="http://placehold.it/300" alt="" class="image-responsive">
-            <div class="xoverlay-box">
-                <div class="xoverlay-data">
-                    <span class="data-info">Text</span>
-                    <p class="data-info">Text</p>
+            <div class="sticker-box sticker-darkred">
 
-                </div>
             </div>
         </div>
     </div>
     <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-        <div class="xoverlay x-top-red">
+        <div class="sticker sticker-top">
             <img src="http://placehold.it/300" alt="" class="image-responsive">
-            <div class="xoverlay-box">
-                <div class="xoverlay-data">
-                    <span class="data-info">Text</span>
-                    <p class="data-info">Text</p>
-                </div>
+            <div class="sticker-box sticker-darkred">
+
             </div>
         </div>
     </div>
     <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-        <div class="xoverlay x-top-lightblue">
+        <div class="sticker sticker-top">
             <img src="http://placehold.it/300" alt="" class="image-responsive">
-            <div class="xoverlay-box">
-                <div class="xoverlay-data">
-                    <span class="data-info">Text</span>
-                    <p class="data-info">Text</p>
-                </div>
+            <div class="sticker-box sticker-darkred">
+
             </div>
         </div>
     </div>
     <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-        <div class="xoverlay x-top-yellow">
+        <div class="sticker sticker-top">
             <img src="http://placehold.it/300" alt="" class="image-responsive">
-            <div class="xoverlay-box">
-                <div class="xoverlay-data">
-                    <span class="data-info">Text</span>
-                    <p class="data-info">Text</p>
-                </div>
+            <div class="sticker-box sticker-darkred">
+
             </div>
         </div>
     </div>
     <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-        <div class="xoverlay x-top-pink">
+        <div class="sticker sticker-top">
             <img src="http://placehold.it/300" alt="" class="image-responsive">
-            <div class="xoverlay-box">
-                <div class="xoverlay-data">
-                    <span class="data-info">Text</span>
-                    <p class="data-info">Text</p>
-                </div>
+            <div class="sticker-box sticker-darkred">
+
             </div>
         </div>
     </div>
     <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-        <div class="xoverlay x-top-lightpink">
+        <div class="sticker sticker-top">
             <img src="http://placehold.it/300" alt="" class="image-responsive">
-            <div class="xoverlay-box">
-                <div class="xoverlay-data">
-                    <span class="data-info">Text</span>
-                    <p class="data-info">Text</p>
-                </div>
+            <div class="sticker-box sticker-darkred">
+
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+        <div class="sticker sticker-top">
+            <img src="http://placehold.it/300" alt="" class="image-responsive">
+            <div class="sticker-box sticker-darkred">
+
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+        <div class="sticker sticker-top">
+            <img src="http://placehold.it/300" alt="" class="image-responsive">
+            <div class="sticker-box sticker-darkred">
+
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+        <div class="sticker sticker-top">
+            <img src="http://placehold.it/300" alt="" class="image-responsive">
+            <div class="sticker-box sticker-darkred">
+
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+        <div class="sticker sticker-top">
+            <img src="http://placehold.it/300" alt="" class="image-responsive">
+            <div class="sticker-box sticker-darkred">
+
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+        <div class="sticker sticker-top">
+            <img src="http://placehold.it/300" alt="" class="image-responsive">
+            <div class="sticker-box sticker-darkred">
+
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+        <div class="sticker sticker-top">
+            <img src="http://placehold.it/300" alt="" class="image-responsive">
+            <div class="sticker-box sticker-darkred">
+
             </div>
         </div>
     </div>

@@ -21,6 +21,11 @@
     <![endif]-->
 </head>
 <body>
+<? if ($USER->IsAdmin()): ?>
+    <div id="panel">
+        <? /*$APPLICATION->ShowPanel();*/ ?>
+    </div>
+<? endif ?>
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container side-pad">
         <div class="navbar-header">

@@ -86,7 +86,7 @@
     <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
         <div class="sticker sticker-top">
             <img src="http://placehold.it/300" alt="" class="image-responsive">
-            <div class="sticker-box ticker-brown">
+            <div class="sticker-box sticker-brown">
 
             </div>
         </div>

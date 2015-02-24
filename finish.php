@@ -5,7 +5,7 @@
         "jobs",
         Array(
             "IBLOCK_TYPE" => "-",
-            "IBLOCK_ID" => "",
+            "IBLOCK_ID" => "1",
             "NEWS_COUNT" => "20",
             "SORT_BY1" => "",
             "SORT_ORDER1" => "",

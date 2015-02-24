@@ -39,7 +39,7 @@
         </div>
         <div class="collapse navbar-collapse" id="responsive-menu">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about">Главная</a></li>
+                <li><a href="#main">Главная</a></li>
                 <li><a href="#about1">О нас</a></li>
                 <li><a href="#finish">Готовые решения</a></li>
             </ul>

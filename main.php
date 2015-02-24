@@ -101,13 +101,13 @@
     </div>
     <!--POL LITRA-->
     <div class="section">
-        <img src="http://placehold.it/1000x300/d5d5d5/000" alt="" class="img-responsive">
+        <img src="http://placehold.it/1200x300/d5d5d5/000" alt="" class="img-responsive">
     </div>
     <!--PARTNERS-->
     <div class="section">
-        <img src="http://placehold.it/1100x200/454545/000" alt="" class="img-responsive">
-        <img src="http://placehold.it/1100x200/454545/000" alt="" class="img-responsive">
-        <img src="http://placehold.it/1100x200/454545/000" alt="" class="img-responsive">
+        <img src="http://placehold.it/1200x200/454545/000" alt="" class="img-responsive">
+        <img src="http://placehold.it/1200x200/454545/000" alt="" class="img-responsive">
+        <img src="http://placehold.it/1200x200/454545/000" alt="" class="img-responsive">
     </div>
     <!--CONTACTS-->
     <img src="http://placehold.it/1200x150/545454/000" alt="" class="img-responsive">

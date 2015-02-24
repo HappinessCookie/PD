@@ -1,10 +1,13 @@
-#page {
-    margin-top: 51px;
+#page-holder {
+    margin-top: 80px;
 }
 .image-responsive {
     display: block;
     width: 100%;
     height: auto;
+}
+.navbar {
+    border: none !important;
 }
 .data-info {
     color: #fff;

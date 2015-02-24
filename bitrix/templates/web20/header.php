@@ -29,11 +29,11 @@
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container side-pad">
         <div class="navbar-header">
-            <a href="#" class="navbar-brand">8-800-555-55-55</a>
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
-                <span class="sr-only">Открыть навигацию</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+                <a href="#" class="navbar-brand">8-800-555-55-55</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                    <span class="sr-only">Открыть навигацию</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
         </div>

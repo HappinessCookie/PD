@@ -24,3 +24,8 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+.col-center {
+    float: none !important;
+    margin: 0 auto;
+    display: block;
+}

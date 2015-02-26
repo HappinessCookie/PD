@@ -7,5 +7,6 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
 <script src="<?= SITE_TEMPLATE_PATH ?>/js/bootstrap.js"></script>
 <script src="<?= SITE_TEMPLATE_PATH ?>/js/pagify.js"></script>
 <script src="<?= SITE_TEMPLATE_PATH ?>/js/function.js"></script>
+<script src="<?= SITE_TEMPLATE_PATH ?>/js/owl.carousel.min.js"></script>
 </body>
 </html>

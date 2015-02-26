@@ -12,7 +12,23 @@
             "SORT_BY2" => "",
             "SORT_ORDER2" => "",
             "FILTER_NAME" => "",
-            "FIELD_CODE" => array("PROPERTY_p1", "PROPERTY_p2", "PROPERTY_p3", "PROPERTY_p4", "PROPERTY_p5", "PROPERTY_p6"),
+            "FIELD_CODE" => array(
+                "PROPERTY_p1",
+                "PROPERTY_p2",
+                "PROPERTY_p3",
+                "PROPERTY_p4",
+                "PROPERTY_p5",
+                "PROPERTY_p6",
+                "PROPERTY_p7",
+                "PROPERTY_p8",
+                "PROPERTY_p9",
+                "PROPERTY_p10",
+                "PROPERTY_p11",
+                "PROPERTY_p12",
+                "PROPERTY_p13",
+                "PROPERTY_p14",
+                "PROPERTY_p15"
+            ),
             "PROPERTY_CODE" => array("", ""),
             "CHECK_DATES" => "Y",
             "DETAIL_URL" => "",
@@ -49,3 +65,4 @@
         )
     );?>
 </div>
+<? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/modules/main/include/epilog_after.php"); ?>

@@ -7,7 +7,7 @@
             <!--MIN-PORTFOLIO-->
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                 <div class="sticker sticker-top">
-                    <img src="/bitrix/templates/web20/images/section/1.jpeg" alt="" class="image-responsive">
+                    <img src="/bitrix/templates/web20/images/section/1.jpg" alt="" class="image-responsive">
                     <a href="#carousel" class="goto" data-slide="next">
                         <div class="sticker-box sticker-color1">
 
@@ -17,7 +17,7 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                 <div class="sticker sticker-top">
-                    <img src="/bitrix/templates/web20/images/section/2.jpeg" alt="" class="image-responsive">
+                    <img src="/bitrix/templates/web20/images/section/2.jpg" alt="" class="image-responsive">
                     <a href="#carousel" class="goto" data-slide="next">
                         <div class="sticker-box sticker-color1">
 
@@ -27,7 +27,7 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                 <div class="sticker sticker-top">
-                    <img src="/bitrix/templates/web20/images/section/3.jpeg" alt="" class="image-responsive">
+                    <img src="/bitrix/templates/web20/images/section/3.jpg" alt="" class="image-responsive">
                     <a href="#carousel" class="goto" data-slide="next">
                         <div class="sticker-box sticker-color1">
 
@@ -37,7 +37,7 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                 <div class="sticker sticker-top">
-                    <img src="/bitrix/templates/web20/images/section/4.jpeg" alt="" class="image-responsive">
+                    <img src="/bitrix/templates/web20/images/section/4.jpg" alt="" class="image-responsive">
                     <a href="#carousel" class="goto" data-slide="next">
                         <div class="sticker-box sticker-color1">
 
@@ -47,7 +47,7 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                 <div class="sticker sticker-top">
-                    <img src="/bitrix/templates/web20/images/section/5.jpeg" alt="" class="image-responsive">
+                    <img src="/bitrix/templates/web20/images/section/5.jpg" alt="" class="image-responsive">
                     <a href="#carousel" class="goto" data-slide="next">
                         <div class="sticker-box sticker-color1">
 
@@ -57,7 +57,7 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                 <div class="sticker sticker-top">
-                    <img src="/bitrix/templates/web20/images/section/6.jpeg" alt="" class="image-responsive">
+                    <img src="/bitrix/templates/web20/images/section/6.jpg" alt="" class="image-responsive">
                     <a href="#carousel" class="goto" data-slide="next">
                         <div class="sticker-box sticker-color1">
 
@@ -67,7 +67,7 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                 <div class="sticker sticker-top">
-                    <img src="/bitrix/templates/web20/images/section/7.jpeg" alt="" class="image-responsive">
+                    <img src="/bitrix/templates/web20/images/section/7.jpg" alt="" class="image-responsive">
                     <a href="#carousel" class="goto" data-slide="next">
                         <div class="sticker-box sticker-color1">
 
@@ -77,7 +77,7 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                 <div class="sticker sticker-top">
-                    <img src="/bitrix/templates/web20/images/section/8.jpeg" alt="" class="image-responsive">
+                    <img src="/bitrix/templates/web20/images/section/8.jpg" alt="" class="image-responsive">
                     <a href="#carousel" class="goto" data-slide="next">
                         <div class="sticker-box sticker-color1">
 
@@ -87,7 +87,7 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                 <div class="sticker sticker-top">
-                    <img src="/bitrix/templates/web20/images/section/9.jpeg" alt="" class="image-responsive">
+                    <img src="/bitrix/templates/web20/images/section/9.jpg" alt="" class="image-responsive">
                     <a href="#carousel" class="goto" data-slide="next">
                         <div class="sticker-box sticker-color1">
 
@@ -97,7 +97,7 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                 <div class="sticker sticker-top">
-                    <img src="/bitrix/templates/web20/images/section/10.jpeg" alt="" class="image-responsive">
+                    <img src="/bitrix/templates/web20/images/section/10.jpg" alt="" class="image-responsive">
                     <a href="#carousel" class="goto" data-slide="next">
                         <div class="sticker-box sticker-color1">
 
@@ -107,7 +107,7 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                 <div class="sticker sticker-top">
-                    <img src="/bitrix/templates/web20/images/section/11.jpeg" alt="" class="image-responsive">
+                    <img src="/bitrix/templates/web20/images/section/11.jpg" alt="" class="image-responsive">
                     <a href="#carousel" class="goto" data-slide="next">
                         <div class="sticker-box sticker-color1">
 
@@ -117,7 +117,7 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                 <div class="sticker sticker-top">
-                    <img src="/bitrix/templates/web20/images/section/12.jpeg" alt="" class="image-responsive">
+                    <img src="/bitrix/templates/web20/images/section/12.jpg" alt="" class="image-responsive">
                     <a href="#carousel" class="goto" data-slide="next">
                         <div class="sticker-box sticker-color1">
 

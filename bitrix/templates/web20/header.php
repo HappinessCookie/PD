@@ -28,16 +28,17 @@
 <? endif ?>
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container side-pad">
-        <div class="navbar-header">
-                <a href="#" class="navbar-brand">8-800-555-55-55</a>
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
-                    <span class="sr-only">Открыть навигацию</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+        <div class="col-lg-4 col-md-4 hidden-sm hidden-xs" style="color: white;">8-800-555-55-55</div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6" style="height: 80px;">
+            <img src="">
         </div>
-        <div class="collapse navbar-collapse" id="responsive-menu">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+            <span class="sr-only">Меню</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 navbar-collapse text-center pull-right collapse" id="responsive-menu" aria-expanded="false">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#main">Главная</a></li>
                 <li><a href="#about1">О нас</a></li>

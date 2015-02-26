@@ -229,8 +229,20 @@ $APPLICATION->SetTitle("Главная страница");
                         </div>
                     </div>
                 </div>
-                <!--POL LITRA-->
-                <div class="section">
+                <!--POLETTE-->
+                <div class="clearfix">
+                    <div class="col-lg-3 col-md-3">
+                        <div class="palette col-center palette-color1"></div>
+                        <div class="palette col-center palette-color2"></div>
+                        <div class="palette col-center palette-color3"></div>
+
+                    </div>
+                    <div class="col-lg-6 col-md-6"></div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="palette col-center palette-color4"></div>
+                        <div class="palette col-center palette-color5"></div>
+                        <div class="palette col-center palette-color6"></div>
+                    </div>
                 </div>
                 <!--PARTNERS-->
                 <div class="section">

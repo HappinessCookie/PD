@@ -25,7 +25,34 @@
     padding-right: 15px;
 }
 .col-center {
-    float: none !important;
-    margin: 0 auto;
-    display: block;
+      float: none !important;
+      margin: 0 auto;
+      display: block;
+  }
+.palette {
+    border-radius: 100%;
+    margin: 20px auto;
+    height: 120px;
+    width: 120px;
+    border: 8px solid white;
+    box-shadow: 2px 2px 7px;
+}
+
+.palette-color1 {
+    background-color: #4ec5dc;
+}
+.palette-color2 {
+    background-color: #78c26b;
+}
+.palette-color3 {
+    background-color: #fbdb31;
+}
+.palette-color4 {
+    background-color: #f2e6e5;
+}
+.palette-color5 {
+    background-color: #f36341;
+}
+.palette-color6 {
+    background-color: #363636;
 }

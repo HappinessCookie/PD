@@ -12,106 +12,108 @@ $APPLICATION->SetTitle("Главная страница");
                     <img src="http://placehold.it/1200x600" alt="" class="img-responsive">
                 </div>
                 <!--MIN-PORTFOLIO-->
-                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                    <div class="sticker sticker-top">
-                        <img src="/bitrix/templates/web20/images/section/1.jpg" alt="" class="image-responsive">
-                        <a href="#carousel" class="goto" data-slide="next">
-                            <div class="sticker-box sticker-color1"></div>
-                        </a>
+                <div class="clearfix">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="sticker sticker-top">
+                            <img src="/bitrix/templates/web20/images/section/1.jpg" alt="" class="image-responsive">
+                            <a href="#carousel" class="goto" data-slide="next">
+                                <div class="sticker-box sticker-color1"></div>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                    <div class="sticker sticker-top">
-                        <img src="/bitrix/templates/web20/images/section/2.jpg" alt="" class="image-responsive">
-                        <a href="#carousel" class="goto" data-slide="next">
-                            <div class="sticker-box sticker-color1"></div>
-                        </a>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="sticker sticker-top">
+                            <img src="/bitrix/templates/web20/images/section/2.jpg" alt="" class="image-responsive">
+                            <a href="#carousel" class="goto" data-slide="next">
+                                <div class="sticker-box sticker-color1"></div>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                    <div class="sticker sticker-top">
-                        <img src="/bitrix/templates/web20/images/section/3.jpg" alt="" class="image-responsive">
-                        <a href="#carousel" class="goto" data-slide="next">
-                            <div class="sticker-box sticker-color1"></div>
-                        </a>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="sticker sticker-top">
+                            <img src="/bitrix/templates/web20/images/section/3.jpg" alt="" class="image-responsive">
+                            <a href="#carousel" class="goto" data-slide="next">
+                                <div class="sticker-box sticker-color1"></div>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                    <div class="sticker sticker-top">
-                        <img src="/bitrix/templates/web20/images/section/4.jpg" alt="" class="image-responsive">
-                        <a href="#carousel" class="goto" data-slide="next">
-                            <div class="sticker-box sticker-color1"></div>
-                        </a>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="sticker sticker-top">
+                            <img src="/bitrix/templates/web20/images/section/4.jpg" alt="" class="image-responsive">
+                            <a href="#carousel" class="goto" data-slide="next">
+                                <div class="sticker-box sticker-color1"></div>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                    <div class="sticker sticker-top">
-                        <img src="/bitrix/templates/web20/images/section/5.jpg" alt="" class="image-responsive">
-                        <a href="#carousel" class="goto" data-slide="next">
-                            <div class="sticker-box sticker-color1"></div>
-                        </a>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="sticker sticker-top">
+                            <img src="/bitrix/templates/web20/images/section/5.jpg" alt="" class="image-responsive">
+                            <a href="#carousel" class="goto" data-slide="next">
+                                <div class="sticker-box sticker-color1"></div>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                    <div class="sticker sticker-top">
-                        <img src="/bitrix/templates/web20/images/section/6.jpg" alt="" class="image-responsive">
-                        <a href="#carousel" class="goto" data-slide="next">
-                            <div class="sticker-box sticker-color1"></div>
-                        </a>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="sticker sticker-top">
+                            <img src="/bitrix/templates/web20/images/section/6.jpg" alt="" class="image-responsive">
+                            <a href="#carousel" class="goto" data-slide="next">
+                                <div class="sticker-box sticker-color1"></div>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                    <div class="sticker sticker-top">
-                        <img src="/bitrix/templates/web20/images/section/7.jpg" alt="" class="image-responsive">
-                        <a href="#carousel" class="goto" data-slide="next">
-                            <div class="sticker-box sticker-color1"></div>
-                        </a>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="sticker sticker-top">
+                            <img src="/bitrix/templates/web20/images/section/7.jpg" alt="" class="image-responsive">
+                            <a href="#carousel" class="goto" data-slide="next">
+                                <div class="sticker-box sticker-color1"></div>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                    <div class="sticker sticker-top">
-                        <img src="/bitrix/templates/web20/images/section/8.jpg" alt="" class="image-responsive">
-                        <a href="#carousel" class="goto" data-slide="next">
-                            <div class="sticker-box sticker-color1"></div>
-                        </a>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="sticker sticker-top">
+                            <img src="/bitrix/templates/web20/images/section/8.jpg" alt="" class="image-responsive">
+                            <a href="#carousel" class="goto" data-slide="next">
+                                <div class="sticker-box sticker-color1"></div>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                    <div class="sticker sticker-top">
-                        <img src="/bitrix/templates/web20/images/section/9.jpg" alt="" class="image-responsive">
-                        <a href="#carousel" class="goto" data-slide="next">
-                            <div class="sticker-box sticker-color1"></div>
-                        </a>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="sticker sticker-top">
+                            <img src="/bitrix/templates/web20/images/section/9.jpg" alt="" class="image-responsive">
+                            <a href="#carousel" class="goto" data-slide="next">
+                                <div class="sticker-box sticker-color1"></div>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                    <div class="sticker sticker-top">
-                        <img src="/bitrix/templates/web20/images/section/10.jpg" alt="" class="image-responsive">
-                        <a href="#carousel" class="goto" data-slide="next">
-                            <div class="sticker-box sticker-color1"></div>
-                        </a>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="sticker sticker-top">
+                            <img src="/bitrix/templates/web20/images/section/10.jpg" alt="" class="image-responsive">
+                            <a href="#carousel" class="goto" data-slide="next">
+                                <div class="sticker-box sticker-color1"></div>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                    <div class="sticker sticker-top">
-                        <img src="/bitrix/templates/web20/images/section/11.jpg" alt="" class="image-responsive">
-                        <a href="#carousel" class="goto" data-slide="next">
-                            <div class="sticker-box sticker-color1"></div>
-                        </a>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="sticker sticker-top">
+                            <img src="/bitrix/templates/web20/images/section/11.jpg" alt="" class="image-responsive">
+                            <a href="#carousel" class="goto" data-slide="next">
+                                <div class="sticker-box sticker-color1"></div>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                    <div class="sticker sticker-top">
-                        <img src="/bitrix/templates/web20/images/section/12.jpg" alt="" class="image-responsive">
-                        <a href="#carousel" class="goto" data-slide="next">
-                            <div class="sticker-box sticker-color1"></div>
-                        </a>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="sticker sticker-top">
+                            <img src="/bitrix/templates/web20/images/section/12.jpg" alt="" class="image-responsive">
+                            <a href="#carousel" class="goto" data-slide="next">
+                                <div class="sticker-box sticker-color1"></div>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <!--POL LITRA-->
                 <div class="section"></div>
                 <!--PARTNERS-->
-                <div class="section">
+                <div class="section clearfix">
                     <img src="http://placehold.it/1200x200/454545/000" alt="" class="img-responsive">
                     <img src="http://placehold.it/1200x200/454545/000" alt="" class="img-responsive">
                     <img src="http://placehold.it/1200x200/454545/000" alt="" class="img-responsive">
@@ -147,7 +149,6 @@ $APPLICATION->SetTitle("Главная страница");
                     <div class="sticker sticker-top">
                         <img src="http://placehold.it/300/000" alt="" class="image-responsive">
                         <div class="sticker-box sticker-red">
-
                         </div>
                     </div>
                 </div>
@@ -155,7 +156,6 @@ $APPLICATION->SetTitle("Главная страница");
                     <div class="sticker sticker-top">
                         <img src="http://placehold.it/300/000" alt="" class="image-responsive">
                         <div class="sticker-box sticker-blue">
-
                         </div>
                     </div>
                 </div>
@@ -163,7 +163,6 @@ $APPLICATION->SetTitle("Главная страница");
                     <div class="sticker sticker-top">
                         <img src="http://placehold.it/300/000" alt="" class="image-responsive">
                         <div class="sticker-box sticker-darkyellow">
-
                         </div>
                     </div>
                 </div>
@@ -171,7 +170,6 @@ $APPLICATION->SetTitle("Главная страница");
                     <div class="sticker sticker-top">
                         <img src="http://placehold.it/300/000" alt="" class="image-responsive">
                         <div class="sticker-box sticker-darkred">
-
                         </div>
                     </div>
                 </div>
@@ -179,7 +177,6 @@ $APPLICATION->SetTitle("Главная страница");
                     <div class="sticker sticker-top">
                         <img src="http://placehold.it/300/000" alt="" class="image-responsive">
                         <div class="sticker-box sticker-blue">
-
                         </div>
                     </div>
                 </div>
@@ -187,7 +184,6 @@ $APPLICATION->SetTitle("Главная страница");
                     <div class="sticker sticker-top">
                         <img src="http://placehold.it/300/000" alt="" class="image-responsive">
                         <div class="sticker-box sticker-blue">
-
                         </div>
                     </div>
                 </div>
@@ -195,7 +191,6 @@ $APPLICATION->SetTitle("Главная страница");
                     <div class="sticker sticker-top">
                         <img src="http://placehold.it/300/000" alt="" class="image-responsive">
                         <div class="sticker-box sticker-pink">
-
                         </div>
                     </div>
                 </div>
@@ -203,7 +198,6 @@ $APPLICATION->SetTitle("Главная страница");
                     <div class="sticker sticker-top">
                         <img src="http://placehold.it/300/000" alt="" class="image-responsive">
                         <div class="sticker-box sticker-brown">
-
                         </div>
                     </div>
                 </div>
@@ -211,7 +205,6 @@ $APPLICATION->SetTitle("Главная страница");
                     <div class="sticker sticker-top">
                         <img src="http://placehold.it/300/000" alt="" class="image-responsive">
                         <div class="sticker-box sticker-red">
-
                         </div>
                     </div>
                 </div>
@@ -219,7 +212,6 @@ $APPLICATION->SetTitle("Главная страница");
                     <div class="sticker sticker-top">
                         <img src="http://placehold.it/300/000" alt="" class="image-responsive">
                         <div class="sticker-box sticker-lightblue">
-
                         </div>
                     </div>
                 </div>
@@ -227,7 +219,6 @@ $APPLICATION->SetTitle("Главная страница");
                     <div class="sticker sticker-top">
                         <img src="http://placehold.it/300/000" alt="" class="image-responsive">
                         <div class="sticker-box sticker-brown">
-
                         </div>
                     </div>
                 </div>
@@ -235,13 +226,11 @@ $APPLICATION->SetTitle("Главная страница");
                     <div class="sticker sticker-top">
                         <img src="http://placehold.it/300/000" alt="" class="image-responsive">
                         <div class="sticker-box sticker-blue">
-
                         </div>
                     </div>
                 </div>
                 <!--POL LITRA-->
                 <div class="section">
-
                 </div>
                 <!--PARTNERS-->
                 <div class="section">

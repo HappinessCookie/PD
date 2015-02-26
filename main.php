@@ -7,9 +7,9 @@
             <!--MIN-PORTFOLIO-->
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                 <div class="sticker sticker-top">
-                    <img src="http://placehold.it/300" alt="" class="image-responsive">
+                    <img src="/bitrix/templates/web20/images/section/1.jpeg" alt="" class="image-responsive">
                     <a href="#carousel" class="goto" data-slide="next">
-                        <div class="sticker-box sticker-red">
+                        <div class="sticker-box sticker-color1">
 
                         </div>
                     </a>
@@ -17,9 +17,9 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                 <div class="sticker sticker-top">
-                    <img src="http://placehold.it/300" alt="" class="image-responsive">
+                    <img src="/bitrix/templates/web20/images/section/2.jpeg" alt="" class="image-responsive">
                     <a href="#carousel" class="goto" data-slide="next">
-                        <div class="sticker-box sticker-blue">
+                        <div class="sticker-box sticker-color1">
 
                         </div>
                     </a>
@@ -27,9 +27,9 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                 <div class="sticker sticker-top">
-                    <img src="http://placehold.it/300" alt="" class="image-responsive">
+                    <img src="/bitrix/templates/web20/images/section/3.jpeg" alt="" class="image-responsive">
                     <a href="#carousel" class="goto" data-slide="next">
-                        <div class="sticker-box sticker-darkyellow">
+                        <div class="sticker-box sticker-color1">
 
                         </div>
                     </a>
@@ -37,9 +37,9 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                 <div class="sticker sticker-top">
-                    <img src="http://placehold.it/300" alt="" class="image-responsive">
+                    <img src="/bitrix/templates/web20/images/section/4.jpeg" alt="" class="image-responsive">
                     <a href="#carousel" class="goto" data-slide="next">
-                        <div class="sticker-box sticker-darkred">
+                        <div class="sticker-box sticker-color1">
 
                         </div>
                     </a>
@@ -47,9 +47,9 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                 <div class="sticker sticker-top">
-                    <img src="http://placehold.it/300" alt="" class="image-responsive">
+                    <img src="/bitrix/templates/web20/images/section/5.jpeg" alt="" class="image-responsive">
                     <a href="#carousel" class="goto" data-slide="next">
-                        <div class="sticker-box sticker-blue">
+                        <div class="sticker-box sticker-color1">
 
                         </div>
                     </a>
@@ -57,9 +57,9 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                 <div class="sticker sticker-top">
-                    <img src="http://placehold.it/300" alt="" class="image-responsive">
+                    <img src="/bitrix/templates/web20/images/section/6.jpeg" alt="" class="image-responsive">
                     <a href="#carousel" class="goto" data-slide="next">
-                        <div class="sticker-box sticker-blue">
+                        <div class="sticker-box sticker-color1">
 
                         </div>
                     </a>
@@ -67,9 +67,9 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                 <div class="sticker sticker-top">
-                    <img src="http://placehold.it/300" alt="" class="image-responsive">
+                    <img src="/bitrix/templates/web20/images/section/7.jpeg" alt="" class="image-responsive">
                     <a href="#carousel" class="goto" data-slide="next">
-                        <div class="sticker-box sticker-pink">
+                        <div class="sticker-box sticker-color1">
 
                         </div>
                     </a>
@@ -77,9 +77,9 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                 <div class="sticker sticker-top">
-                    <img src="http://placehold.it/300" alt="" class="image-responsive">
+                    <img src="/bitrix/templates/web20/images/section/8.jpeg" alt="" class="image-responsive">
                     <a href="#carousel" class="goto" data-slide="next">
-                        <div class="sticker-box sticker-brown">
+                        <div class="sticker-box sticker-color1">
 
                         </div>
                     </a>
@@ -87,9 +87,9 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                 <div class="sticker sticker-top">
-                    <img src="http://placehold.it/300" alt="" class="image-responsive">
+                    <img src="/bitrix/templates/web20/images/section/9.jpeg" alt="" class="image-responsive">
                     <a href="#carousel" class="goto" data-slide="next">
-                        <div class="sticker-box sticker-red">
+                        <div class="sticker-box sticker-color1">
 
                         </div>
                     </a>
@@ -97,9 +97,9 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                 <div class="sticker sticker-top">
-                    <img src="http://placehold.it/300" alt="" class="image-responsive">
+                    <img src="/bitrix/templates/web20/images/section/10.jpeg" alt="" class="image-responsive">
                     <a href="#carousel" class="goto" data-slide="next">
-                        <div class="sticker-box sticker-lightblue">
+                        <div class="sticker-box sticker-color1">
 
                         </div>
                     </a>
@@ -107,9 +107,9 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                 <div class="sticker sticker-top">
-                    <img src="http://placehold.it/300" alt="" class="image-responsive">
+                    <img src="/bitrix/templates/web20/images/section/11.jpeg" alt="" class="image-responsive">
                     <a href="#carousel" class="goto" data-slide="next">
-                        <div class="sticker-box sticker-brown">
+                        <div class="sticker-box sticker-color1">
 
                         </div>
                     </a>
@@ -117,9 +117,9 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                 <div class="sticker sticker-top">
-                    <img src="http://placehold.it/300" alt="" class="image-responsive">
+                    <img src="/bitrix/templates/web20/images/section/12.jpeg" alt="" class="image-responsive">
                     <a href="#carousel" class="goto" data-slide="next">
-                        <div class="sticker-box sticker-blue">
+                        <div class="sticker-box sticker-color1">
 
                         </div>
                     </a>

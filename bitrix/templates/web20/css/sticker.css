@@ -1,11 +1,8 @@
-.sticker-red {background: #E34139;}
-.sticker-darkred {background: #7D354B;}
-.sticker-blue {background: #1BAAE2;}
-.sticker-lightblue {background: #7AD6E5;}
-.sticker-pink {background: #D58079;}
-.sticker-yellow {background: #F0CE32;}
-.sticker-darkyellow {background: #EF9C07;}
-.sticker-brown {background: #A2572C;}
+.sticker-color1 {background: #a1c08a;}
+.sticker-color2 {background: #d0dfd2;}
+.sticker-color3 {background: #7AB4B0;}
+.sticker-color4 {background: #FFCC3F;}
+.sticker-color5 {background: #FC7E01;}
 
 .sticker {
     position: relative;

@@ -110,34 +110,57 @@ $APPLICATION->SetTitle("Главная страница");
                         </div>
                     </div>
                 </div>
-                <!--POL LITRA-->
-                <div class="section"></div>
+                <!--POLETTE-->
+                <div class="clearfix">
+                    <div class="col-lg-3 col-md-3">
+                        <div class="palette col-center palette-color1"></div>
+                        <div class="palette col-center palette-color2"></div>
+                        <div class="palette col-center palette-color3"></div>
+
+                    </div>
+                    <div class="col-lg-6 col-md-6"></div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="palette col-center palette-color4"></div>
+                        <div class="palette col-center palette-color5"></div>
+                        <div class="palette col-center palette-color6"></div>
+                    </div>
+                </div>
                 <!--PARTNERS-->
                 <div class="section clearfix">
                     <img src="http://placehold.it/1200x200/454545/000" alt="" class="img-responsive">
                     <img src="http://placehold.it/1200x200/454545/000" alt="" class="img-responsive">
                     <img src="http://placehold.it/1200x200/454545/000" alt="" class="img-responsive">
                 </div>
-                <!--CONTACTS-->
-                <img src="http://placehold.it/1200x150/545454/000" alt="" class="img-responsive">
-                <div class="col-md-4 col-xs-4">
-                    <p class="social"><a href=""><i class="fa fa-vk fa-5x"></i></a></p>
-                </div>
-                <div class="col-md-4 col-xs-4">
-                    <p class="social"><a href=""><i class="fa fa-facebook fa-5x"></i></a></p>
-                </div>
-                <div class="col-md-4 col-xs-4">
-                    <p class="social"><a href=""><i class="fa fa-twitter fa-5x"></i></a></p>
-                </div>
-                <!--MAP-->
-                <div class="section">
-                    <div id="map"></div>
-                    <script type="text/javascript"
-                            charset="utf-8"
-                            src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=2tsE6AH7M4bd1oRgtS2xUrHRiuUn17OE&width=100%&height=400">
-                    </script>
-                </div>
+    <div class="clearfix map">
+        <div id="map"><img src="http://placehold.it/1140x450/333" alt=""></div>
+        <div class="social">
+            <div class="social-box">
+                <div class="social-img pull-right"><img src="/bitrix/templates/web20/images/social/soc3.png" alt="" class="image-responsive"></div>
+                <div class="social-contact">WWW.INSTAGRAMM.COM</div>
             </div>
+            <div class="social-box">
+                <div class="social-img pull-right"><img src="/bitrix/templates/web20/images/social/soc4.png" alt="" class="image-responsive"></div>
+                <div class="social-contact">WWW.INSTAGRAMM.COM</div>
+            </div>
+            <div class="social-box">
+                <div class="social-img pull-right"><img src="/bitrix/templates/web20/images/social/soc2.png" alt="" class="image-responsive"></div>
+                <div class="social-contact">WWW.INSTAGRAMM.COM</div>
+            </div>
+            <div class="social-box">
+                <div class="social-img pull-right"><img src="/bitrix/templates/web20/images/social/soc5.png" alt="" class="image-responsive"></div>
+                <div class="social-contact">WWW.INSTAGRAMM.COM</div>
+            </div>
+            <div class="social-box">
+                <div class="social-img pull-right"><img src="/bitrix/templates/web20/images/social/soc1.png" alt="" class="image-responsive"></div>
+                <div class="social-contact">WWW.INSTAGRAMM.COM</div>
+            </div>
+            <div class="social-box">
+                <div class="social-img pull-right"><img src="/bitrix/templates/web20/images/social/soc6.png" alt="" class="image-responsive"></div>
+                <div class="social-contact">WWW.INSTAGRAMM.COM</div>
+            </div>
+        </div>
+    </div>
+    </div>
         </div>
         <div data-hash="about" class="item">
             <div id="page" class="container">
@@ -227,21 +250,6 @@ $APPLICATION->SetTitle("Главная страница");
                         <img src="http://placehold.it/300/000" alt="" class="image-responsive">
                         <div class="sticker-box sticker-blue">
                         </div>
-                    </div>
-                </div>
-                <!--POLETTE-->
-                <div class="clearfix">
-                    <div class="col-lg-3 col-md-3">
-                        <div class="palette col-center palette-color1"></div>
-                        <div class="palette col-center palette-color2"></div>
-                        <div class="palette col-center palette-color3"></div>
-
-                    </div>
-                    <div class="col-lg-6 col-md-6"></div>
-                    <div class="col-lg-3 col-md-3">
-                        <div class="palette col-center palette-color4"></div>
-                        <div class="palette col-center palette-color5"></div>
-                        <div class="palette col-center palette-color6"></div>
                     </div>
                 </div>
                 <!--PARTNERS-->

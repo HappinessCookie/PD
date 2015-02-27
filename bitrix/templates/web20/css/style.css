@@ -18,25 +18,19 @@
 #page {
 	margin-top: 80px;
 }
-
 .logo {
 	position: relative;
 	margin: 0 auto;
 }
-
-
 .cards {
 	overflow: visible;
 	position: relative;
 }
-
 .cards:hover .card-block {
 	visibility: visible;
 	opacity: 1;
 	position: absolute;
 }
-
-
 .card-block {
 	top: 10%;
 	left: -10%;
@@ -46,13 +40,11 @@
 	transition: all .2s;
 	opacity: 0;
 }
-
 .col-center {
     float: none !important;
     margin: 0 auto;
     display: block;
 }
-
 .palette {
 	border-radius: 100%;
 	margin: 20px auto;
@@ -62,17 +54,14 @@
 	border: 8px solid white;
 	box-shadow: 2px 2px 7px;
 }
-
 .social-box {
 	margin-top: 12px;
 	margin-right: 25px;
 }
-
 .social-img {
 	width: 60px;
 	height: 60px;
 }
-
 #map {
 	position: absolute;
 }
@@ -86,12 +75,10 @@
 	line-height: 60px;
 	padding-right: 10px;
 }
-
 .map {
 	position: relative;
 	height: 450px;
 }
-
 .pencil {
 	margin: 20px auto;
 	width: 80%;

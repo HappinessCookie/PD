@@ -1,3 +1,6 @@
+#page {
+    margin-top: 80px;
+}
 .image-responsive {
     display: block;
     width: 100%;
@@ -53,6 +56,7 @@
 	border: 8px solid white;
 	box-shadow: 2px 2px 7px;
 }
+
 .palette-color1 {
     background-color: #4ec5dc;
 }
@@ -70,6 +74,14 @@
 }
 .palette-color6 {
     background-color: #363636;
+}
+#main-carousel {
+    background-color: #ffffff;
+    -webkit-transition: background-color 1.5s ease;
+    -moz-transition: background-color 1.5s ease;
+    -ms-transition: background-color 1.5s ease;
+    -o-transition: background-color 1.5s ease;
+    transition: background-color 1.5s ease;
 }
 .social-box {
 	margin-top: 12px;

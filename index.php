@@ -5,7 +5,7 @@ $APPLICATION->SetPageProperty("NOT_SHOW_NAV_CHAIN", "Y");
 $APPLICATION->SetTitle("Главная страница");
 ?>
     <!--GENERAL-IMAGE-->
-    <div class="owl-carousel">
+    <div id="main-carousel" class="owl-carousel">
         <div data-hash="main" class="item">
             <div id="page" class="container">
                 <div class="header">

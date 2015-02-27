@@ -160,7 +160,7 @@ $APPLICATION->SetTitle("Главная страница");
             </div>
         </div>
     </div>
-    <div class="clearfix"><img src="/img/pencil.png" alt="" class="pencil col-center"></div>
+    <div class="clearfix"><img src="/bitrix/templates/web20/images/pencil.png" alt="" class="pencil col-center"></div>
     </div>
         </div>
         <div data-hash="about" class="item">

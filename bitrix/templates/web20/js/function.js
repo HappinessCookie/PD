@@ -4,7 +4,8 @@ $(document).ready(function () {
         loop: false,
         items: 1,
         URLhashListener: true,
-        startPosition: "#main"
+        startPosition: "#main",
+        autoHeight : true
     });
     owl.on('changed.owl.carousel', function (event) {
         switch (event.relatedTarget._current) {
@@ -26,4 +27,5 @@ $(document).ready(function () {
     $(".palette").click(function() {
         $("#main-carousel").css("background-color", $(this).data("color"));
     });
+
 });

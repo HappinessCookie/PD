@@ -84,17 +84,15 @@
     transition: background-color 1.5s ease;
 }
 .social-box {
-	margin-top: 12px;
+	margin-top: 0;
 	margin-right: 25px;
 }
 .social-img {
-	width: 60px;
-	height: 60px;
-}
-#map {
-	position: absolute;
+	width: 53px;
+	height: 40px;
 }
 .social {
+    top: 38px;
     right: 0;
 	position: absolute;
 }
@@ -106,7 +104,6 @@
 }
 .map {
 	position: relative;
-	height: 450px;
 }
 .pencil {
 	margin: 20px auto;

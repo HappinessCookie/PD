@@ -3,7 +3,6 @@
 .sticker-color3 {background: #7AB4B0;}
 .sticker-color4 {background: #FFCC3F;}
 .sticker-color5 {background: #FC7E01;}
-
 .sticker {
     position: relative;
     overflow: hidden;
@@ -12,7 +11,6 @@
     -ms-perspective: 100px;
     -o-perspective: 100px;
 }
-
 .sticker-top .sticker-box {
     width: 100%;
     height: 100%;
@@ -24,7 +22,6 @@
     -o-transition: all 350 cubic-bezier(0.75, 0, 0.06, 1);
     transition: all 350ms cubic-bezier(0.75, 0, 0.06, 1);
 }
-
 .sticker-top:hover .sticker-box{
     width: 100%;
     height: 100%;

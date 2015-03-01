@@ -49,14 +49,23 @@
     display: block;
 }
 .palette {
-	border-radius: 100%;
-	margin: 20px auto;
-	height: 120px;
-	width: 120px;
-	border: 8px solid white;
-	box-shadow: 2px 2px 7px;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    margin: 20px auto;
+    height: 70px;
+    width: 70px;
+    border: 8px solid white;
+    box-shadow: 2px 2px 7px;
+    -moz-box-shadow: 2px 2px 7px;
+    -webkit-box-shadow: 2px 2px 7px;
 }
-
+@media (min-width: 767px) {
+    .palette {
+        height: 120px;
+        width: 120px;
+    }
+}
 .palette-color1 {
     background-color: #4ec5dc;
 }
@@ -108,4 +117,33 @@
 .pencil {
 	margin: 20px auto;
 	width: 80% !important;
+}
+.info-min {
+    font-size: 23px;
+    margin-left: 10px;
+}
+.cards {
+    overflow: visible;
+    position: relative;
+}
+.cards img:hover .card-block {
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+}
+.card-block {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    visibility: hidden;
+    transition: all .2s;
+    opacity: 0;
+    border: 3px solid #000000;
+    background-color: #ffffff;
+}
+.info-max {
+    font-size: 18px;
+    margin-left: 8px;
 }

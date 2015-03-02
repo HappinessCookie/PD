@@ -1,3 +1,10 @@
+.palette-col1 {background-color: green;}
+.palette-col2 {background-color: red;}
+.palette-col3 {background-color: greenyellow;}
+.palette-col4 {background-color: darkcyan;}
+.palette-col5 {background-color: darkblue;}
+.palette-col6 {background-color: pink;}
+.palette-col7 {background-color: saddlebrown;}
 #page {
     margin-top: 80px;
 }
@@ -48,42 +55,6 @@
     margin: 0 auto;
     display: block;
 }
-.palette {
-    border-radius: 100%;
-    -moz-border-radius: 100%;
-    -webkit-border-radius: 100%;
-    margin: 20px auto;
-    height: 70px;
-    width: 70px;
-    border: 8px solid white;
-    box-shadow: 2px 2px 7px;
-    -moz-box-shadow: 2px 2px 7px;
-    -webkit-box-shadow: 2px 2px 7px;
-}
-@media (min-width: 767px) {
-    .palette {
-        height: 120px;
-        width: 120px;
-    }
-}
-.palette-color1 {
-    background-color: #4ec5dc;
-}
-.palette-color2 {
-    background-color: #78c26b;
-}
-.palette-color3 {
-    background-color: #fbdb31;
-}
-.palette-color4 {
-    background-color: #f2e6e5;
-}
-.palette-color5 {
-    background-color: #f36341;
-}
-.palette-color6 {
-    background-color: #363636;
-}
 #main-carousel {
     background-color: #ffffff;
     -webkit-transition: background-color 1.5s ease;
@@ -126,6 +97,9 @@
     overflow: visible;
     position: relative;
 }
+.cards:nth-last-child() {
+    margin-bottom: 100px;
+}
 .cards img:hover .card-block {
     visibility: visible;
     opacity: 1;
@@ -146,4 +120,22 @@
 .info-max {
     font-size: 18px;
     margin-left: 8px;
+}
+.palette-ink {
+    height: 30px;
+    width: 70px;
+    float: left;
+    display: block;
+    cursor: pointer;
+}
+.default-color {
+    width: 57px;
+    height: 88px;
+    float: left;
+}
+.division {
+    background-color: #080808;
+}
+.division:hover {
+    opacity: 0.7;
 }

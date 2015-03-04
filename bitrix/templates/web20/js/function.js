@@ -27,6 +27,11 @@ $(document).ready(function () {
     $(".palette").click(function () {
         $("#main-carousel").css("background-color", $(this).data("color"));
     });
+    $(".dial").knob({
+        format: function(v) {
+            return v + "%";
+        }
+    });
 });
 $(window).load(function() {
     $('.owl-height').height($(".owl-item.active").height());

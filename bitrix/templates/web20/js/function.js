@@ -1,11 +1,11 @@
 $(document).ready(function () {
-    var owl = $('.owl-carousel')
+    var owl = $('.owl-carousel');
     owl.owlCarousel({
         loop: false,
         items: 1,
         URLhashListener: true,
-        startPosition: "#main",
-        autoHeight : true
+        startPosition: "URLHash",
+        autoHeight: true
     });
     owl.on('changed.owl.carousel', function (event) {
         switch (event.relatedTarget._current) {
@@ -24,8 +24,13 @@ $(document).ready(function () {
         }
         console.log(event.item.index);
     });
-    $(".palette").click(function() {
+    $(".palette").click(function () {
         $("#main-carousel").css("background-color", $(this).data("color"));
     });
-
+});
+$(window).load(function() {
+    $('.owl-height').height($(".owl-item.active").height());
+});
+$(window).onresize(function() {
+    $('.owl-height').height($(".owl-item.active").height());
 });

@@ -111,22 +111,44 @@ $APPLICATION->SetTitle("Главная страница");
                     </div>
                 </div>
                 <!--POLETTE-->
-                <div class="clearfix">
-                    <div class="palette-box">
-                    <div class="default-color">
-                        <img src="/bitrix/templates/web20/images/k.png" alt="">
+                <div class="palette clearfix">
+                    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                        <img src="http://placehold.it/1140x542" alt="" class="img-responsive col-center">
                     </div>
-                    <div class="palette-item">
-                    <ul>
-                        <li class="palette-ink palette-col1"></li>
-                        <li class="palette-ink palette-col2"></li>
-                        <li class="palette-ink palette-col3"></li>
-                        <li class="palette-ink palette-col4"></li>
-                        <li class="palette-ink palette-col5"></li>
-                        <li class="palette-ink palette-col6"></li>
-                        <li class="palette-ink palette-col7"></li>
-                    </ul>
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                            <img src="http://placehold.it/300" alt="" class="img-responsive col-center">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                            <img src="http://placehold.it/300" alt="" class="img-responsive col-center">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                            <img src="http://placehold.it/300" alt="" class="img-responsive col-center">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                            <img src="http://placehold.it/300" alt="" class="img-responsive col-center">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                            <img src="http://placehold.it/300" alt="" class="img-responsive col-center">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                            <img src="http://placehold.it/300" alt="" class="img-responsive col-center">
+                        </div>
                     </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-lg-xs">
+                        <p class="my-pic">Создай свою атмосферу</p>
+                    </div>
+                    <div class="palette-color-box col-lg-1 col-lg-offset-2 col-md-1 col-md-offset-2 col-sm-1 col-sm-offset-2 col-xs-12">
+                        <img src="/bitrix/templates/web20/images/k.png" alt="" class="img-responsive col-center">
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                        <div class="palette-ink palette-col1"></div>
+                        <div class="palette-ink palette-col2"></div>
+                        <div class="palette-ink palette-col3"></div>
+                        <div class="palette-ink palette-col4"></div>
+                        <div class="palette-ink palette-col5"></div>
+                        <div class="palette-ink palette-col6"></div>
+                        <div class="palette-ink palette-col7"></div>
                     </div>
                 </div>
                 <!--PARTNERS-->

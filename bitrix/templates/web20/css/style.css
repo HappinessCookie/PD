@@ -1,10 +1,10 @@
-.palette-col1 {background-color: green;}
-.palette-col2 {background-color: red;}
-.palette-col3 {background-color: greenyellow;}
-.palette-col4 {background-color: darkcyan;}
-.palette-col5 {background-color: darkblue;}
-.palette-col6 {background-color: pink;}
-.palette-col7 {background-color: saddlebrown;}
+.palette-col1 {background-color: #C7CBAC;}
+.palette-col2 {background-color: #A5AE8C;}
+.palette-col3 {background-color: #FAF6C9;}
+.palette-col4 {background-color: #4E1E1C;}
+.palette-col5 {background-color: #C8B339;}
+.palette-col6 {background-color: #E25B29;}
+.palette-col7 {background-color: #76996D;}
 #page {
     margin-top: 80px;
 }
@@ -138,4 +138,44 @@
 }
 .division:hover {
     opacity: 0.7;
+}
+.col-center {
+    float: none !important;
+    margin: 0 auto;
+    display: block;
+}
+.palette-ink {
+    width: 14.28571428571429%;
+    height: 34px;
+    display: block;
+    float: left;
+    cursor: pointer;
+    margin-top: 29px;
+}
+.palette-ink:first-child {
+    border-radius: 15px 0 0 15px;
+}
+.palette-ink:last-child {
+    border-radius: 0 15px 15px 0;
+}
+.my-pic {
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.palette {
+    background-image: url(/bitrix/templates/web20/images/bg.jpg);
+    background-repeat: repeat;
+}
+.palette-color-box {
+    margin-bottom: 10px;
+    height: 88px;
+    background-repeat: no-repeat;
+}
+.palette-color-box img {
+    width: 57px !important;
+    height: 88px;
+    cursor: pointer;
 }

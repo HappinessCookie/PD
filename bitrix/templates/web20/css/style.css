@@ -184,16 +184,6 @@
     margin-left: 4px;
     width: auto;
 }
-.division-info {
-    border-top: 3px solid rgba(0, 0, 0, 0.30);
-}
-.division-info h2{
-    margin-left: 15px;
-}
 .division-info p{
-    margin-left: 5px;
-    text-indent: 13px;
-}
-.division-info:nth-child(1) {
-    border-top: none;
+    text-indent: 25px;
 }

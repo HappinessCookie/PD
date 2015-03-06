@@ -8,7 +8,7 @@ $(document).ready(function () {
         forceSize: "fullWindow"
     });
     $(".palette-link").click(function () {
-        $("#main-carousel").css("background-color", $(this).data("color"));
+        $("body").css("background-color", $(this).data("color"));
     });
     $(".dial").knob({
         format: function(v) {

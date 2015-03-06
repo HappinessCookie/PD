@@ -55,7 +55,7 @@
     margin: 0 auto;
     display: block;
 }
-#main-carousel {
+body {
     background-color: #ffffff;
     -webkit-transition: background-color 1.5s ease;
     -moz-transition: background-color 1.5s ease;

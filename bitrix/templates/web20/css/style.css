@@ -158,7 +158,7 @@ body {
 .palette {
     background-image: url(/bitrix/templates/web20/images/bg.jpg);
     background-repeat: repeat;
-    padding: 5px;
+    padding: 15px;
 }
 .palette-color-box {
     margin-bottom: 10px;
@@ -170,14 +170,50 @@ body {
     height: 88px;
     cursor: pointer;
 }
-.analize-img {
-    margin-top: 7px;
-    margin-left: 4px;
-    width: auto;
-}
 .division-info p{
     text-indent: 25px;
 }
 .sp-grab {
    cursor: default !important;
+}
+.inline-block {
+    display: inline-block;
+    float: none !important;
+    vertical-align: top;
+    margin-left: -4px;
+}
+.chart {
+    background-image: url("/bitrix/templates/web20/images/metric-sprite.png");
+    height: 82px;
+    width: 82px;
+    line-height: 82px;
+    margin: auto;
+    font-weight: bold;
+    font-size: 18px;
+}
+.chart + p {
+    margin: 10px 0;
+}
+.chart-1 {
+    background-position: 0 0;
+}
+.chart-2 {
+    background-position: -164px 0;
+}
+.chart-3 {
+    background-position: -246px 0;
+}
+.chart-4 {
+    background-position: 0 -82px ;
+}
+.chart-5 {
+    background-position: -82px -82px;
+}
+.chart-6 {
+    background-position: -246px -164px;
+}
+.distract-text {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    color: #d66343;
 }

@@ -6,7 +6,6 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="<?= SITE_TEMPLATE_PATH ?>/js/bootstrap.js"></script>
 <script src="<?= SITE_TEMPLATE_PATH ?>/js/pagify.js"></script>
-<script src="<?= SITE_TEMPLATE_PATH ?>/js/jquery.knob.js"></script>
 <script src="<?= SITE_TEMPLATE_PATH ?>/js/jquery.sliderPro.min.js"></script>
 <script src="<?= SITE_TEMPLATE_PATH ?>/js/function.js"></script>
 </body>

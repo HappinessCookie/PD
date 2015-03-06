@@ -187,3 +187,6 @@
 .division-info p{
     text-indent: 25px;
 }
+.sp-grab {
+   cursor: default !important;
+}

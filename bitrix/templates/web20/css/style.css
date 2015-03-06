@@ -121,13 +121,6 @@ body {
     font-size: 18px;
     margin-left: 8px;
 }
-.palette-ink {
-    height: 30px;
-    width: 70px;
-    float: left;
-    display: block;
-    cursor: pointer;
-}
 .default-color {
     width: 57px;
     height: 88px;
@@ -144,18 +137,18 @@ body {
     margin: 0 auto;
     display: block;
 }
-.palette-ink {
-    width: 14.28571428571429%;
+.palette-link {
+    width: calc(100%/7);
     height: 34px;
     display: block;
     float: left;
     cursor: pointer;
     margin-top: 29px;
 }
-.palette-ink:first-child {
+.palette-link:first-child {
     border-radius: 15px 0 0 15px;
 }
-.palette-ink:last-child {
+.palette-link:last-child {
     border-radius: 0 15px 15px 0;
 }
 .my-pic {
@@ -168,6 +161,7 @@ body {
 .palette {
     background-image: url(/bitrix/templates/web20/images/bg.jpg);
     background-repeat: repeat;
+    padding: 5px;
 }
 .palette-color-box {
     margin-bottom: 10px;

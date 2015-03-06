@@ -1,14 +1,13 @@
 $(document).ready(function () {
     $('.slider-pro').sliderPro({
-        width: "100%",
-        height: "100%",
         autoHeight: true,
         autoplay: false,
         updateHash: true,
         buttons: false,
-        loop: false
+        loop: false,
+        forceSize: "fullWindow"
     });
-    $(".palette").click(function () {
+    $(".palette-link").click(function () {
         $("#main-carousel").css("background-color", $(this).data("color"));
     });
     $(".dial").knob({
@@ -16,10 +15,4 @@ $(document).ready(function () {
             return v + "%";
         }
     });
-});
-$(window).load(function() {
-    $('.owl-height').height($(".owl-item.active").height());
-});
-$(window).onresize(function() {
-    $('.owl-height').height($(".owl-item.active").height());
 });

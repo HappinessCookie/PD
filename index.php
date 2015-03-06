@@ -181,13 +181,13 @@ $APPLICATION->SetTitle("Главная страница");
                         <img src="/bitrix/templates/web20/images/k.png" alt="" class="img-responsive col-center">
                     </div>
                     <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-                        <div class="palette-ink palette-col1"></div>
-                        <div class="palette-ink palette-col2"></div>
-                        <div class="palette-ink palette-col3"></div>
-                        <div class="palette-ink palette-col4"></div>
-                        <div class="palette-ink palette-col5"></div>
-                        <div class="palette-ink palette-col6"></div>
-                        <div class="palette-ink palette-col7"></div>
+                        <div class="palette-link palette-col1"></div>
+                        <div class="palette-link palette-col2"></div>
+                        <div class="palette-link palette-col3"></div>
+                        <div class="palette-link palette-col4"></div>
+                        <div class="palette-link palette-col5"></div>
+                        <div class="palette-link palette-col6"></div>
+                        <div class="palette-link palette-col7"></div>
                     </div>
                 </div>
                 <!--PARTNERS-->

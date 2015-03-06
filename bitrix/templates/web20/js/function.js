@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('.slider-pro').sliderPro({
+    $('#index').sliderPro({
         autoHeight: true,
         autoplay: false,
         updateHash: true,

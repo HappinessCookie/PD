@@ -5,8 +5,9 @@ $APPLICATION->SetPageProperty("NOT_SHOW_NAV_CHAIN", "Y");
 $APPLICATION->SetTitle("Главная страница");
 ?>
     <!--GENERAL-IMAGE-->
-    <div id="main-carousel" class="owl-carousel">
-        <div data-hash="main" class="item">
+    <div id="my-slider" class="slider-pro">
+        <div class="sp-slides">
+        <div data-hash="main" class="item sp-slide">
             <div id="page" class="container">
                 <div class="header">
                     <img src="http://placehold.it/1200x600" alt="" class="img-responsive">
@@ -118,7 +119,7 @@ $APPLICATION->SetTitle("Главная страница");
                              class="img-responsive col-center analize-img">
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                             <input type="text" value="75" class="dial"
                                    data-width="135"
                                    data-angleOffset="0"
@@ -127,7 +128,7 @@ $APPLICATION->SetTitle("Главная страница");
                                    data-readOnly="true"
                                 >
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                             <input type="text" value="75" class="dial"
                                    data-width="135"
                                    data-angleOffset="0"
@@ -136,7 +137,7 @@ $APPLICATION->SetTitle("Главная страница");
                                    data-readOnly="true"
                                 >
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                             <input type="text" value="75" class="dial"
                                    data-width="135"
                                    data-angleOffset="0"
@@ -145,7 +146,7 @@ $APPLICATION->SetTitle("Главная страница");
                                    data-readOnly="true"
                                 >
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                             <input type="text" value="75" class="dial"
                                    data-width="135"
                                    data-angleOffset="0"
@@ -154,7 +155,7 @@ $APPLICATION->SetTitle("Главная страница");
                                    data-readOnly="true"
                                 >
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                             <input type="text" value="60" class="dial"
                                    data-width="135"
                                    data-angleOffset="0"
@@ -163,7 +164,7 @@ $APPLICATION->SetTitle("Главная страница");
                                    data-readOnly="true"
                                 >
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                             <input type="text" value="40" class="dial"
                                    data-width="135"
                                    data-angleOffset="0"
@@ -191,8 +192,6 @@ $APPLICATION->SetTitle("Главная страница");
                 </div>
                 <!--PARTNERS-->
                 <div class="section clearfix">
-                    <img src="http://placehold.it/1200x200/454545/000" alt="" class="img-responsive">
-                    <img src="http://placehold.it/1200x200/454545/000" alt="" class="img-responsive">
                     <img src="http://placehold.it/1200x200/454545/000" alt="" class="img-responsive">
                 </div>
                 <div class="clearfix map">
@@ -258,7 +257,7 @@ $APPLICATION->SetTitle("Главная страница");
                 </div>
             </div>
         </div>
-        <div data-hash="about" class="item">
+        <div data-hash="about" class="item sp-slide">
             <div id="page" class="container">
                 <div class="clearfix">
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
@@ -438,7 +437,7 @@ $APPLICATION->SetTitle("Главная страница");
                 </div>
             </div>
         </div>
-        <div data-hash="finish" class="item">
+        <div data-hash="finish" class="item sp-slide">
             <div id="page" class="container">
                 <div class="clearfix">
                     <div class="cards col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -546,6 +545,7 @@ $APPLICATION->SetTitle("Главная страница");
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </div>
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

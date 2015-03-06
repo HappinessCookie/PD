@@ -267,40 +267,40 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="container page">
                 <div class="clearfix">
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
-                        <img src="http://placehold.it/300x300" alt="">
+                        <img src="http://placehold.it/300x300" alt="" class="img-responsive">
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
-                        <img src="http://placehold.it/300x300" alt="">
+                        <img src="http://placehold.it/300x300" alt="" class="img-responsive">
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
-                        <img src="http://placehold.it/300x300" alt="">
+                        <img src="http://placehold.it/300x300" alt="" class="img-responsive">
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
-                        <img src="http://placehold.it/300x300" alt="">
+                        <img src="http://placehold.it/300x300" alt="" class="img-responsive">
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
-                        <img src="http://placehold.it/300x300" alt="">
+                        <img src="http://placehold.it/300x300" alt="" class="img-responsive">
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
-                        <img src="http://placehold.it/300x300" alt="">
+                        <img src="http://placehold.it/300x300" alt="" class="img-responsive">
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
-                        <img src="http://placehold.it/300x300" alt="">
+                        <img src="http://placehold.it/300x300" alt="" class="img-responsive">
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
-                        <img src="http://placehold.it/300x300" alt="">
+                        <img src="http://placehold.it/300x300" alt="" class="img-responsive">
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
-                        <img src="http://placehold.it/300x300" alt="">
+                        <img src="http://placehold.it/300x300" alt="" class="img-responsive">
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
-                        <img src="http://placehold.it/300x300" alt="">
+                        <img src="http://placehold.it/300x300" alt="" class="img-responsive">
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
-                        <img src="http://placehold.it/300x300" alt="">
+                        <img src="http://placehold.it/300x300" alt="" class="img-responsive">
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
-                        <img src="http://placehold.it/300x300" alt="">
+                        <img src="http://placehold.it/300x300" alt="" class="img-responsive">
                     </div>
                 </div>
                 <div class="division-info clearfix">

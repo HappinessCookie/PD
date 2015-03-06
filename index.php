@@ -7,8 +7,8 @@ $APPLICATION->SetTitle("Главная страница");
     <!--GENERAL-IMAGE-->
     <div id="my-slider" class="slider-pro">
         <div class="sp-slides">
-        <div data-hash="main" class="item sp-slide">
-            <div id="page" class="container">
+        <div id="main" class="item sp-slide">
+            <div class="container page">
                 <div class="header">
                     <img src="http://placehold.it/1200x600" alt="" class="img-responsive">
                 </div>
@@ -257,8 +257,8 @@ $APPLICATION->SetTitle("Главная страница");
                 </div>
             </div>
         </div>
-        <div data-hash="about" class="item sp-slide">
-            <div id="page" class="container">
+        <div id="about" class="item sp-slide">
+            <div class="container page">
                 <div class="clearfix">
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
                         <img src="http://placehold.it/300x300" alt="">
@@ -437,8 +437,8 @@ $APPLICATION->SetTitle("Главная страница");
                 </div>
             </div>
         </div>
-        <div data-hash="finish" class="item sp-slide">
-            <div id="page" class="container">
+        <div id="finish" class="item sp-slide">
+            <div class="container page">
                 <div class="clearfix">
                     <div class="cards col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <img src="http://placehold.it/300x300" alt=""/>

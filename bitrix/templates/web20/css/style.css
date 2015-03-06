@@ -5,7 +5,7 @@
 .palette-col5 {background-color: #C8B339;}
 .palette-col6 {background-color: #E25B29;}
 .palette-col7 {background-color: #76996D;}
-#page {
+.page {
     margin-top: 80px;
 }
 .image-responsive {
@@ -24,9 +24,6 @@
 .side-pad {
     padding-left: 15px;
     padding-right: 15px;
-}
-#page {
-	margin-top: 80px;
 }
 .logo {
 	position: relative;

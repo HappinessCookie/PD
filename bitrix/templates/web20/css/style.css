@@ -168,6 +168,7 @@
 .palette {
     background-image: url(/bitrix/templates/web20/images/bg.jpg);
     background-repeat: repeat;
+    padding: 5px;
 }
 .palette-color-box {
     margin-bottom: 10px;

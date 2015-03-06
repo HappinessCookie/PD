@@ -5,7 +5,7 @@ $APPLICATION->SetPageProperty("NOT_SHOW_NAV_CHAIN", "Y");
 $APPLICATION->SetTitle("Главная страница");
 ?>
     <!--GENERAL-IMAGE-->
-    <div id="my-slider" class="slider-pro">
+    <div id="index" class="slider-pro">
         <div class="sp-slides">
         <div id="main" class="item sp-slide">
             <div class="container page">
@@ -191,8 +191,14 @@ $APPLICATION->SetTitle("Главная страница");
                     </div>
                 </div>
                 <!--PARTNERS-->
-                <div class="section clearfix">
-                    <img src="http://placehold.it/1200x200/454545/000" alt="" class="img-responsive">
+                <div id="partners-slider" class="slider-pro">
+                    <div class="sp-slides">
+                        <div class="sp-slide"></div>
+                        <div class="sp-slide"></div>
+                        <div class="sp-slide"></div>
+                        <div class="sp-slide"></div>
+                        <div class="sp-slide"></div>
+                    </div>
                 </div>
                 <div class="clearfix map">
                     <div id="map">

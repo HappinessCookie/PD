@@ -169,7 +169,7 @@ $APPLICATION->SetTitle("Главная страница");
                         </div>
                     </div>
                     <!--PARTNERS-->
-                    <div id="partners-slider" class="slider-pro">
+                    <!--<div id="partners-slider" class="slider-pro">
                         <div class="sp-slides">
                             <div class="sp-slide"></div>
                             <div class="sp-slide"></div>
@@ -177,7 +177,7 @@ $APPLICATION->SetTitle("Главная страница");
                             <div class="sp-slide"></div>
                             <div class="sp-slide"></div>
                         </div>
-                    </div>
+                    </div>-->
                     <div class="clearfix map">
                         <div id="map">
                             <script type="text/javascript"
@@ -446,10 +446,10 @@ $APPLICATION->SetTitle("Главная страница");
                 <div class="container page">
                     <div class="clearfix">
                         <div class="cards col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <img src="http://placehold.it/300x300" alt=""/>
+                            <img src="http://placehold.it/300x300" alt="" class="image-responsive"/>
                             <h1 class="info-min"><a href="#">Краткое описание</a></h1>
                             <div class="card-block">
-                                <img src="http://placehold.it/300x300" alt=""/>
+                                <img src="http://placehold.it/300x300" alt="" class="image-responsive"/>
                                 <h1 class="info-min">Подробное описание</h1>
                                 <p class="info-max">Текст Текст Текст</p>
                                 <p class="info-max">Текст Текст Текст</p>
@@ -457,10 +457,10 @@ $APPLICATION->SetTitle("Главная страница");
                             </div>
                         </div>
                         <div class="cards col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <img src="http://placehold.it/300x300" alt=""/>
+                            <img src="http://placehold.it/300x300" alt="" class="image-responsive"/>
                             <h1 class="info-min"><a href="#">Краткое описание</a></h1>
                             <div class="card-block">
-                                <img src="http://placehold.it/300x300" alt=""/>
+                                <img src="http://placehold.it/300x300" alt="" class="image-responsive"/>
                                 <h1 class="info-min">Подробное описание</h1>
                                 <p class="info-max">Текст Текст Текст</p>
                                 <p class="info-max">Текст Текст Текст</p>
@@ -468,45 +468,10 @@ $APPLICATION->SetTitle("Главная страница");
                             </div>
                         </div>
                         <div class="cards col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <img src="http://placehold.it/300x300" alt=""/>
+                            <img src="http://placehold.it/300x300" alt="" class="image-responsive"/>
                             <h1 class="info-min"><a href="#">Краткое описание</a></h1>
                             <div class="card-block">
-                                <img src="http://placehold.it/300x300" alt=""/>
-                                <h1 class="info-min">Подробное описание</h1>
-                                <p class="info-max">Текст Текст Текст</p>
-                                <p class="info-max">Текст Текст Текст</p>
-                                <p class="info-max">Текст Текст Текст</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clearfix">
-                        <div class="cards col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <img src="http://placehold.it/300x300" alt=""/>
-                            <h1 class="info-min"><a href="#">Краткое описание</a></h1>
-                            <div class="card-block">
-                                <img src="http://placehold.it/300x300" alt=""/>
-                                <h1 class="info-min">Подробное описание</h1>
-                                <p class="info-max">Текст Текст Текст</p>
-                                <p class="info-max">Текст Текст Текст</p>
-                                <p class="info-max">Текст Текст Текст</p>
-                            </div>
-                        </div>
-                        <div class="cards col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <img src="http://placehold.it/300x300" alt=""/>
-                            <h1 class="info-min"><a href="#">Краткое описание</a></h1>
-                            <div class="card-block">
-                                <img src="http://placehold.it/300x300" alt=""/>
-                                <h1 class="info-min">Подробное описание</h1>
-                                <p class="info-max">Текст Текст Текст</p>
-                                <p class="info-max">Текст Текст Текст</p>
-                                <p class="info-max">Текст Текст Текст</p>
-                            </div>
-                        </div>
-                        <div class="cards col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <img src="http://placehold.it/300x300" alt=""/>
-                            <h1 class="info-min"><a href="#">Краткое описание</a></h1>
-                            <div class="card-block">
-                                <img src="http://placehold.it/300x300" alt=""/>
+                                <img src="http://placehold.it/300x300" alt="" class="image-responsive"/>
                                 <h1 class="info-min">Подробное описание</h1>
                                 <p class="info-max">Текст Текст Текст</p>
                                 <p class="info-max">Текст Текст Текст</p>
@@ -516,10 +481,10 @@ $APPLICATION->SetTitle("Главная страница");
                     </div>
                     <div class="clearfix">
                         <div class="cards col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <img src="http://placehold.it/300x300" alt=""/>
+                            <img src="http://placehold.it/300x300" alt="" class="image-responsive"/>
                             <h1 class="info-min"><a href="#">Краткое описание</a></h1>
                             <div class="card-block">
-                                <img src="http://placehold.it/300x300" alt=""/>
+                                <img src="http://placehold.it/300x300" alt="" class="image-responsive"/>
                                 <h1 class="info-min">Подробное описание</h1>
                                 <p class="info-max">Текст Текст Текст</p>
                                 <p class="info-max">Текст Текст Текст</p>
@@ -527,10 +492,10 @@ $APPLICATION->SetTitle("Главная страница");
                             </div>
                         </div>
                         <div class="cards col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <img src="http://placehold.it/300x300" alt=""/>
+                            <img src="http://placehold.it/300x300" alt="" class="image-responsive"/>
                             <h1 class="info-min"><a href="#">Краткое описание</a></h1>
                             <div class="card-block">
-                                <img src="http://placehold.it/300x300" alt=""/>
+                                <img src="http://placehold.it/300x300" alt="" class="image-responsive"/>
                                 <h1 class="info-min">Подробное описание</h1>
                                 <p class="info-max">Текст Текст Текст</p>
                                 <p class="info-max">Текст Текст Текст</p>
@@ -538,10 +503,45 @@ $APPLICATION->SetTitle("Главная страница");
                             </div>
                         </div>
                         <div class="cards col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <img src="http://placehold.it/300x300" alt=""/>
+                            <img src="http://placehold.it/300x300" alt="" class="image-responsive"/>
                             <h1 class="info-min"><a href="#">Краткое описание</a></h1>
                             <div class="card-block">
-                                <img src="http://placehold.it/300x300" alt=""/>
+                                <img src="http://placehold.it/300x300" alt="" class="image-responsive"/>
+                                <h1 class="info-min">Подробное описание</h1>
+                                <p class="info-max">Текст Текст Текст</p>
+                                <p class="info-max">Текст Текст Текст</p>
+                                <p class="info-max">Текст Текст Текст</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix">
+                        <div class="cards col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <img src="http://placehold.it/300x300" alt="" class="image-responsive"/>
+                            <h1 class="info-min"><a href="#">Краткое описание</a></h1>
+                            <div class="card-block">
+                                <img src="http://placehold.it/300x300" alt="" class="image-responsive"/>
+                                <h1 class="info-min">Подробное описание</h1>
+                                <p class="info-max">Текст Текст Текст</p>
+                                <p class="info-max">Текст Текст Текст</p>
+                                <p class="info-max">Текст Текст Текст</p>
+                            </div>
+                        </div>
+                        <div class="cards col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <img src="http://placehold.it/300x300" alt="" class="image-responsive"/>
+                            <h1 class="info-min"><a href="#">Краткое описание</a></h1>
+                            <div class="card-block">
+                                <img src="http://placehold.it/300x300" alt="" class="image-responsive"/>
+                                <h1 class="info-min">Подробное описание</h1>
+                                <p class="info-max">Текст Текст Текст</p>
+                                <p class="info-max">Текст Текст Текст</p>
+                                <p class="info-max">Текст Текст Текст</p>
+                            </div>
+                        </div>
+                        <div class="cards col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <img src="http://placehold.it/300x300" alt="" class="image-responsive"/>
+                            <h1 class="info-min"><a href="#">Краткое описание</a></h1>
+                            <div class="card-block">
+                                <img src="http://placehold.it/300x300" alt="" class="image-responsive"/>
                                 <h1 class="info-min">Подробное описание</h1>
                                 <p class="info-max">Текст Текст Текст</p>
                                 <p class="info-max">Текст Текст Текст</p>

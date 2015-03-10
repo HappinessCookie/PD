@@ -41,9 +41,9 @@
         </button>
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 navbar-collapse text-center pull-right collapse" id="responsive-menu" aria-expanded="false">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#main">Главная</a></li>
-                <li><a href="#about">О нас</a></li>
-                <li><a href="#finish">Готовые решения</a></li>
+                <li class="anchor" data-page="main"><a>Главная</a></li>
+                <li class="anchor" data-page="about"><a>О нас</a></li>
+                <li class="anchor" data-page="finish"><a>Готовые решения</a></li>
             </ul>
         </div>
     </div>

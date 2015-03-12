@@ -186,7 +186,7 @@ $APPLICATION->SetTitle("Главная страница");
                             <p class="my-pic">Создай свою атмосферу</p>
                         </div>
                         <div class="palette-color-box col-lg-1 col-lg-offset-2 col-md-1 col-md-offset-2 col-sm-1 col-sm-offset-2 col-xs-12">
-                            <img src="/bitrix/templates/web20/images/k.png" alt="" class="img-responsive col-center">
+                            <img src="/bitrix/templates/web20/images/k.png" alt="" class="img-responsive col-center palette-reset" data-color="#fff">
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
                             <div class="palette-link palette-col1" data-color="#C7CBAC"></div>

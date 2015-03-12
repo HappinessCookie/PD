@@ -38,4 +38,7 @@ $(window).load(function () {
     $(".palette-link").on("click", function () {
         $("body").css("background-color", $(this).data("color"));
     });
+    $(".palette-reset").on("click", function () {
+        $("body").css("background-color", $(this).data("color"));
+    });
 });

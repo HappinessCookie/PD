@@ -14,15 +14,15 @@ $APPLICATION->SetTitle("Главная страница");
                     </div>
                     <!--MIN-PORTFOLIO-->
                     <div class="clearfix">
-                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/1.jpg" alt="" class="image-responsive">
                                 <a>
-                                    <div data-page="about" data-anchor-start="AP" class="anchor sticker-box sticker-color4"></div>
+                                    <div data-page="about" data-anchor-start="AC" class="anchor sticker-box sticker-color4"></div>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/2.jpg" alt="" class="image-responsive">
                                 <a href="#carousel" class="goto" data-slide="next">
@@ -30,7 +30,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/3.jpg" alt="" class="image-responsive">
                                 <a href="#carousel" class="goto" data-slide="next">
@@ -38,7 +38,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/4.jpg" alt="" class="image-responsive">
                                 <a href="#carousel" class="goto" data-slide="next">
@@ -46,7 +46,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/5.jpg" alt="" class="image-responsive">
                                 <a href="#carousel" class="goto" data-slide="next">
@@ -54,7 +54,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/6.jpg" alt="" class="image-responsive">
                                 <a href="#carousel" class="goto" data-slide="next">
@@ -62,7 +62,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/7.jpg" alt="" class="image-responsive">
                                 <a href="#carousel" class="goto" data-slide="next">
@@ -70,7 +70,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/8.jpg" alt="" class="image-responsive">
                                 <a href="#carousel" class="goto" data-slide="next">
@@ -78,7 +78,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/9.jpg" alt="" class="image-responsive">
                                 <a href="#carousel" class="goto" data-slide="next">
@@ -86,7 +86,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/10.jpg"
                                      alt=""
@@ -96,7 +96,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/11.jpg"
                                      alt=""
@@ -106,7 +106,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/12.jpg"
                                      alt=""
@@ -116,9 +116,39 @@ $APPLICATION->SetTitle("Главная страница");
                                 </a>
                             </div>
                         </div>
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
+                            <div class="sticker sticker-top">
+                                <img src="/bitrix/templates/web20/images/section/13.jpg"
+                                     alt=""
+                                     class="image-responsive">
+                                <a href="#carousel" class="goto" data-slide="next">
+                                    <div class="sticker-box sticker-color1"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
+                            <div class="sticker sticker-top">
+                                <img src="/bitrix/templates/web20/images/section/14.jpg"
+                                     alt=""
+                                     class="image-responsive">
+                                <a href="#carousel" class="goto" data-slide="next">
+                                    <div class="sticker-box sticker-color3"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
+                            <div class="sticker sticker-top">
+                                <img src="/bitrix/templates/web20/images/section/15.jpg"
+                                     alt=""
+                                     class="image-responsive">
+                                <a href="#carousel" class="goto" data-slide="next">
+                                    <div class="sticker-box sticker-color2"></div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <!--POLETTE-->
-                    <div class="palette clearfix">
+                    <!--PALETTE-->
+                    <div class="palette clearfix hidden-sm hidden-xs">
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <img src="/bitrix/templates/web20/images/analiz.png"
                                  alt=""
@@ -244,44 +274,53 @@ $APPLICATION->SetTitle("Главная страница");
             <div id="about" class="item sp-slide">
                 <div class="container page">
                     <div class="clearfix">
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
                             <img src="http://placehold.it/300x300" alt="" class="anchor img-responsive" data-anchor-start="AP">
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
                             <img src="http://placehold.it/300x300" alt="" class="img-responsive">
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
                             <img src="http://placehold.it/300x300" alt="" class="img-responsive">
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
                             <img src="http://placehold.it/300x300" alt="" class="img-responsive">
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
                             <img src="http://placehold.it/300x300" alt="" class="img-responsive">
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
                             <img src="http://placehold.it/300x300" alt="" class="img-responsive">
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
                             <img src="http://placehold.it/300x300" alt="" class="img-responsive">
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
                             <img src="http://placehold.it/300x300" alt="" class="img-responsive">
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
                             <img src="http://placehold.it/300x300" alt="" class="img-responsive">
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
                             <img src="http://placehold.it/300x300" alt="" class="img-responsive">
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
                             <img src="http://placehold.it/300x300" alt="" class="img-responsive">
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
+                            <img src="http://placehold.it/300x300" alt="" class="img-responsive">
+                        </div>
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
+                            <img src="http://placehold.it/300x300" alt="" class="img-responsive">
+                        </div>
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
+                            <img src="http://placehold.it/300x300" alt="" class="img-responsive">
+                        </div>
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
                             <img src="http://placehold.it/300x300" alt="" class="img-responsive">
                         </div>
                     </div>
-                    <div class="division-info clearfix">
+                    <div class="division-info clearfix" data-anchor-end="AC">
                         <h2 class="page-header">Архитектурно-строительный раздел (АС)</h2>
                         <ul>
                             <li>положение объекта с планированием территории;</li>

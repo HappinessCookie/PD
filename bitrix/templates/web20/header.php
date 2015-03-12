@@ -14,6 +14,7 @@
     <link href="<?= SITE_TEMPLATE_PATH ?>/css/style.css" rel="stylesheet">
     <link href="<?= SITE_TEMPLATE_PATH ?>/css/slider-pro.min.css" rel="stylesheet">
     <link href="<?= SITE_TEMPLATE_PATH ?>/css/sticker.css" rel="stylesheet">
+    <link href="<?= SITE_TEMPLATE_PATH ?>/css/grid15.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>

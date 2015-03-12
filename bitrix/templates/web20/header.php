@@ -27,7 +27,7 @@
         <? /*$APPLICATION->ShowPanel();*/ ?>
     </div>
 <? endif ?>
-<div class="navbar navbar-inverse navbar-fixed-top">
+<div class="header navbar navbar-inverse navbar-fixed-top">
     <div class="container side-pad">
         <div class="col-lg-4 col-md-4 hidden-sm hidden-xs" style="color: white;">8-800-555-55-55</div>
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6" style="height: 80px;">

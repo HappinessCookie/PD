@@ -17,8 +17,8 @@ $APPLICATION->SetTitle("Главная страница");
                         <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/1.jpg" alt="" class="image-responsive">
-                                <a href="#carousel" class="goto" data-slide="next">
-                                    <div class="sticker-box sticker-color4"></div>
+                                <a>
+                                    <div data-page="about" data-anchor-start="AP" class="anchor sticker-box sticker-color4"></div>
                                 </a>
                             </div>
                         </div>
@@ -245,7 +245,7 @@ $APPLICATION->SetTitle("Главная страница");
                 <div class="container page">
                     <div class="clearfix">
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
-                            <img src="http://placehold.it/300x300" alt="" class="img-responsive">
+                            <img src="http://placehold.it/300x300" alt="" class="anchor img-responsive" data-anchor-start="AP">
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 division">
                             <img src="http://placehold.it/300x300" alt="" class="img-responsive">
@@ -305,7 +305,7 @@ $APPLICATION->SetTitle("Главная страница");
                            точных и тщательной разработанных разделов проекта, а так же высокого профессионализма
                            специалистов в области проектирования и строительства.</p>
                     </div>
-                    <div class="division-info clearfix">
+                    <div class="division-info clearfix" data-anchor-end="AP">
                         <h2 class="page-header">Архитектурный раздел (АР)</h2>
                         <ul>
                             <li>положение объекта с планированием территории;</li>

@@ -12,11 +12,11 @@ $(document).ready(function () {
 $(window).load(function () {
     goto = function (to) {
         $('html,body').animate({
-            scrollTop: $(to).offset().top
+            scrollTop: $(to).offset().top - $(".header").height()
         }, 500);
     };
     $(".anchor").click(function () {
-        if ($(this).data("page") !== "undefined") {
+        if ($(this).data("page") !== undefined) {
             var page_index = 0;
             switch ($(this).data("page")) {
                 case "main":
@@ -31,8 +31,8 @@ $(window).load(function () {
             }
             $('#index').sliderPro('gotoSlide', page_index);
         }
-        if ($(this).data("anchor-start") !== "undefined") {
-            goto("['data-anchor-end=" + $(this).data("anchor-start") + "']");
+        if ($(this).data("anchor-start") !== undefined) {
+            goto("[data-anchor-end='" + $(this).data("anchor-start") + "']");
         }
     });
     $(".palette-link").on("click", function () {

@@ -199,15 +199,24 @@ $APPLICATION->SetTitle("Главная страница");
                         </div>
                     </div>
                     <!--PARTNERS-->
-                    <!--<div id="partners-slider" class="slider-pro">
-                        <div class="sp-slides">
-                            <div class="sp-slide"></div>
-                            <div class="sp-slide"></div>
-                            <div class="sp-slide"></div>
-                            <div class="sp-slide"></div>
-                            <div class="sp-slide"></div>
-                        </div>
-                    </div>-->
+                    <div class="clearfix owl-carousel partners">
+                        <div class="item">
+                            <img src="http://placehold.it/300x150" alt=""/></div>
+                        <div class="item">
+                            <img src="http://placehold.it/300x150" alt=""/></div>
+                        <div class="item">
+                            <img src="http://placehold.it/300x150" alt=""/></div>
+                        <div class="item">
+                            <img src="http://placehold.it/300x150" alt=""/></div>
+                        <div class="item">
+                            <img src="http://placehold.it/300x150" alt=""/></div>
+                        <div class="item">
+                            <img src="http://placehold.it/300x150" alt=""/></div>
+                        <div class="item">
+                            <img src="http://placehold.it/300x150" alt=""/></div>
+                        <div class="item">
+                            <img src="http://placehold.it/300x150" alt=""/></div>
+                    </div>
                     <div class="clearfix map">
                         <div id="map">
                             <script type="text/javascript"
@@ -275,7 +284,7 @@ $APPLICATION->SetTitle("Главная страница");
                 <div class="container page">
                     <div class="clearfix">
                         <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
-                            <img src="http://placehold.it/300x300" alt="" class="anchor img-responsive" data-anchor-start="AP">
+                            <img src="http://placehold.it/300x300" alt="" class="anchor img-responsive" data-anchor-start="AC">
                         </div>
                         <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5">
                             <img src="http://placehold.it/300x300" alt="" class="img-responsive">

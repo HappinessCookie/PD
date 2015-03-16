@@ -58,10 +58,16 @@ $(window).load(function () {
             goto("[data-anchor-end='" + $(this).data("anchor-start") + "']");
         }
     });
-    $(".palette-link").on("click", function () {
+    $(".palette-link[data-color]").on("click", function () {
+        $("html").removeClass("grayscale");
         $("body").css("background-color", $(this).data("color"));
     });
+    $(".palette-grayscale").on("click", function () {
+        $("html").addClass("grayscale");
+        $("body").css("background-color", "");
+    });
     $(".palette-reset").on("click", function () {
-        $("body").css("background-color", $(this).data("color"));
+        $("html").removeClass("grayscale");
+        $("body").css("background-color", "");
     });
 });

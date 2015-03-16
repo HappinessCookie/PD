@@ -152,9 +152,10 @@ $APPLICATION->SetTitle("Главная страница");
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <img src="/bitrix/templates/web20/images/analiz.png"
                                  alt=""
-                                 class="img-responsive col-center">
+                                 class="img-responsive col-center"
+                                 style="margin-top: 50px">
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center" style="margin-top: 50px">
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 inline-block">
                                 <div class="chart chart-1">68%</div>
                                 <p>Любят кофе</p>

@@ -1,4 +1,28 @@
 $(document).ready(function () {
+    $('.partners').owlCarousel({
+        loop: true,
+        margin: 15,
+        responsiveClass: true,
+        autoplay: true,
+        autoplayTimeout: 1500,
+        mouseDrag: false,
+        touchDrag: false,
+        lazyLoad: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: false
+            },
+            600: {
+                items: 3,
+                nav: false
+            },
+            1000: {
+                items: 5,
+                nav: false
+            }
+        }
+    });
     $('#index').sliderPro({
         autoHeight: true,
         autoplay: false,
@@ -41,32 +65,4 @@ $(window).load(function () {
     $(".palette-reset").on("click", function () {
         $("body").css("background-color", $(this).data("color"));
     });
-    $(document).ready(function(){
-        $('.owl-carousel').owlCarousel({
-            loop:true,
-            margin:15,
-            responsiveClass:true,
-            autoplay:true,
-            autoplayTimeout:2800,
-            autoplayHoverPause:true,
-            mouseDrag:false,
-            touchDrag:false,
-            lazyLoad:true,
-            responsive:{
-                0:{
-                    items:1,
-                    nav:false
-                },
-                600:{
-                    items:3,
-                    nav:false
-                },
-                1000:{
-                    items:5,
-                    nav:false
-                }
-            }
-        })
-    });
-
 });

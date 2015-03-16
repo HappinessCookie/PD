@@ -187,16 +187,15 @@ $APPLICATION->SetTitle("Главная страница");
                             <p class="my-pic">Создай свою атмосферу</p>
                         </div>
                         <div class="palette-color-box col-lg-1 col-lg-offset-2 col-md-1 col-md-offset-2 col-sm-1 col-sm-offset-2 col-xs-12">
-                            <img src="/bitrix/templates/web20/images/k.png" alt="" class="img-responsive col-center palette-reset" data-color="#fff">
+                            <img src="/bitrix/templates/web20/images/k.png" alt="" class="img-responsive col-center palette-reset">
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-                            <div class="palette-link palette-col1" data-color="#C7CBAC"></div>
-                            <div class="palette-link palette-col2" data-color="#A5AE8C"></div>
-                            <div class="palette-link palette-col3" data-color="#FAF6C9"></div>
-                            <div class="palette-link palette-col4" data-color="#4E1E1C"></div>
-                            <div class="palette-link palette-col5" data-color="#C8B339"></div>
-                            <div class="palette-link palette-col6" data-color="#E25B29"></div>
-                            <div class="palette-link palette-col7" data-color="#76996D"></div>
+                            <div class="palette-link palette-col1" data-color="#76e1f8"></div>
+                            <div class="palette-link palette-col2" data-color="#95d86a"></div>
+                            <div class="palette-link palette-col3" data-color="#fee7a3"></div>
+                            <div class="palette-link palette-col4" data-color="#f2e8e7"></div>
+                            <div class="palette-link palette-col5" data-color="#fe4e8d"></div>
+                            <div class="palette-link palette-col6 palette-grayscale"></div>
                         </div>
                     </div>
                     <!--PARTNERS-->

@@ -7,7 +7,6 @@ $(document).ready(function () {
         autoplayTimeout: 1500,
         mouseDrag: false,
         touchDrag: false,
-        lazyLoad: true,
         responsive: {
             0: {
                 items: 1,

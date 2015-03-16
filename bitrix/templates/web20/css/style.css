@@ -156,8 +156,7 @@ body {
     margin-top: 10px;
 }
 .palette {
-    background-image: url(/bitrix/templates/web20/images/bg.jpg);
-    background-repeat: repeat;
+    background-color: #ffd500;
     padding: 15px;
 }
 .palette-color-box {
@@ -213,8 +212,8 @@ body {
     background-position: -246px -164px;
 }
 .distract-text {
-    margin-top: 50px;
-    margin-bottom: 60px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     color: #d66343;
 }
 .partners {

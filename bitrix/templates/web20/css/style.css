@@ -233,3 +233,9 @@ body {
     filter: grayscale(100%);
     filter: gray; /* IE 6-9 */
 }
+.data-normal-text {
+    font-size: 16px;
+}
+.data-bold-text {
+    font-weight: bold;
+}

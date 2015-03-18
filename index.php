@@ -513,43 +513,42 @@ $APPLICATION->SetTitle("Главная страница");
                 <div class="col-lg-4">
                     <a href="/bitrix/templates/web20/images/v1/formal plan.jpg" data-lightbox="image-1" data-title="My caption">
                         <img src="/bitrix/templates/web20/images/v1/formal plan.jpg" alt="" class="image-responsive">
-                        <a class="lb-close"></a>
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <a href="/bitrix/templates/web20/images/v1/plan second KD-8,4-11,5-134.jpg" data-lightbox="image-2" data-title="My caption">
+                    <a href="/bitrix/templates/web20/images/v1/plan second KD-8,4-11,5-134.jpg" data-lightbox="image-1" data-title="My caption">
                         <img src="/bitrix/templates/web20/images/v1/plan second KD-8,4-11,5-134.jpg" alt="" class="image-responsive">
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <a href="/bitrix/templates/web20/images/v1/plan first KD-8,4-11,5-134.jpg" data-lightbox="image-3" data-title="My caption">
+                    <a href="/bitrix/templates/web20/images/v1/plan first KD-8,4-11,5-134.jpg" data-lightbox="image-1" data-title="My caption">
                         <img src="/bitrix/templates/web20/images/v1/plan first KD-8,4-11,5-134.jpg" alt="" class="image-responsive">
                     </a>
                 </div>
             </div>
             <div class="col-lg-12">
                 <div class="col15-lg-3">
-                    <a href="/bitrix/templates/web20/images/v1/cut 1-1 KD-8,4-11,5-134.jpg" data-lightbox="image-4" data-title="My caption">
+                    <a href="/bitrix/templates/web20/images/v1/cut 1-1 KD-8,4-11,5-134.jpg" data-lightbox="image-2" data-title="My caption">
                         <img src="/bitrix/templates/web20/images/v1/cut 1-1 KD-8,4-11,5-134.jpg" alt="" class="image-responsive">
                     </a>
                 </div>
                 <div class="col15-lg-3">
-                    <a href="/bitrix/templates/web20/images/v1/front 1 KD-8,4-11,5-134.jpg" data-lightbox="image-5" data-title="My caption">
+                    <a href="/bitrix/templates/web20/images/v1/front 1 KD-8,4-11,5-134.jpg" data-lightbox="image-2" data-title="My caption">
                         <img src="/bitrix/templates/web20/images/v1/front 1 KD-8,4-11,5-134.jpg" alt="" class="image-responsive">
                     </a>
                 </div>
                 <div class="col15-lg-3">
-                    <a href="/bitrix/templates/web20/images/v1/front 2 KD-8,4-11,5-134.jpg" data-lightbox="image-6" data-title="My caption">
+                    <a href="/bitrix/templates/web20/images/v1/front 2 KD-8,4-11,5-134.jpg" data-lightbox="image-2" data-title="My caption">
                         <img src="/bitrix/templates/web20/images/v1/front 2 KD-8,4-11,5-134.jpg" alt="" class="image-responsive">
                     </a>
                 </div>
                 <div class="col15-lg-3">
-                    <a href="/bitrix/templates/web20/images/v1/front 3 KD-8,4-11,5-134.jpg" data-lightbox="image-7" data-title="My caption">
+                    <a href="/bitrix/templates/web20/images/v1/front 3 KD-8,4-11,5-134.jpg" data-lightbox="image-2" data-title="My caption">
                         <img src="/bitrix/templates/web20/images/v1/front 3 KD-8,4-11,5-134.jpg" alt="" class="image-responsive">
                     </a>
                 </div>
                 <div class="col15-lg-3">
-                    <a href="/bitrix/templates/web20/images/v1/KD-8,4-11,5-134part project.jpg" data-lightbox="image-8" data-title="My caption">
+                    <a href="/bitrix/templates/web20/images/v1/KD-8,4-11,5-134part project.jpg" data-lightbox="image-2" data-title="My caption">
                         <img src="/bitrix/templates/web20/images/v1/KD-8,4-11,5-134part project.jpg" alt="" class="image-responsive">
                     </a>
                 </div>
@@ -559,7 +558,7 @@ $APPLICATION->SetTitle("Главная страница");
         <div class="clearfix">
             <div class="col-lg-3">
                 <img src="/bitrix/templates/web20/images/v1/sticker front.jpg" alt="" class="image-responsive">
-                <p>Text</p>
+                <p>КД-8,4-11,5-134</p>
             </div>
             <div class="col-lg-3">
                 <img src="http://placehold.it/300" alt="" class="image-responsive">

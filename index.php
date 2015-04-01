@@ -492,24 +492,26 @@ $APPLICATION->SetTitle("Главная страница");
 </div>
 <div id="finish" class="item sp-slide">
     <div class="container page">
-        <div id="load" class="clearfix">
+        <div id="project_load" class="clearfix">
             <div class="col-lg-6">
                 <img src="/bitrix/templates/web20/images/v1/sticker back.jpg" alt="">
             </div>
             <div class="col-lg-6">
-                <h2 class="page-header">КД-8,4-11,5-134</h2>
-                <h3>Стоимость проекта 10 000 руб.</h3>
-                <p class="data-normal-text"><span class="data-bold-text">Общая площадь дома:</span> 134 кв.м</p>
-                <p class="data-normal-text"><span class="data-bold-text">Габариты застройки</p>
-                <p class="data-normal-text"><span class="data-bold-text">Перекрытие:</span> деревянные по лагам</p>
-                <p class="data-normal-text"><span class="data-bold-text">Количество этажей:</span> 2</p>
-                <p class="data-normal-text"><span class="data-bold-text">Цокольный этаж:</span> нет</p>
-                <p class="data-normal-text"><span class="data-bold-text">Фундамент:</span> свайный, ростверк</p>
-                <p class="data-normal-text"><span class="data-bold-text">Материал стен:</span> каркас деревянный</p>
-                <p class="data-normal-text"><span class="data-bold-text">Кровля:</span> металочерепица</p>
-                <p class="data-normal-text"><span class="data-bold-text">Гараж:</span> не предусмотрен</p>
+                <h2 id="project_name" class="page-header">КД-8,4-11,5-134</h2>
+                <h3 id="project_price">Стоимость проекта 10 000 руб.</h3>
+                <ul class="list-unstyled">
+                    <li><b>Общая площадь дома:</b> <span id="house_area"></span></li>
+                    <li><b>Габариты застройки:</b> <span id="dimensions"></span></li>
+                    <li><b>Перекрытие:</b> <span id="overlap"></span></li>
+                    <li><b>Количество этажей:</b> <span id="floor_count"></span></li>
+                    <li><b>Цокольный этаж:</b> <span id="basement"></span></li>
+                    <li><b>Фундамент:</b> <span id="foundation"></span></li>
+                    <li><b>Материал стен:</b> <span id="wall_material"></span></li>
+                    <li><b>Кровля:</b> <span id="roofing"></span></li>
+                    <li><b>Гараж:</b> <span id="garage"></span></li>
+                </ul>
             </div>
-            <div class="col-lg-12">
+            <div class="clearfix" id="layout">
                 <div class="col-lg-4">
                     <a href="/bitrix/templates/web20/images/v1/formal plan.jpg" data-lightbox="image-1" data-title="My caption">
                         <img src="/bitrix/templates/web20/images/v1/formal plan.jpg" alt="" class="image-responsive">
@@ -526,7 +528,7 @@ $APPLICATION->SetTitle("Главная страница");
                     </a>
                 </div>
             </div>
-            <div class="col-lg-12">
+            <div class="clearfix" id="scheme">
                 <div class="col15-lg-3">
                     <a href="/bitrix/templates/web20/images/v1/cut 1-1 KD-8,4-11,5-134.jpg" data-lightbox="image-2" data-title="My caption">
                         <img src="/bitrix/templates/web20/images/v1/cut 1-1 KD-8,4-11,5-134.jpg" alt="" class="image-responsive">
@@ -556,7 +558,7 @@ $APPLICATION->SetTitle("Главная страница");
         </div>
         <!--PROJEKT-->
         <div class="clearfix">
-            <div class="col-lg-3">
+            <div class="col-lg-3 project-preview" data-id="1">
                 <img src="/bitrix/templates/web20/images/v1/sticker front.jpg" alt="" class="image-responsive">
                 <p>КД-8,4-11,5-134</p>
             </div>

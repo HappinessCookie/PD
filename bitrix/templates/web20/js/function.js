@@ -70,4 +70,24 @@ $(window).load(function () {
         $("html").removeClass("grayscale");
         $("body").css("background-color", "");
     });
+    $(".project-preview").on("click", function() {
+        $.ajax({
+            type: "POST",
+            url: "/bitrix/templates/web20/ajax/project-get.php",
+            dataType: "json",
+            data: {array: $(this).data("id")},
+            success: function (data) {
+                console.log(data);
+                $("#house_area").text(data["house_area"]);
+                $("#dimensions").text(data["dimensions"]);
+                $("#overlap").text(data["overlap"]);
+                $("#floor_count").text(data["floor_count"]);
+                $("#basement").text(data["basement"]);
+                $("#foundation").text(data["foundation"]);
+                $("#wall_material").text(data["wall_material"]);
+                $("#roofing").text(data["roofing"]);
+                $("#garage").text(data["garage"]);
+            }
+        });
+    });
 });

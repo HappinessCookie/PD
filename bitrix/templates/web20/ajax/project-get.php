@@ -13,6 +13,7 @@ if (isset($_POST["array"])) {
         array(
             "ID",
             "IBLOCK_ID",
+            "NAME",
             "DETAIL_PICTURE",
             "PROPERTY_price",
             "PROPERTY_house_area",
@@ -30,6 +31,7 @@ if (isset($_POST["array"])) {
     );
     $rsL = $rsLeader->GetNext();
     $data = array();
+    $data["name"] = $rsL["NAME"];
     $data["price"] = $rsL["PROPERTY_PRICE_VALUE"];
     $data["house_area"] = $rsL["PROPERTY_HOUSE_AREA_VALUE"];
     $data["dimensions"] = $rsL["PROPERTY_DIMENSIONS_VALUE"];
@@ -40,18 +42,34 @@ if (isset($_POST["array"])) {
     $data["wall_material"] = $rsL["PROPERTY_WALL_MATERIAL_VALUE"];
     $data["roofing"] = $rsL["PROPERTY_ROOFING_VALUE"];
     $data["garage"] = $rsL["PROPERTY_GARAGE_VALUE"];
-    $data["layout"] = $rsL["PROPERTY_LAYOUT_VALUE"];
-    $data["scheme"] = $rsL["PROPERTY_SCHEME_VALUE"];
     $data["all"] = $rsL;
-
-    /*$rsL = $rsLeader->GetNext();
-    while ($rsL = $rsLeader->GetNext()) {
-        $arr[] = $rsL;
-    }*/
+    $image = CFile::ResizeImageGet(
+        $rsL["DETAIL_PICTURE"],
+        Array("width" => 600, "height" => 600),
+        BX_RESIZE_IMAGE_PROPORTIONAL,
+        false
+    );
+    $data["image"] = $image["src"];
+    foreach ($rsL["PROPERTY_LAYOUT_VALUE"] as $key) {
+        $layout = CFile::ResizeImageGet(
+            $key,
+            Array("width" => 600, "height" => 600),
+            BX_RESIZE_IMAGE_PROPORTIONAL,
+            false
+        );
+        $data["layout"][] = $layout["src"];
+    }
+    foreach ($rsL["PROPERTY_SCHEME_VALUE"] as $key) {
+        $scheme = CFile::ResizeImageGet(
+            $key,
+            Array("width" => 600, "height" => 600),
+            BX_RESIZE_IMAGE_PROPORTIONAL,
+            false
+        );
+        $data["scheme"][] = $scheme["src"];
+    }
     echo json_encode($data);
 }
-//echo json_encode($_GET["project_id"]);
-//echo json_encode($_POST);
 
 require_once $_SERVER['DOCUMENT_ROOT'] . '/bitrix/modules/main/include/epilog_after.php';
 ?>

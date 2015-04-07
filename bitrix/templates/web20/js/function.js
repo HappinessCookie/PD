@@ -70,14 +70,22 @@ $(window).load(function () {
         $("html").removeClass("grayscale");
         $("body").css("background-color", "");
     });
-    $(".project-preview").on("click", function() {
+    $(".project-preview").on("click", function () {
         $.ajax({
             type: "POST",
             url: "/bitrix/templates/web20/ajax/project-get.php",
             dataType: "json",
             data: {array: $(this).data("id")},
+            beforeSend: function () {
+                $("#project_load").slideUp(500);
+                $('html, body').animate({
+                    scrollTop: $('#index').offset().top
+                }, 300);
+            },
             success: function (data) {
                 console.log(data);
+                $("#project_name").text(data["name"]);
+                $("#price").text(data["price"]);
                 $("#house_area").text(data["house_area"]);
                 $("#dimensions").text(data["dimensions"]);
                 $("#overlap").text(data["overlap"]);
@@ -87,6 +95,23 @@ $(window).load(function () {
                 $("#wall_material").text(data["wall_material"]);
                 $("#roofing").text(data["roofing"]);
                 $("#garage").text(data["garage"]);
+                $("#project_img").html('<img class="image-responsive col-centered" src="' + data["image"] + '" alt="">');
+                var images = "";
+                for (var i = 0; i < data["layout"].length; i++) {
+                    images += '<div class="col-lg-2 project-img"><a href="' + data["layout"][i] + '"><img class="image-responsive col-centered" src="' + data["layout"][i] + '" alt="" class="image-responsive"></a></div>';
+                }
+                for (var i = 0; i < data["scheme"].length; i++) {
+                    images += '<div class="col-lg-2 project-img"><a href="' + data["scheme"][i] + '"><img class="image-responsive col-centered" src="' + data["scheme"][i] + '" alt="" class="image-responsive"></a></div>';
+                }
+                $("#images").html(images);
+            },
+            complete: function () {
+                $("#project_load").slideDown(500, function () {
+                    $('#index').sliderPro('update');
+                });
+            },
+            error: function (request, status, error) {
+                console.log(error);
             }
         });
     });

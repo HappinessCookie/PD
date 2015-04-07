@@ -240,6 +240,8 @@ body {
     font-weight: bold;
 }
 #project_load{
+    margin-top: 15px;
+    display: none;
     -webkit-transition: opacity 0.15s linear;
     -o-transition: opacity 0.15s linear;
     transition: opacity 0.15s linear;
@@ -249,4 +251,22 @@ body {
 }
 #project_load.show {
     opacity: 1;
+}
+#project_img {}
+#project_img img {
+    margin-top: 10px;
+    padding-right: 10px;
+}
+.project-img {
+    padding: 10px;
+}
+.project-preview {
+    padding: 0 5px;
+}
+.articles-links-block {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.articles-links {
+    padding: 5px;
 }

@@ -1,4 +1,5 @@
 <? if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die(); ?>
+<? header("Content-Type: text/html; charset=utf-8"); //Нужно будет удалить ?>
 <!DOCTYPE html>
 <html>
 <head>

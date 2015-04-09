@@ -28,3 +28,23 @@
     position: absolute;
     top: 0;
 }
+
+.sticker-hover {
+    position: relative;
+}
+
+.sticker-hover-box {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: .4;
+    -webkit-transition: 700ms;
+    -moz-transition: 700ms;
+    -ms-transition: 700ms;
+    -o-transition: 700ms;
+    transition: 700ms;
+}
+.sticker-hover-box:hover {
+    opacity: .8;
+}

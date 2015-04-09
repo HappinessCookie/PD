@@ -23,6 +23,20 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script>
+        var map;
+        function initialize() {
+
+            var mapOptions = {
+                zoom: 17,
+                center: new google.maps.LatLng(54.7244886, 56.0087084)
+            };
+            map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
 </head>
 <body>
 <? if ($USER->IsAdmin()): ?>

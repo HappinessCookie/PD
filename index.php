@@ -17,91 +17,96 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/1.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="AC" class="anchor sticker-box sticker-color4"></div>
+                    <div data-page="about" data-anchor-start="AC" class="anchor sticker-box sticker-color4">
+                        <div class="sticker-desc">
+                            <h3>FG</h3>
+                            <p>Discription</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/2.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color1"></div>
+                    <div data-page="about" data-anchor-start="AP" class="anchor sticker-box sticker-color1"></div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/3.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color2"></div>
+                    <div data-page="about" data-anchor-start="KP" class="anchor sticker-box sticker-color2"></div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/4.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color5"></div>
+                    <div data-page="about" data-anchor-start="KMD" class="anchor sticker-box sticker-color5"></div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/5.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color2"></div>
+                    <div data-page="about" data-anchor-start="PZU" class="anchor sticker-box sticker-color2"></div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/6.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color3"></div>
+                    <div data-page="about" data-anchor-start="ROI" class="anchor sticker-box sticker-color3"></div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/7.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color1"></div>
+                    <div data-page="about" data-anchor-start="MAF" class="anchor sticker-box sticker-color1"></div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/8.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color4"></div>
+                    <div data-page="about" data-anchor-start="EO" class="anchor sticker-box sticker-color4"></div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/9.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color3"></div>
+                    <div data-page="about" data-anchor-start="OVIK" class="anchor sticker-box sticker-color3"></div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/10.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color5"></div>
+                    <div data-page="about" data-anchor-start="INT" class="anchor sticker-box sticker-color5"></div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/11.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color2"></div>
+                    <div data-page="about" data-anchor-start="MAK" class="anchor sticker-box sticker-color2"></div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/12.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color5"></div>
+                    <div data-page="about" data-anchor-start="3d" class="anchor sticker-box sticker-color5"></div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/13.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color1"></div>
+                    <div data-page="about" data-anchor-start="3d" class="anchor sticker-box sticker-color1"></div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/14.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color3"></div>
+                    <div data-page="about" data-anchor-start="3d" class="anchor sticker-box sticker-color3"></div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/15.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color2"></div>
+                    <div data-page="about" data-anchor-start="3d" class="anchor sticker-box sticker-color2"></div>
                 </div>
             </div>
         </div>
@@ -159,29 +164,25 @@ $APPLICATION->SetTitle("Главная страница");
         <!--PARTNERS-->
         <div class="clearfix owl-carousel partners">
             <div class="item">
-                <img src="http://placehold.it/300x150" alt=""/></div>
+                <img src="http://placehold.it/150" alt=""/></div>
             <div class="item">
-                <img src="http://placehold.it/300x150" alt=""/></div>
+                <img src="http://placehold.it/150" alt=""/></div>
             <div class="item">
-                <img src="http://placehold.it/300x150" alt=""/></div>
+                <img src="http://placehold.it/150" alt=""/></div>
             <div class="item">
-                <img src="http://placehold.it/300x150" alt=""/></div>
+                <img src="http://placehold.it/150" alt=""/></div>
             <div class="item">
-                <img src="http://placehold.it/300x150" alt=""/></div>
+                <img src="http://placehold.it/150" alt=""/></div>
             <div class="item">
-                <img src="http://placehold.it/300x150" alt=""/></div>
+                <img src="http://placehold.it/150" alt=""/></div>
             <div class="item">
-                <img src="http://placehold.it/300x150" alt=""/></div>
+                <img src="http://placehold.it/150" alt=""/></div>
             <div class="item">
-                <img src="http://placehold.it/300x150" alt=""/></div>
+                <img src="http://placehold.it/150" alt=""/></div>
         </div>
+        <!--MAP-->
         <div class="clearfix map">
-            <div id="map">
-                <script type="text/javascript"
-                        charset="utf-8"
-                        src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=2tsE6AH7M4bd1oRgtS2xUrHRiuUn17OE&width=100%&height=450">
-                </script>
-            </div>
+            <div id="map-canvas"></div>
             <div class="social">
                 <div class="social-box">
                     <div class="social-img pull-right">
@@ -189,13 +190,13 @@ $APPLICATION->SetTitle("Главная страница");
                              alt=""
                              class="image-responsive">
                     </div>
-                    <div class="social-contact">WWW.INSTAGRAMM.COM</div>
+                    <div class="social-contact"><a href="projeKt_studio_">WWW.INSTAGRAMM.COM</a></div>
                 </div>
                 <div class="social-box">
                     <div class="social-img pull-right">
                         <img src="/bitrix/templates/web20/images/social/soc4.png" alt="" class="image-responsive">
                     </div>
-                    <div class="social-contact">WWW.INSTAGRAMM.COM</div>
+                    <div class="social-contact">projekt.studio2</div>
                 </div>
                 <div class="social-box">
                     <div class="social-img pull-right">
@@ -219,12 +220,13 @@ $APPLICATION->SetTitle("Главная страница");
                     <div class="social-img pull-right">
                         <img src="/bitrix/templates/web20/images/social/soc6.png" alt="" class="image-responsive">
                     </div>
-                    <div class="social-contact">WWW.INSTAGRAMM.COM</div>
+                    <div class="social-contact">info@projektstudio.ru</div>
                 </div>
             </div>
         </div>
+        <!--PENCIL-->
         <div class="clearfix">
-            <img src="/bitrix/templates/web20/images/pencil.png" alt="" class="pencil col-center">
+            <img src="/bitrix/templates/web20/images/pencil.png" alt="" class="pencil">
         </div>
     </div>
 </div>
@@ -232,92 +234,108 @@ $APPLICATION->SetTitle("Главная страница");
     <div class="container page">
         <div class="clearfix articles-links-block">
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
-                <div class="sticker sticker-top">
+                <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/1.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="AC" class="anchor sticker-box sticker-color4"></div>
+                    <div data-page="about" data-anchor-start="AC" class="anchor sticker-hover-box sticker-color4">
+                        <div class="sticker-desc">
+                            <h3>FG</h3>
+                            <p>Discription</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
-                <div class="sticker sticker-top">
+                <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/2.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color1"></div>
+                    <div data-page="about" data-anchor-start="AP" class="anchor sticker-hover-box sticker-color1">
+                        <div class="sticker-desc">
+                            <h3>FG</h3>
+                            <p>Discription</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
-                <div class="sticker sticker-top">
+                <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/3.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color2"></div>
+                    <div data-page="about" data-anchor-start="KP" class="anchor sticker-hover-box sticker-color2">
+                        <div class="sticker-desc">
+                            <h3>FG</h3>
+                            <p>Discription</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
-                <div class="sticker sticker-top">
+                <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/4.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color5"></div>
+                    <div data-page="about" data-anchor-start="KMD" class="anchor sticker-hover-box sticker-color5"></div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
-                <div class="sticker sticker-top">
-                    <img src="/bitrix/templates/web20/images/section/5.jpg" alt="" class="image-responsive"><div class="sticker-box sticker-color2"></div>
+                <div class="sticker-hover">
+                    <img src="/bitrix/templates/web20/images/section/5.jpg" alt="" class="image-responsive">
+                    <div data-page="about" data-anchor-start="PZU" class="anchor sticker-hover-box sticker-color2"></div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
-                <div class="sticker sticker-top">
+                <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/6.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color3"></div>
+                    <div data-page="about" data-anchor-start="ROI" class="anchor sticker-hover-box sticker-color3"></div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
-                <div class="sticker sticker-top">
+                <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/7.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color1"></div>
+                    <div data-page="about" data-anchor-start="MAF" class="anchor sticker-hover-box sticker-color1"></div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
-                <div class="sticker sticker-top">
+                <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/8.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color4"></div>
+                    <div data-page="about" data-anchor-start="EO" class="anchor sticker-hover-box sticker-color4"></div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
-                <div class="sticker sticker-top">
+                <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/9.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color3"></div>
+                    <div data-page="about" data-anchor-start="OVIK" class="anchor sticker-hover-box sticker-color3"></div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
-                <div class="sticker sticker-top">
+                <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/10.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color5"></div>
+                    <div class="anchor sticker-hover-box sticker-color5"></div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
-                <div class="sticker sticker-top">
+                <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/11.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color2"></div>
+                    <div data-page="about" data-anchor-start="INT" class="anchor sticker-hover-box sticker-color2"></div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
-                <div class="sticker sticker-top">
+                <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/12.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color5"></div>
+                    <div data-page="about" data-anchor-start="MAK" class="anchor sticker-hover-box sticker-color5"></div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
-                <div class="sticker sticker-top">
+                <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/13.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color1"></div>
+                    <div data-page="about" data-anchor-start="3d" class="anchor sticker-hover-box sticker-color1"></div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
-                <div class="sticker sticker-top">
+                <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/14.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color3"></div>
+                    <div data-page="about" data-anchor-start="3d" class="anchor sticker-hover-box sticker-color3"></div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
-                <div class="sticker sticker-top">
+                <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/15.jpg" alt="" class="image-responsive">
-                    <div class="sticker-box sticker-color2"></div>
+                    <div data-page="about" data-anchor-start="3d" class="anchor sticker-hover-box sticker-color2"></div>
                 </div>
             </div>
         </div>
@@ -346,7 +364,7 @@ $APPLICATION->SetTitle("Главная страница");
             <p>После разрабатываются поэтажные планы к экспликацией помещений, с указанием на них оконных и дверных проемов, а так же фасады с цветоподборкой, разрезы поперечные, узлы и план кровли, спецификации окон и дверей.</p>
             <p>Для прохождения инстанций для получения разрешения на строительные работы необходим грамотно выполненный Архитектурный раздел.</p>
         </div>
-        <div class="division-info clearfix">
+        <div class="division-info clearfix" data-anchor-end="KP">
             <h2 class="page-header">КР (конструктивные решения)</h2>
             <p>КР (конструктивные решения) раздел в составе проектного документа, обоснованный расчетами, строительными нормами и государственными стандартами проектного решения раздела АР.</p>
             <p>Основой данного раздела является определение объема строительных работ, подбор оптимальных строительных конструкций под определённые виды работ, с целью безопасности эксплуатации здания или сооружения.</p>
@@ -354,25 +372,25 @@ $APPLICATION->SetTitle("Главная страница");
             <p>Данный раздел является неотъемлемой частью проектной документации АС, которая является основополагающей для будущего здания, с учетом функциональности, экономичности и технических характеристик.</p>
             <p>Конструктивный раздел выдается одним из решений, в зависимости от материала здания или сооружения: КЖ (конструкции железобетонные), КМ (конструкции металлические) и КД (конструкции деревянные).</p>
         </div>
-        <div class="division-info clearfix">
+        <div class="division-info clearfix" data-anchor-end="KMD">
             <h2 class="page-header">КМД (конструкции металлические деталировочные)</h2>
             <p>Данный раздел необходим для изготовление и монтажно-строительных работ по металлоконструкциям. Данный этап проектирования первоначально необходим заводам-изготовителям для изготовления конструкций с учетом экономичности материалов, сборки и сварки, с учетом требуемым технических характеристик конструкции.</p>
             <p>Данный раздел напрямую зависит от завода-изготовителя, в зависимости от видов, типов и технических характеристик элементов конструкций для строения.</p>
         </div>
-        <div class="division-info clearfix">
+        <div class="division-info clearfix" data-anchor-end="PZU">
             <h2 class="page-header">ПЗУ (Схема планировочной организации земельного участка) или Генплан</h2>
             <p>Данный раздел отвечает за планирование (зонирование) территории согласно границам участка, основанные на санитарно-защитной зоне, планировочной организации, технико-экономическим показателям, подземным и наземным инженерным сетям, благоустройстве, транспортным сетям и коммуникациям, геологическим и геодезическим данным, с учетом градостроительных и технических регламентов.</p>
         </div>
-        <div class="division-info clearfix">
+        <div class="division-info clearfix" data-anchor-end="ROI">
             <h2 class="page-header">Раздел основания и фундаменты.</h2>
             <p>Данный раздел входит в состав проектной документации АС, основывается на расчетах и нагрузках воспринимаемых от наземной части здания входящий в состав раздела КР, с учетом геологических и геодезических данных участка. Выбор основания напрямую зависит от функциональности, экономичности и технических характеристик фундамента. Для предоставления проектного решения по фундаменту, необходимо проведения инженерно-геологических, лабораторных и геодезических работ застраиваемого участка.</p>
         </div>
-        <div class="division-info clearfix">
+        <div class="division-info clearfix" data-anchor-end="MAF">
             <h2 class="page-header">Проектирование МАФ (малые архитектурные формы)</h2>
             <p>Проектирование МАФ состоит из графической и текстовой части элементов конструкции. К МАФ относятся конструкции, элементы по благоустройству и оборудованию ландшафтной и дорожной средах.При разработке индивидуального дизайна малой архитектурной формы, выполняются полные комплекты чертежей со спецификацией элементов узлов, фрагментов и их соединений. К МАФ относятся, такиеэлементы как: фонарные столбы, дорожные знаки, фонтаны, игровые зоны, детские площадки, статуи и скульптуры, скамьи, арки, декоративные элементы парка.</p>
             <p>Целью разработки МАФ является функциональность и стилистические характеристики конструкции вписывающийся в окружающую среду города, парка, транспортной связи и т.п.</p>
         </div>
-        <div class="division-info clearfix">
+        <div class="division-info clearfix" data-anchor-end="EO">
             <h2 class="page-header">Раздел Электроосвещение (ЭО) и Электрооборудование (ЭМ)</h2>
             <p>Данный раздел включает в себя несколько этапов проектирование электрики, а именно:</p>
             <ul>
@@ -383,21 +401,21 @@ $APPLICATION->SetTitle("Главная страница");
                 <li>расчет токов короткого замыкания.</li>
             </ul>
         </div>
-        <div class="division-info clearfix">
+        <div class="division-info clearfix" data-anchor-end="OVIK">
             <h2 class="page-header">Раздел ОВиК</h2>
             <p>Данный ОВиК включает в себя 3 подраздела: отопление, вентиляция и кондиционирование. Данные раздела отвечают за расчет благоприятного условия комфорта в помещениях зданий и сооружений. Данный раздел выполняется как для гражданских, так и для производственных зданий. В данный раздел входят расчеты, планы, схемы узлов, спецификация элементов и тех.надзор).</p>
         </div>
-        <div class="division-info clearfix">
+        <div class="division-info clearfix" data-anchor-end="INT">
             <h2 class="page-header">Проект «Интерьер»</h2>
             <p>Проект интерьера включает в себя комплект проектной документации, который включает в себя планировку помещения с расстановкой мебели и их элементов, графическую часть (3D) помещений, подбор материалов интерьера, авторский надзор строительных и ремонтных работ, ведомость по подборке отделочных материалов помещения.</p>
             <p>Выполнение данного этапа проектирования позволяет обеспечить точные сроки выполнения отдельных иремонтных работ, с участием авторов проекта легко контролировать процесс воплощения идеи в реальность, провести анализ затрат на интерьер, определиться с поставщиком мебели и отделки помещения, а в некоторых случаях получить и скидку от поставщика за счет обращения через проектное бюро.</p>
         </div>
-        <div class="division-info clearfix">
+        <div class="division-info clearfix" data-anchor-end="MAK">
             <h2 class="page-header">Макетирование</h2>
             <p>Макетирование это один из этапов проектирования здания, сооружения, интерьера или элемента конструкции. Моделирование объекта делится на несколько типов и видов, начиная от использование материалов макетирования и заканчивая детализацией и проработкой элементов макета. Взависимости от назначения объекта (демонстрационный, рабочий, научный или технологический) и цели макетирования выбирается и масштаб будущей модели.</p>
             <p>Макетирование строения позволяет упростить поиск объемно-пространственной идеи, как для исполнителя, так и для Заказчика.</p>
         </div>
-        <div class="division-info clearfix">
+        <div class="division-info clearfix" data-anchor-end="3d">
             <h2 class="page-header">3D моделирование</h2>
             <p>Создание трехмерной графики необходимо для создания объемной модели по средствам современных компьютерных 3D-программ</p>
             <p>3D моделирование в архитектуре позволяет создавать трехмерные сцены экстерьера и интерьера до начала строительства. Данная возможность расширяет свободу идеи по созданию объема, увеличивает возможности продумать все от крупномасштабных до мельчайших деталей и при необходимости заменять/подбирать/реставрировать/реконструировать необходимые элементы интерьера, здания или сооружения.</p>

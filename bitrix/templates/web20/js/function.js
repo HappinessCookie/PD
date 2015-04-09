@@ -75,6 +75,7 @@ $(window).load(function () {
             type: "POST",
             url: "/bitrix/templates/web20/ajax/project-get.php",
             dataType: "json",
+            async: false,
             data: {array: $(this).data("id")},
             beforeSend: function () {
                 $("#project_load").slideUp(500);
@@ -84,18 +85,6 @@ $(window).load(function () {
             },
             success: function (data) {
                 console.log(data);
-                $("#project_name").text(data["name"]);
-                $("#price").text(data["price"]);
-                $("#house_area").text(data["house_area"]);
-                $("#dimensions").text(data["dimensions"]);
-                $("#overlap").text(data["overlap"]);
-                $("#floor_count").text(data["floor_count"]);
-                $("#basement").text(data["basement"]);
-                $("#foundation").text(data["foundation"]);
-                $("#wall_material").text(data["wall_material"]);
-                $("#roofing").text(data["roofing"]);
-                $("#garage").text(data["garage"]);
-                $("#project_img").html('<img class="image-responsive col-centered" src="' + data["image"] + '" alt="">');
                 var images = "";
                 for (var i = 0; i < data["layout"].length; i++) {
                     images += '<div class="col-lg-2 project-img"><a href="' + data["layout"][i] + '"><img class="image-responsive col-centered" src="' + data["layout"][i] + '" alt="" class="image-responsive"></a></div>';
@@ -103,12 +92,28 @@ $(window).load(function () {
                 for (var i = 0; i < data["scheme"].length; i++) {
                     images += '<div class="col-lg-2 project-img"><a href="' + data["scheme"][i] + '"><img class="image-responsive col-centered" src="' + data["scheme"][i] + '" alt="" class="image-responsive"></a></div>';
                 }
-                $("#images").html(images);
+                setTimeout(function () {
+                    $("#project_name").text(data["name"]);
+                    $("#price").text(data["price"]);
+                    $("#house_area").text(data["house_area"]);
+                    $("#dimensions").text(data["dimensions"]);
+                    $("#overlap").text(data["overlap"]);
+                    $("#floor_count").text(data["floor_count"]);
+                    $("#basement").text(data["basement"]);
+                    $("#foundation").text(data["foundation"]);
+                    $("#wall_material").text(data["wall_material"]);
+                    $("#roofing").text(data["roofing"]);
+                    $("#garage").text(data["garage"]);
+                    $("#project_img").html('<img class="image-responsive col-centered" src="' + data["image"] + '" alt="">');
+                    $("#images").html(images);
+                    setTimeout(function () {
+                        $("#project_load").slideDown(500, function () {
+                            $('#index').sliderPro('update');
+                        });
+                    }, 200);
+                }, 800);
             },
             complete: function () {
-                $("#project_load").slideDown(500, function () {
-                    $('#index').sliderPro('update');
-                });
             },
             error: function (request, status, error) {
                 console.log(error);

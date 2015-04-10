@@ -25,7 +25,6 @@
 }
 .sticker-top:hover .sticker-box{
     top: 0;
-
 }
 
 .sticker-hover {
@@ -46,6 +45,5 @@
     cursor: pointer;
 }
 .sticker-hover-box:hover {
-    opacity: .8;
-
+    opacity: .9;
 }

@@ -340,8 +340,10 @@ $APPLICATION->SetTitle("Главная страница");
                     <img src="/bitrix/templates/web20/images/section/1.jpg" alt="" class="image-responsive">
                     <div data-page="about" data-anchor-start="AC" class="anchor sticker-hover-box sticker-color4">
                         <div class="sticker-desc">
-                            <h3>FG</h3>
-                            <p>description</p>
+                            <div class="sticker-descript">
+                                <h3>АС</h3>
+                                <p>(архитектурно-строительный)</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -351,8 +353,10 @@ $APPLICATION->SetTitle("Главная страница");
                     <img src="/bitrix/templates/web20/images/section/2.jpg" alt="" class="image-responsive">
                     <div data-page="about" data-anchor-start="AP" class="anchor sticker-hover-box sticker-color1">
                         <div class="sticker-desc">
-                            <h3>FG</h3>
-                            <p>description</p>
+                            <div class="sticker-descript">
+                                <h3>АР</h3>
+                                <p>(архитектура)</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -362,8 +366,10 @@ $APPLICATION->SetTitle("Главная страница");
                     <img src="/bitrix/templates/web20/images/section/3.jpg" alt="" class="image-responsive">
                     <div data-page="about" data-anchor-start="KP" class="anchor sticker-hover-box sticker-color2">
                         <div class="sticker-desc">
-                            <h3>FG</h3>
-                            <p>description</p>
+                            <div class="sticker-descript">
+                                <h3>3D</h3>
+                                <p>(3D моделирование)</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -371,73 +377,157 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/4.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="KMD" class="anchor sticker-hover-box sticker-color5"></div>
+                    <div data-page="about" data-anchor-start="KMD" class="anchor sticker-hover-box sticker-color5">
+                        <div class="sticker-desc">
+                            <div class="sticker-descript">
+                                <h3>КП</h3>
+                                <p>(консультация по проектированию)</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/5.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="PZU" class="anchor sticker-hover-box sticker-color2"></div>
+                    <div data-page="about" data-anchor-start="PZU" class="anchor sticker-hover-box sticker-color2">
+                        <div class="sticker-desc">
+                            <div class="sticker-descript">
+                                <h3>ПЗУ</h3>
+                                <p>(схема планировочной организации земельного участка)</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/6.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="ROI" class="anchor sticker-hover-box sticker-color3"></div>
+                    <div data-page="about" data-anchor-start="ROI" class="anchor sticker-hover-box sticker-color3">
+                        <div class="sticker-desc">
+                            <div class="sticker-descript">
+                                <h3>ГП</h3>
+                                <p>(генеральное планирование)</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/7.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="MAF" class="anchor sticker-hover-box sticker-color1"></div>
+                    <div data-page="about" data-anchor-start="MAF" class="anchor sticker-hover-box sticker-color1">
+                        <div class="sticker-desc">
+                            <div class="sticker-descript">
+                                <h3></h3>
+                                <p>Интерьер</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/8.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="EO" class="anchor sticker-hover-box sticker-color4"></div>
+                    <div data-page="about" data-anchor-start="EO" class="anchor sticker-hover-box sticker-color4">
+                        <div class="sticker-desc">
+                            <div class="sticker-descript">
+                                <h3>КЖ</h3>
+                                <p>(конструкции железобетонные)</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/9.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="OVIK" class="anchor sticker-hover-box sticker-color3"></div>
+                    <div data-page="about" data-anchor-start="OVIK" class="anchor sticker-hover-box sticker-color3">
+                        <div class="sticker-desc">
+                            <div class="sticker-descript">
+                                <h3>КМ</h3>
+                                <p>(конструкции металлические)</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/10.jpg" alt="" class="image-responsive">
-                    <div class="anchor sticker-hover-box sticker-color5"></div>
+                    <div data-page="about" data-anchor-start="INT" class="anchor sticker-hover-box sticker-color5">
+                        <div class="sticker-desc">
+                            <div class="sticker-descript">
+                                <h3>ЭО</h3>
+                                <p>(электро-оборудование)</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/11.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="INT" class="anchor sticker-hover-box sticker-color2"></div>
+                    <div data-page="about" data-anchor-start="INT" class="anchor sticker-hover-box sticker-color2">
+                        <div class="sticker-desc">
+                            <div class="sticker-descript">
+                                <h3>ОВ</h3>
+                                <p>(отопление и вентиляция)</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/12.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="MAK" class="anchor sticker-hover-box sticker-color5"></div>
+                    <div data-page="about" data-anchor-start="MAK" class="anchor sticker-hover-box sticker-color5">
+                        <div class="sticker-desc">
+                            <div class="sticker-descript">
+                                <h3>КМД</h3>
+                                <p>(конструкции металлические деталировочные)</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/13.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="3d" class="anchor sticker-hover-box sticker-color1"></div>
+                    <div data-page="about" data-anchor-start="3d" class="anchor sticker-hover-box sticker-color1">
+                        <div class="sticker-desc">
+                            <div class="sticker-descript">
+                                <h3>КМ</h3>
+                                <p>(фундаменты)</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/14.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="3d" class="anchor sticker-hover-box sticker-color3"></div>
+                    <div data-page="about" data-anchor-start="3d" class="anchor sticker-hover-box sticker-color3">
+                        <div class="sticker-desc">
+                            <div class="sticker-descript">
+                                <h3>МАФ</h3>
+                                <p>(проектирование малых архитектурных форм)</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/15.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="3d" class="anchor sticker-hover-box sticker-color2"></div>
+                    <div data-page="about" data-anchor-start="3d" class="anchor sticker-hover-box sticker-color2">
+                        <div class="sticker-desc">
+                            <div class="sticker-descript">
+                                <h3></h3>
+                                <p>(Макетирование)</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

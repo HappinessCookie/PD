@@ -485,7 +485,7 @@ $APPLICATION->SetTitle("Главная страница");
                     "CACHE_TIME" => "36000000",
                     "CACHE_FILTER" => "N",
                     "CACHE_GROUPS" => "Y",
-                    "PAGER_TEMPLATE" => "",
+                    "PAGER_TEMPLATE" => "project-list-pager",
                     "DISPLAY_TOP_PAGER" => "N",
                     "DISPLAY_BOTTOM_PAGER" => "Y",
                     "PAGER_TITLE" => "",

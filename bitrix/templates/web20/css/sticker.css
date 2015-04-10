@@ -10,6 +10,7 @@
     -webkit-perspective: 100px;
     -ms-perspective: 100px;
     -o-perspective: 100px;
+    cursor: pointer;
 }
 .sticker-top .sticker-box {
     width: 100%;
@@ -24,7 +25,7 @@
 }
 .sticker-top:hover .sticker-box{
     top: 0;
-    cursor: pointer;
+
 }
 
 .sticker-hover {
@@ -42,8 +43,9 @@
     -ms-transition: 700ms;
     -o-transition: 700ms;
     transition: 700ms;
+    cursor: pointer;
 }
 .sticker-hover-box:hover {
     opacity: .8;
-    cursor: pointer;
+
 }

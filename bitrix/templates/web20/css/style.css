@@ -263,6 +263,7 @@ body {
 }
 .project-preview {
     padding: 0 5px;
+    cursor: pointer;
 }
 .articles-links-block {
     margin-left: -5px;
@@ -279,4 +280,25 @@ body {
 }
 .disabled a {
     pointer-events: none;
+}
+.sticker-desc {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.sticker-descript {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+.sticker-descript h3 {
+    font-weight: 600;
+    font-size: 39px;
+    letter-spacing: 1.9px;
+}
+.sticker-descript p {
+    font-size: 17px;
+    font-weight: normal;
+    letter-spacing: 1.8px;
+    padding: 0 8px;
 }

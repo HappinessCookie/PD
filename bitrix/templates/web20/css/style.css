@@ -271,6 +271,12 @@ body {
 .articles-links {
     padding: 5px;
 }
+#finish .page {
+    margin-top: 85px;
+}
 #map-canvas {
     height: 420px;
+}
+.disabled a {
+    pointer-events: none;
 }

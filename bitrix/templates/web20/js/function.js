@@ -9,15 +9,15 @@ $(document).ready(function () {
         touchDrag: false,
         responsive: {
             0: {
-                items: 1,
-                nav: false
-            },
-            600: {
                 items: 3,
                 nav: false
             },
-            1000: {
+            600: {
                 items: 5,
+                nav: false
+            },
+            1000: {
+                items: 8,
                 nav: false
             }
         }
@@ -29,6 +29,10 @@ $(document).ready(function () {
         buttons: false,
         loop: false,
         forceSize: "fullWindow"
+    });
+    $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
     });
     /*$('#partners-slider').sliderPro();*/
 });
@@ -85,13 +89,14 @@ $(window).load(function () {
             },
             success: function (data) {
                 console.log(data);
-                var images = "";
+                var images = "<div class='row'>";
                 for (var i = 0; i < data["layout"].length; i++) {
-                    images += '<div class="col-lg-2 project-img"><a href="' + data["layout"][i] + '"><img class="image-responsive col-centered" src="' + data["layout"][i] + '" alt="" class="image-responsive"></a></div>';
+                    images += '<a class="col-lg-2 project-img" data-gallery="multiimages" data-toggle="lightbox" href="' + data["layout"][i] + '"><img class="image-responsive col-centered" src="' + data["layout"][i] + '" alt="" class="image-responsive"></a>';
                 }
                 for (var i = 0; i < data["scheme"].length; i++) {
-                    images += '<div class="col-lg-2 project-img"><a href="' + data["scheme"][i] + '"><img class="image-responsive col-centered" src="' + data["scheme"][i] + '" alt="" class="image-responsive"></a></div>';
+                    images += '<a class="col-lg-2 project-img" data-gallery="multiimages" data-toggle="lightbox" href="' + data["scheme"][i] + '"><img class="image-responsive col-centered" src="' + data["scheme"][i] + '" alt="" class="image-responsive"></a>';
                 }
+                images += "</div>";
                 setTimeout(function () {
                     $("#project_name").text(data["name"]);
                     $("#price").text(data["price"]);

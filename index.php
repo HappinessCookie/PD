@@ -43,7 +43,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/3.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="3d" class="anchor sticker-box sticker-color2">
+                    <div data-page="about" data-anchor-start="3D" class="anchor sticker-box sticker-color2">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>3D</h3>
@@ -56,7 +56,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/4.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="KMD" class="anchor sticker-box sticker-color5">
+                    <div data-page="about" data-anchor-start="KP" class="anchor sticker-box sticker-color5">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>КП</h3>
@@ -82,7 +82,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/6.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="ROI" class="anchor sticker-box sticker-color3">
+                    <div data-page="about" data-anchor-start="GP" class="anchor sticker-box sticker-color3">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>ГП</h3>
@@ -95,7 +95,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/7.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="MAF" class="anchor sticker-box sticker-color1">
+                    <div data-page="about" data-anchor-start="INT" class="anchor sticker-box sticker-color1">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3></h3>
@@ -108,7 +108,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/8.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="EO" class="anchor sticker-box sticker-color4">
+                    <div data-page="about" data-anchor-start="KJ" class="anchor sticker-box sticker-color4">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>КЖ</h3>
@@ -121,7 +121,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/9.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="OVIK" class="anchor sticker-box sticker-color3">
+                    <div data-page="about" data-anchor-start="KM" class="anchor sticker-box sticker-color3">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>КМ</h3>
@@ -147,7 +147,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/11.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="OVIK" class="anchor sticker-box sticker-color2">
+                    <div data-page="about" data-anchor-start="OV" class="anchor sticker-box sticker-color2">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>ОВ</h3>
@@ -160,7 +160,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/12.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="3d" class="anchor sticker-box sticker-color5">
+                    <div data-page="about" data-anchor-start="KMD" class="anchor sticker-box sticker-color5">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>КМД</h3>
@@ -173,7 +173,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/13.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="3d" class="anchor sticker-box sticker-color1">
+                    <div data-page="about" data-anchor-start="KM" class="anchor sticker-box sticker-color1">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>КМ</h3>
@@ -186,7 +186,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/14.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="3d" class="anchor sticker-box sticker-color3">
+                    <div data-page="about" data-anchor-start="MAF" class="anchor sticker-box sticker-color3">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>МАФ</h3>
@@ -199,7 +199,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/15.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="3d" class="anchor sticker-box sticker-color2">
+                    <div data-page="about" data-anchor-start="MAK" class="anchor sticker-box sticker-color2">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3></h3>
@@ -431,7 +431,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/3.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="KP" class="anchor sticker-hover-box sticker-color2">
+                    <div data-page="about" data-anchor-start="3D" class="anchor sticker-hover-box sticker-color2">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>3D</h3>
@@ -444,7 +444,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/4.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="KMD" class="anchor sticker-hover-box sticker-color5">
+                    <div data-page="about" data-anchor-start="KP" class="anchor sticker-hover-box sticker-color5">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>КП</h3>
@@ -470,7 +470,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/6.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="ROI" class="anchor sticker-hover-box sticker-color3">
+                    <div data-page="about" data-anchor-start="GP" class="anchor sticker-hover-box sticker-color3">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>ГП</h3>
@@ -483,7 +483,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/7.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="MAF" class="anchor sticker-hover-box sticker-color1">
+                    <div data-page="about" data-anchor-start="INT" class="anchor sticker-hover-box sticker-color1">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3></h3>
@@ -496,7 +496,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/8.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="EO" class="anchor sticker-hover-box sticker-color4">
+                    <div data-page="about" data-anchor-start="KJ" class="anchor sticker-hover-box sticker-color4">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>КЖ</h3>
@@ -509,7 +509,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/9.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="OVIK" class="anchor sticker-hover-box sticker-color3">
+                    <div data-page="about" data-anchor-start="KM" class="anchor sticker-hover-box sticker-color3">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>КМ</h3>
@@ -522,7 +522,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/10.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="INT" class="anchor sticker-hover-box sticker-color5">
+                    <div data-page="about" data-anchor-start="EO" class="anchor sticker-hover-box sticker-color5">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>ЭО</h3>
@@ -535,7 +535,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/11.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="INT" class="anchor sticker-hover-box sticker-color2">
+                    <div data-page="about" data-anchor-start="OV" class="anchor sticker-hover-box sticker-color2">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>ОВ</h3>
@@ -548,7 +548,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/12.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="MAK" class="anchor sticker-hover-box sticker-color5">
+                    <div data-page="about" data-anchor-start="KMD" class="anchor sticker-hover-box sticker-color5">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>КМД</h3>
@@ -561,7 +561,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/13.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="3d" class="anchor sticker-hover-box sticker-color1">
+                    <div data-page="about" data-anchor-start="KM" class="anchor sticker-hover-box sticker-color1">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>КМ</h3>
@@ -574,7 +574,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/14.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="3d" class="anchor sticker-hover-box sticker-color3">
+                    <div data-page="about" data-anchor-start="MAF" class="anchor sticker-hover-box sticker-color3">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>МАФ</h3>
@@ -587,7 +587,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/15.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="3d" class="anchor sticker-hover-box sticker-color2">
+                    <div data-page="about" data-anchor-start="MAK" class="anchor sticker-hover-box sticker-color2">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3></h3>
@@ -674,7 +674,7 @@ $APPLICATION->SetTitle("Главная страница");
             <p>Макетирование это один из этапов проектирования здания, сооружения, интерьера или элемента конструкции. Моделирование объекта делится на несколько типов и видов, начиная от использование материалов макетирования и заканчивая детализацией и проработкой элементов макета. Взависимости от назначения объекта (демонстрационный, рабочий, научный или технологический) и цели макетирования выбирается и масштаб будущей модели.</p>
             <p>Макетирование строения позволяет упростить поиск объемно-пространственной идеи, как для исполнителя, так и для Заказчика.</p>
         </div>
-        <div class="division-info clearfix" data-anchor-end="3d">
+        <div class="division-info clearfix" data-anchor-end="3D">
             <h2 class="page-header">3D моделирование</h2>
             <p>Создание трехмерной графики необходимо для создания объемной модели по средствам современных компьютерных 3D-программ</p>
             <p>3D моделирование в архитектуре позволяет создавать трехмерные сцены экстерьера и интерьера до начала строительства. Данная возможность расширяет свободу идеи по созданию объема, увеличивает возможности продумать все от крупномасштабных до мельчайших деталей и при необходимости заменять/подбирать/реставрировать/реконструировать необходимые элементы интерьера, здания или сооружения.</p>

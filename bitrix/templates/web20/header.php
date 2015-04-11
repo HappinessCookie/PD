@@ -28,12 +28,31 @@
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
     <script>
         var map;
+        var MY_MAPTYPE_ID = 'custom_style';
         function initialize() {
+            var featureOpts = [
+                { "stylers":
+                    [
+                        { "saturation": -100 },
+                        { "lightness": 6 },
+                        { "gamma": 0.09 },
+                        { "weight": 0.5 }
+                    ]
+                } ];
             var mapOptions = {
                 zoom: 17,
-                center: new google.maps.LatLng(54.7244886, 56.0087084)
+                center: new google.maps.LatLng(54.7244886, 56.0087084),
+                mapTypeControlOptions: {
+                    mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
+                },
+                mapTypeId: MY_MAPTYPE_ID
             };
             map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+            var styledMapOptions = {
+                name: 'Custom Style'
+            };
+            var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
+            map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
         }
         google.maps.event.addDomListener(window, 'load', initialize);
     </script>

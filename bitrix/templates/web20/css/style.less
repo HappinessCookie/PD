@@ -1,0 +1,324 @@
+.palette-col1 {
+    background-color: #76e1f8;
+}
+.palette-col2 {
+    background-color: #95d86a;
+}
+.palette-col3 {
+    background-color: #fee7a3;
+}
+.palette-col4 {
+    background-color: #f2e8e7;
+}
+.palette-col5 {
+    background-color: #fe4e8d;
+}
+.palette-col6 {
+    background-color: #2f3226;
+}
+.page {
+    margin-top: 80px;
+}
+.image-responsive {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.navbar {
+    border: none !important;
+    margin-bottom: 0;
+}
+.data-info {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.125em;
+}
+.side-pad {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.logo {
+    position: relative;
+    margin: 0 auto;
+}
+.cards {
+    overflow: visible;
+    position: relative;
+    &:hover {
+        .card-block {
+            visibility: visible;
+            opacity: 1;
+            position: absolute;
+        }
+    }
+}
+.cards
+.card-block {
+    top: 10%;
+    left: -10%;
+    position: absolute;
+    z-index: 100;
+    visibility: hidden;
+    transition: all .2s;
+    opacity: 0;
+}
+.col-center {
+    float: none !important;
+    margin: 0 auto;
+    display: block;
+}
+html {
+    -webkit-transition: -webkit-filter 1.5s ease;
+    -moz-transition: -moz-filter 1.5s ease;
+    -ms-transition: -ms-filter 1.5s ease;
+    -o-transition: -o-filter 1.5s ease;
+}
+body {
+    background-color: #ffffff;
+    -webkit-transition: background-color 1.5s ease;
+    -moz-transition: background-color 1.5s ease;
+    -ms-transition: background-color 1.5s ease;
+    -o-transition: background-color 1.5s ease;
+    transition: background-color 1.5s ease;
+}
+.social-box {
+    margin-top: 0;
+    margin-right: 25px;
+}
+.social {
+    top: 35px;
+    right: 30px;
+    position: absolute;
+    .social-contact {
+        text-align: right;
+        a {
+            color: #ffffff;
+        }
+    }
+    .social-sprite {
+        @social-sprite-left: -40px;
+        margin: 9px;
+        height: 40px;
+        width: 40px;
+        background: url("../images/social-sprite.png") no-repeat;
+        &.sprite-1 {
+            background-position: @social-sprite-left*0 0;
+        }
+        &.sprite-2 {
+            background-position: @social-sprite-left*1 0;
+        }
+        &.sprite-3 {
+            background-position: @social-sprite-left*2 0;
+        }
+        &.sprite-4 {
+            background-position: @social-sprite-left*3 0;
+        }
+        &.sprite-5 {
+            background-position: @social-sprite-left*4 0;
+        }
+        &.sprite-6 {
+            background-position: @social-sprite-left*5 0;
+        }
+    }
+
+}
+.map {
+    position: relative;
+}
+.pencil {
+    margin: 70px auto;
+    display: block;
+    width: 80%;
+}
+.info-min {
+    font-size: 23px;
+    margin-left: 10px;
+}
+.cards {
+    overflow: visible;
+    position: relative;
+}
+.cards:nth-last-child(0) {
+    margin-bottom: 100px;
+}
+.cards img:hover .card-block {
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+}
+.card-block {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    visibility: hidden;
+    transition: all .2s;
+    opacity: 0;
+    border: 3px solid #000000;
+    background-color: #ffffff;
+}
+.info-max {
+    font-size: 18px;
+    margin-left: 8px;
+}
+.default-color {
+    width: 57px;
+    height: 88px;
+    float: left;
+}
+.division {
+    background-color: #080808;
+    &:hover {
+        opacity: 0.7;
+    }
+}
+.col-center {
+    float: none !important;
+    margin: 0 auto;
+    display: block;
+}
+.palette-link {
+    width: calc(100% / 7);
+    height: 34px;
+    display: block;
+    float: left;
+    cursor: pointer;
+    margin-top: 29px;
+    &:first-child {
+        border-radius: 15px 0 0 15px;
+    }
+    &:last-child {
+        border-radius: 0 15px 15px 0;
+    }
+}
+.my-pic {
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.palette {
+    background-color: #f2de00;
+    padding: 15px;
+}
+.palette-color-box {
+    margin-bottom: 10px;
+    height: 88px;
+    background-repeat: no-repeat;
+    img {
+        width: 57px !important;
+        height: 88px;
+        cursor: pointer;
+    }
+}
+.division-info p {
+    text-indent: 25px;
+}
+.sp-grab {
+    cursor: default !important;
+}
+.inline-block {
+    display: inline-block;
+    float: none !important;
+    vertical-align: top;
+    margin-left: -4px;
+}
+.chart {
+    background-image: url("/bitrix/templates/web20/images/metric-sprite.png");
+    height: 82px;
+    width: 82px;
+    line-height: 82px;
+    margin: auto;
+    font-weight: bold;
+    font-size: 18px;
+    + p {
+        margin: 10px 0;
+    }
+}
+.chart-1 {
+    background-position: 0 0;
+}
+.chart-2 {
+    background-position: -164px 0;
+}
+.chart-3 {
+    background-position: -246px 0;
+}
+.chart-4 {
+    background-position: 0 -82px;
+}
+.chart-5 {
+    background-position: -82px -82px;
+}
+.chart-6 {
+    background-position: -246px -164px;
+}
+.distract-text {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #d66343;
+}
+.partners {
+    padding: 10px;
+}
+.grayscale {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray; /* IE 6-9 */
+}
+.data-normal-text {
+    font-size: 16px;
+}
+.data-bold-text {
+    font-weight: bold;
+}
+#project_load {
+    margin-top: 15px;
+    display: none;
+    -webkit-transition: opacity 0.15s linear;
+    -o-transition: opacity 0.15s linear;
+    transition: opacity 0.15s linear;
+    &.hidden {
+        opacity: 0;
+    }
+    &.show {
+        opacity: 1;
+    }
+}
+#project_img {
+    img {
+        margin-top: 10px;
+        padding-right: 10px;
+    }
+}
+.project-img {
+    padding: 10px;
+}
+.project-preview {
+    padding: 0 5px;
+}
+.articles-links-block {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.articles-links {
+    padding: 5px;
+}
+#finish .page {
+    margin-top: 85px;
+}
+#map-canvas {
+    height: 420px;
+}
+.disabled a {
+    pointer-events: none;
+}
+.logo {
+    margin: 10px auto;
+    display: block;
+}

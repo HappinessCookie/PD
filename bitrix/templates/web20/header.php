@@ -16,6 +16,7 @@
     <link href="<?= SITE_TEMPLATE_PATH ?>/css/sticker.css" rel="stylesheet">
     <link href="<?= SITE_TEMPLATE_PATH ?>/css/grid15.css" rel="stylesheet">
     <link href="<?= SITE_TEMPLATE_PATH ?>/css/owl.carousel.css" rel="stylesheet">
+    <link href="<?= SITE_TEMPLATE_PATH ?>/css/ekko-lightbox.min.css" rel="stylesheet">
     <link href="<?= SITE_TEMPLATE_PATH ?>/css/lightbox.css" rel="stylesheet" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -27,14 +28,12 @@
     <script>
         var map;
         function initialize() {
-
             var mapOptions = {
                 zoom: 17,
                 center: new google.maps.LatLng(54.7244886, 56.0087084)
             };
             map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
         }
-
         google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 </head>
@@ -47,8 +46,8 @@
 <div class="header navbar navbar-inverse navbar-fixed-top">
     <div class="container side-pad">
         <div class="col-lg-4 col-md-4 hidden-sm hidden-xs" style="color: white;">8-800-555-55-55</div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6" style="height: 80px;">
-            <img src="">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+            <img class="logo" src="/bitrix/templates/web20/images/logo.png">
         </div>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
             <span class="sr-only">Меню</span>

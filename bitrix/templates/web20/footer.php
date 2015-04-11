@@ -30,6 +30,7 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
 <script src="<?= SITE_TEMPLATE_PATH ?>/js/jquery.sliderPro.min.js"></script>
 <script src="<?= SITE_TEMPLATE_PATH ?>/js/owl.carousel.js"></script>
 <script src="<?= SITE_TEMPLATE_PATH ?>/js/lightbox.js"></script>
+<script src="<?= SITE_TEMPLATE_PATH ?>/js/ekko-lightbox.min.js"></script>
 <script src="<?= SITE_TEMPLATE_PATH ?>/js/function.js"></script>
 </body>
 </html>

@@ -389,14 +389,16 @@
     "wells.less",
     "close.less",
     "component-animations.less",
+    "dropdowns.less",
     "modals.less",
     "carousel.less"
   ],
   "js": [
     "carousel.js",
+    "dropdown.js",
     "modal.js",
     "collapse.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=9f5135904ed720f78c10"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=8a9704b64c317c5ce1aa"
 }

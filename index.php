@@ -369,7 +369,7 @@ $APPLICATION->SetTitle("Главная страница");
                 </tr>
                 <tr>
                     <td class="social-contact">
-                        <a target="_blank" href="//vk.com/projektstudioufa">vk.com/projektstudioufa</a>
+                        <a target="_blank" href="//vk.com/projekt_studio">projekt_studio</a>
                     </td>
                     <td>
                         <div class="social-sprite sprite-4"></div>

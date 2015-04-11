@@ -1,7 +1,7 @@
 <?
 if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
 ?>
-<div class="header navbar navbar-inverse">
+<div class="header navbar navbar-default">
     <div class="container side-pad">
         <div class="col-lg-4 col-md-4 hidden-sm hidden-xs" style="color: white;">8-800-555-55-55</div>
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6" style="height: 80px;">

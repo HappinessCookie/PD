@@ -26,17 +26,6 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-    <script>
-        var map;
-        function initialize() {
-            var mapOptions = {
-                zoom: 17,
-                center: new google.maps.LatLng(54.7244886, 56.0087084)
-            };
-            map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
-        }
-        google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
 </head>
 <body>
 <? if ($USER->IsAdmin()): ?>
@@ -44,7 +33,7 @@
         <? /*$APPLICATION->ShowPanel();*/ ?>
     </div>
 <? endif ?>
-<div class="header navbar navbar-inverse navbar-fixed-top">
+<div class="header navbar navbar-default navbar-fixed-top">
     <div class="container side-pad">
         <div class="col-lg-4 col-md-4 hidden-sm hidden-xs" style="color: white;">8-800-555-55-55</div>
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">

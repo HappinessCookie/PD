@@ -164,65 +164,134 @@ $APPLICATION->SetTitle("Главная страница");
         <!--PARTNERS-->
         <div class="clearfix owl-carousel partners">
             <div class="item">
-                <img src="http://placehold.it/150" alt=""/></div>
+                <img class="img-responsive col-center"
+                     src="/bitrix/templates/web20/images/partners/fsks.png"
+                     alt=""/>
+            </div>
             <div class="item">
-                <img src="http://placehold.it/150" alt=""/></div>
+                <img class="img-responsive col-center"
+                     src="/bitrix/templates/web20/images/partners/GLASSY.jpg"
+                     alt=""/>
+            </div>
             <div class="item">
-                <img src="http://placehold.it/150" alt=""/></div>
+                <img class="img-responsive col-center"
+                     src="/bitrix/templates/web20/images/partners/Holstagram.jpg"
+                     alt=""/>
+            </div>
             <div class="item">
-                <img src="http://placehold.it/150" alt=""/></div>
+                <img class="img-responsive col-center"
+                     src="/bitrix/templates/web20/images/partners/NGvideograph.jpg"
+                     alt=""/>
+            </div>
             <div class="item">
-                <img src="http://placehold.it/150" alt=""/></div>
+                <img class="img-responsive col-center"
+                     src="/bitrix/templates/web20/images/partners/NORDWIND.png"
+                     alt=""/>
+            </div>
             <div class="item">
-                <img src="http://placehold.it/150" alt=""/></div>
+                <img class="img-responsive col-center"
+                     src="/bitrix/templates/web20/images/partners/ВАША ВИНТОВАЯ СВАЯ.jpg"
+                     alt=""/>
+            </div>
             <div class="item">
-                <img src="http://placehold.it/150" alt=""/></div>
+                <img class="img-responsive col-center"
+                     src="/bitrix/templates/web20/images/partners/ГРОМЕР.jpg"
+                     alt=""/>
+            </div>
             <div class="item">
-                <img src="http://placehold.it/150" alt=""/></div>
+                <img class="img-responsive col-center"
+                     src="/bitrix/templates/web20/images/partners/ДСК РУСЬ.jpg"
+                     alt=""/>
+            </div>
+            <div class="item">
+                <img class="img-responsive col-center"
+                     src="/bitrix/templates/web20/images/partners/ИНСИ.jpg"
+                     alt=""/>
+            </div>
+            <div class="item">
+                <img class="img-responsive col-center"
+                     src="/bitrix/templates/web20/images/partners/Продам-слона.jpg"
+                     alt=""/>
+            </div>
+            <div class="item">
+                <img class="img-responsive col-center"
+                     src="/bitrix/templates/web20/images/partners/СТАТУС.jpg"
+                     alt=""/>
+            </div>
+            <div class="item">
+                <img class="img-responsive col-center"
+                     src="/bitrix/templates/web20/images/partners/ТЕПЛОКОМ УФА.jpg"
+                     alt=""/>
+            </div>
+            <div class="item">
+                <img class="img-responsive col-center"
+                     src="/bitrix/templates/web20/images/partners/ТРАНСНЕФТЬ ЛОГО.png"
+                     alt=""/>
+            </div>
+            <div class="item">
+                <img class="img-responsive col-center"
+                     src="/bitrix/templates/web20/images/partners/ХАУСЭКСПЕРТ.jpg"
+                     alt=""/>
+            </div>
+            <div class="item">
+                <img class="img-responsive col-center"
+                     src="/bitrix/templates/web20/images/partners/ЭнергоЭффект.jpg"
+                     alt=""/>
+            </div>
         </div>
         <!--MAP-->
         <div class="clearfix map">
             <div id="map-canvas"></div>
-            <div class="social">
-                <div class="social-box">
-                    <div class="social-img pull-right">
-                        <img src="/bitrix/templates/web20/images/social/soc3.png"
-                             alt=""
-                             class="image-responsive">
-                    </div>
-                    <div class="social-contact"><a href="projeKt_studio_">WWW.INSTAGRAMM.COM</a></div>
-                </div>
-                <div class="social-box">
-                    <div class="social-img pull-right">
-                        <img src="/bitrix/templates/web20/images/social/soc4.png" alt="" class="image-responsive">
-                    </div>
-                    <div class="social-contact">projekt.studio2</div>
-                </div>
-                <div class="social-box">
-                    <div class="social-img pull-right">
-                        <img src="/bitrix/templates/web20/images/social/soc2.png" alt="" class="image-responsive">
-                    </div>
-                    <div class="social-contact">WWW.INSTAGRAMM.COM</div>
-                </div>
-                <div class="social-box">
-                    <div class="social-img pull-right">
-                        <img src="/bitrix/templates/web20/images/social/soc5.png" alt="" class="image-responsive">
-                    </div>
-                    <div class="social-contact">WWW.INSTAGRAMM.COM</div>
-                </div>
-                <div class="social-box">
-                    <div class="social-img pull-right">
-                        <img src="/bitrix/templates/web20/images/social/soc1.png" alt="" class="image-responsive">
-                    </div>
-                    <div class="social-contact">WWW.INSTAGRAMM.COM</div>
-                </div>
-                <div class="social-box">
-                    <div class="social-img pull-right">
-                        <img src="/bitrix/templates/web20/images/social/soc6.png" alt="" class="image-responsive">
-                    </div>
-                    <div class="social-contact">info@projektstudio.ru</div>
-                </div>
-            </div>
+            <table class="social">
+                <tr>
+                    <td class="social-contact">
+                        <a target="_blank" href="//instagram.com/projeKt_studio_/">projeKt_studio_</a>
+                    </td>
+                    <td>
+                        <div class="social-sprite sprite-1"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="social-contact">
+                        <a href="skype:projekt.studio2?call">projekt.studio2</a>
+                    </td>
+                    <td>
+                        <div class="social-sprite sprite-2"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="social-contact">
+                        <a href="">123</a>
+                    </td>
+                    <td>
+                        <div class="social-sprite sprite-3"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="social-contact">
+                        <a target="_blank" href="//vk.com/projektstudioufa">vk.com/projektstudioufa</a>
+                    </td>
+                    <td>
+                        <div class="social-sprite sprite-4"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="social-contact">
+                        <a href="tel:info@projektstudio.ru">+7(917)430-47-35</a>
+                    </td>
+                    <td>
+                        <div class="social-sprite sprite-5"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="social-contact">
+                        <a href="mailto:info@projektstudio.ru">info@projektstudio.ru</a>
+                    </td>
+                    <td>
+                        <div class="social-sprite sprite-6"></div>
+                    </td>
+                </tr>
+            </table>
         </div>
         <!--PENCIL-->
         <div class="clearfix">
@@ -465,7 +534,7 @@ $APPLICATION->SetTitle("Главная страница");
                     "SORT_ORDER2" => "",
                     "FILTER_NAME" => "",
                     "FIELD_CODE" => array("ID", "NAME", "PREVIEW_PICTURE"),
-                    "PROPERTY_CODE" => array(),
+                    "PROPERTY_CODE" => array("PROPERTY_price"),
                     "CHECK_DATES" => "Y",
                     "DETAIL_URL" => "",
                     "PREVIEW_TRUNCATE_LEN" => "",

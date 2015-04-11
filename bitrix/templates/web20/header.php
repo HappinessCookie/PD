@@ -35,7 +35,11 @@
 <? endif ?>
 <div class="header navbar navbar-default navbar-fixed-top">
     <div class="container side-pad">
-        <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">8-800-555-55-55</div>
+        <div class="col-lg-4 col-md-4 hidden-sm hidden-xs menu-contact">
+            <div class="first-phone"><b>8 (917) 430-35-47</b></div>
+            <div class="second-phone">8 (917) 430-49-47</div>
+            <div class="address">г.Уфа ул.Сагита Агиша 16/1 оф.7</div>
+        </div>
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
             <img class="logo" src="/bitrix/templates/web20/images/logo.png">
         </div>
@@ -65,7 +69,7 @@
                         <li class="anchor" data-page="finish"><a>Наши проекты</a></li>
                         <li><a href="partners.php">Проекты партнеров</a></li>
                     </ul>
-                </li>-->
+                </li>
             </ul>
         </div>
     </div>

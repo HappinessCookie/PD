@@ -17,7 +17,13 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
             <ul class="nav navbar-nav navbar-right">
                 <li class="anchor" data-page="main"><a>Главная</a></li>
                 <li class="anchor" data-page="about"><a>О нас</a></li>
-                <li class="anchor" data-page="finish"><a>Готовые решения</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">Готовые решения <b class="caret"></b></a>
+                    <ul class="dropdown-menu footer-menu">
+                        <li class="anchor" data-page="finish"><a>Наши проекты</a></li>
+                        <li><a href="#">Проекты партнеров</a></li>
+                    </ul>
+                </li>
             </ul>
         </div>
     </div>

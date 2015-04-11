@@ -16,6 +16,9 @@
 .palette-col6 {
   background-color: #2f3226;
 }
+a {
+    cursor: pointer;
+}
 .page {
   margin-top: 80px;
 }
@@ -311,4 +314,20 @@ body {
 }
 .disabled a {
     pointer-events: none;
+}
+.dropdown-menu {
+    background-color: #2D2D2D;
+    width: 150%;
+    top: 99%;
+}
+.dropdown-menu li a {
+    color: rgb(138, 138, 138);
+    padding: 10px;
+}
+.dropdown-menu li {
+    padding: 5px 0;
+    text-align: center;
+}
+.footer-menu {
+    top: -137%;
 }

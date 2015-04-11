@@ -49,13 +49,23 @@
             <ul class="nav navbar-nav navbar-right">
                 <li class="anchor" data-page="main"><a>Главная</a></li>
                 <li class="anchor" data-page="about"><a>О нас</a></li>
-                <li class="dropdown">
+                <li class="btn-group">
+                    <a data-page="finish" type="button" class="btn btn-link anchor" style="padding-right: 0; float: left;">Готовые решения</a>
+                    <a type="button"
+                       data-toggle="dropdown"
+                       class="btn btn-link dropdown-toggle"
+                       aria-expanded="false" style="float: left;"><span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Проекты партнеров</a></li>
+                    </ul>
+                </li>
+                <!--<li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown">Готовые решения <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li class="anchor" data-page="finish"><a>Наши проекты</a></li>
                         <li><a href="partners.php">Проекты партнеров</a></li>
                     </ul>
-                </li>
+                </li>-->
             </ul>
         </div>
     </div>

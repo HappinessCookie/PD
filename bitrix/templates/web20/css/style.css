@@ -294,7 +294,7 @@ body {
   padding: 10px;
 }
 .project-preview {
-  padding: 0 5px;
+    padding: 0 5px;
 }
 .articles-links-block {
   margin-left: -5px;
@@ -310,9 +310,5 @@ body {
   height: 420px;
 }
 .disabled a {
-  pointer-events: none;
-}
-.logo {
-  margin: 10px auto;
-  display: block;
+    pointer-events: none;
 }

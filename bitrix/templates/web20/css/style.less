@@ -19,6 +19,9 @@
 .page {
     margin-top: 80px;
 }
+a, .anchor{
+    cursor: pointer;
+}
 .image-responsive {
     display: block;
     width: 100%;
@@ -213,8 +216,19 @@ body {
         cursor: pointer;
     }
 }
-.division-info p {
-    text-indent: 25px;
+.division-info {
+    padding-right: 15px;
+    padding-left: 15px;
+    p {
+        text-indent: 25px;
+    }
+}
+
+@media (min-width: 768px) {
+    .division-info {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 .sp-grab {
     cursor: default !important;
@@ -261,7 +275,7 @@ body {
     color: #d66343;
 }
 .partners {
-    padding: 10px;
+    padding: 10px 0;
 }
 .grayscale {
     -webkit-filter: grayscale(100%);
@@ -341,5 +355,23 @@ body {
         font-weight: normal;
         letter-spacing: 1.8px;
         padding: 0 8px;
+    }
+}
+.drop-menu {
+    text-align: center;
+    border-radius: 0;
+    .drop-item {
+        padding: 10px 60px;
+    }
+}
+.menu-contact {
+    color: #777777;
+    .first-phone {
+        font-size: 18px;
+        line-height: 18px;
+        margin-top: 17px;
+    }
+    .second-phone, .address {
+        line-height: 14px;
     }
 }

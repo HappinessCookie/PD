@@ -3,7 +3,11 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
 ?>
 <div class="header navbar navbar-default">
     <div class="container side-pad">
-        <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">8-800-555-55-55</div>
+        <div class="col-lg-4 col-md-4 hidden-sm hidden-xs menu-contact">
+            <div class="first-phone"><b>8 (917) 430-35-47</b></div>
+            <div class="second-phone">8 (917) 430-49-47</div>
+            <div class="address">г.Уфа ул.Сагита Агиша 16/1 оф.7</div>
+        </div>
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
             <img src="">
         </div>
@@ -17,11 +21,14 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
             <ul class="nav navbar-nav navbar-right">
                 <li class="anchor" data-page="main"><a>ГЛАВНАЯ</a></li>
                 <li class="anchor" data-page="about"><a>О НАС</a></li>
-                <li class="dropup">
-                    <a class="dropdown-toggle" data-toggle="dropdown">ГОТОВЫЕ РЕШЕНИЯ <b class="caret"></b></a>
-                    <ul class="dropdown-menu drop-menu">
-                        <li class="anchor" data-page="finish"><a class="drop-item">НАШИ ПРОЕКТЫ</a></li>
-                        <li><a class="drop-item" href="partners.php" target="_blank">ПРОЕКТЫ ПАРТНЕРОВ</a></li>
+                <li class="btn-group dropup">
+                    <a data-page="finish" type="button" class="btn btn-link anchor" style="padding-right: 0; float: left;">ГОТОВОЕ РЕШЕНИЕ</a>
+                    <a type="button"
+                       data-toggle="dropdown"
+                       class="btn btn-link dropdown-toggle"
+                       aria-expanded="false" style="float: left;"><span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">ПРОЕКТЫ ПАРТНЕРОВ</a></li>
                     </ul>
                 </li>
             </ul>

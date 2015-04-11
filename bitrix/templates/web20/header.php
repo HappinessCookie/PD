@@ -63,13 +63,6 @@
                         <li><a href="#">Проекты партнеров</a></li>
                     </ul>
                 </li>
-                <!--<li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown">Готовые решения <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li class="anchor" data-page="finish"><a>Наши проекты</a></li>
-                        <li><a href="partners.php">Проекты партнеров</a></li>
-                    </ul>
-                </li>
             </ul>
         </div>
     </div>

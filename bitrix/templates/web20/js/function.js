@@ -35,6 +35,91 @@ $(document).ready(function () {
         $(this).ekkoLightbox();
     });
     /*$('#partners-slider').sliderPro();*/
+    /* Google map */
+    var map;
+    /*function initialize() {
+     var mapOptions = {
+     zoom: 17,
+     center: new google.maps.LatLng(54.7244886, 56.0087084)
+     };
+     map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+     }*/
+    function initialize() {
+
+        // Create an array of styles.
+        var styles = [
+            {"stylers": [
+                {"hue": "#ff1a00"},
+                {"invert_lightness": true},
+                {"saturation": -100},
+                {"lightness": 33},
+                {"gamma": 0.5}
+            ]},
+            {
+                "featureType": "water",
+                "elementType": "geometry",
+                "stylers": [{"color": "#2D333C"}]
+            }
+        ];
+
+        // Create a new StyledMapType object, passing it the array of styles,
+        // as well as the name to be displayed on the map type control.
+        var styledMap = new google.maps.StyledMapType(styles,
+            {name: "Styled Map"});
+
+        // Create a map object, and include the MapTypeId to add
+        // to the map type control.
+        var myLatlng = new google.maps.LatLng(54.724658, 56.008509);
+        var mapOptions = {
+            zoom: 17,
+            center: myLatlng,
+            draggable: false,
+            scrollwheel: false,
+            mapTypeControlOptions: {
+                mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+            }
+        };
+        var map = new google.maps.Map(document.getElementById('map-canvas'),
+            mapOptions);
+
+        /* Дорога */
+        var flightPlanCoordinates = [
+            new google.maps.LatLng(54.725497, 56.009124),
+            new google.maps.LatLng(54.725198, 56.008709),
+            new google.maps.LatLng(54.724939, 56.008692),
+            new google.maps.LatLng(54.724725, 56.008379)
+        ];
+        var flightPath = new google.maps.Polyline({
+            path: flightPlanCoordinates,
+            geodesic: true,
+            strokeColor: '#1b1a1a',
+            strokeOpacity: 1.0,
+            strokeWeight: 4
+        });
+        flightPath.setMap(map);
+        /* !Дорога */
+        /* Всплывающее окно */
+        var contentString = '<div id="content"><img class="logo" src="/bitrix/templates/web20/images/logo.png"><h4 class="text-center">3 этаж, офис 7</h4></div>';
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+        /* !Всплывающее окно */
+        /* Маркер */
+        var marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map,
+            title: 'ул.С.Агиша, д.16/1, оф.6'
+        });
+        google.maps.event.addListener(marker, 'click', function() {
+            infowindow.open(map,marker);
+        });
+        /* !Маркер */
+        //Associate the styled map with the MapTypeId and set it to display.
+        map.mapTypes.set('map_style', styledMap);
+        map.setMapTypeId('map_style');
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+    /* /Google map */
 });
 $(window).load(function () {
     goto = function (to) {

@@ -34,16 +34,8 @@ $(document).ready(function () {
         event.preventDefault();
         $(this).ekkoLightbox();
     });
-    /*$('#partners-slider').sliderPro();*/
     /* Google map */
     var map;
-    /*function initialize() {
-     var mapOptions = {
-     zoom: 17,
-     center: new google.maps.LatLng(54.7244886, 56.0087084)
-     };
-     map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
-     }*/
     function initialize() {
 
         // Create an array of styles.

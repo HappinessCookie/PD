@@ -114,6 +114,7 @@ $(document).ready(function () {
     /* /Google map */
 });
 $(window).load(function () {
+    $('#index').sliderPro('update');
     goto = function (to) {
         $('html,body').animate({
             scrollTop: $(to).offset().top - $(".header").height()

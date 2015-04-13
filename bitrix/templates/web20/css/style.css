@@ -361,13 +361,6 @@ body {
   letter-spacing: 1.8px;
   padding: 0 8px;
 }
-.drop-menu {
-  text-align: center;
-  border-radius: 0;
-}
-.drop-menu .drop-item {
-  padding: 10px 60px;
-}
 .menu-contact {
   color: #777777;
 }
@@ -379,4 +372,7 @@ body {
 .menu-contact .second-phone,
 .menu-contact .address {
   line-height: 14px;
+}
+.menu-group-item {
+  display: inline-block;
 }

@@ -49,11 +49,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <div class="col15-lg-6 col15-md-6 col15-sm-8 col15-xs-15 navbar-collapse text-center pull-right collapse" id="responsive-menu" aria-expanded="false">
+        <div class="col15-lg-6 col15-md-6 col15-sm-8 col15-xs-15 navbar-collapse text-center pull-right collapse"
+             id="responsive-menu"
+             aria-expanded="false">
             <ul class="nav navbar-nav navbar-right">
                 <li class="anchor" data-page="main"><a>ГЛАВНАЯ</a></li>
                 <li class="anchor" data-page="about"><a>О НАС</a></li>
-                <li class="btn-group">
+                <li class="btn-group menu-group-item">
                     <a data-page="finish" type="button" class="btn btn-link anchor" style="padding-right: 0; float: left;">ГОТОВОЕ РЕШЕНИЕ</a>
                     <a type="button"
                        data-toggle="dropdown"

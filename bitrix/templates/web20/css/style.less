@@ -379,5 +379,11 @@ body {
     }
 }
 .menu-group-item {
-    display: inline-block;
+    display: inline-block !important;
+}
+@media (min-width: 768px) {
+    .menu-group-item {
+        display: block !important;
+        float: left;
+    }
 }

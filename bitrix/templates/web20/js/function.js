@@ -142,14 +142,17 @@ $(window).load(function () {
     $(".palette-link[data-color]").on("click", function () {
         $("html").removeClass("grayscale");
         $("body").css("background-color", $(this).data("color"));
+        $(".main-image").attr("src", "/bitrix/templates/web20/images/main-image.png");
     });
     $(".palette-grayscale").on("click", function () {
         $("html").addClass("grayscale");
         $("body").css("background-color", "");
+        $(".main-image").attr("src", "/bitrix/templates/web20/images/main-image-monochrome.png");
     });
     $(".palette-reset").on("click", function () {
         $("html").removeClass("grayscale");
         $("body").css("background-color", "");
+        $(".main-image").attr("src", "/bitrix/templates/web20/images/main-image.png");
     });
     $(".project-preview").on("click", function () {
         $.ajax({

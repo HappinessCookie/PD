@@ -10,7 +10,7 @@ $APPLICATION->SetTitle("Главная страница");
 <div id="main" class="item sp-slide">
     <div class="container page">
         <div class="header">
-            <img src="http://placehold.it/1200x600" alt="" class="img-responsive">
+            <img src="/bitrix/templates/web20/images/main-image.png" alt="" class="img-responsive main-image">
         </div>
         <!--MIN-PORTFOLIO-->
         <div class="clearfix articles-links-block">

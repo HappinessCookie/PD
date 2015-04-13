@@ -35,13 +35,13 @@
 <? endif ?>
 <div class="header navbar navbar-default navbar-fixed-top">
     <div class="container side-pad">
-        <div class="col-lg-4 col-md-4 hidden-sm hidden-xs menu-contact">
+        <div class="col15-lg-6 col15-md-6 hidden-sm hidden-xs menu-contact">
             <div class="first-phone"><b>8 (917) 430-35-47</b></div>
             <div class="second-phone">8 (917) 430-49-47</div>
             <div class="address">г.Уфа ул.Сагита Агиша 16/1 оф.7</div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-            <img class="logo" src="/bitrix/templates/web20/images/logo.png">
+        <div class="col15-lg-3 col15-md-3 col15-sm-7 col15-xs-7">
+            <img class="logo img-responsive" src="/bitrix/templates/web20/images/logo.png">
         </div>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
             <span class="sr-only">Меню</span>
@@ -49,7 +49,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 navbar-collapse text-center pull-right collapse" id="responsive-menu" aria-expanded="false">
+        <div class="col15-lg-6 col15-md-6 col15-sm-8 col15-xs-15 navbar-collapse text-center pull-right collapse" id="responsive-menu" aria-expanded="false">
             <ul class="nav navbar-nav navbar-right">
                 <li class="anchor" data-page="main"><a>ГЛАВНАЯ</a></li>
                 <li class="anchor" data-page="about"><a>О НАС</a></li>
@@ -57,8 +57,8 @@
                     <a data-page="finish" type="button" class="btn btn-link anchor" style="padding-right: 0; float: left;">ГОТОВОЕ РЕШЕНИЕ</a>
                     <a type="button"
                        data-toggle="dropdown"
-                       class="btn btn-link dropdown-toggle"
-                       aria-expanded="false" style="float: left;"><span class="caret"></span></a>
+                       class="btn btn-link dropdown-toggle pull-left"
+                       aria-expanded="false"><span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="#">ПРОЕКТЫ ПАРТНЕРОВ</a></li>
                     </ul>

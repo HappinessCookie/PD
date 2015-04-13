@@ -41,10 +41,6 @@ a,
   padding-left: 15px;
   padding-right: 15px;
 }
-.logo {
-  position: relative;
-  margin: 0 auto;
-}
 .cards {
   overflow: visible;
   position: relative;
@@ -327,8 +323,22 @@ body {
   pointer-events: none;
 }
 .logo {
-  margin: 10px auto;
-  display: block;
+  margin: 10px 0;
+}
+@media (min-width: 768px) {
+  .logo {
+    margin: 10px 0;
+  }
+}
+@media (min-width: 992px) {
+  .logo {
+    margin: 14px auto;
+  }
+}
+@media (min-width: 1200px) {
+  .logo {
+    margin: 10px auto;
+  }
 }
 .sticker-desc {
   width: 100%;

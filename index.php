@@ -98,8 +98,8 @@ $APPLICATION->SetTitle("Главная страница");
                     <div data-page="about" data-anchor-start="INT" class="anchor sticker-box sticker-color1">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
-                                <h3></h3>
-                                <p>Интерьер</p>
+                                <h3>ИНТ</h3>
+                                <p>(интерьер)</p>
                             </div>
                         </div>
                     </div>
@@ -202,8 +202,8 @@ $APPLICATION->SetTitle("Главная страница");
                     <div data-page="about" data-anchor-start="MAK" class="anchor sticker-box sticker-color2">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
-                                <h3></h3>
-                                <p>(Макетирование)</p>
+                                <h3>МАК</h3>
+                                <p>(макетирование)</p>
                             </div>
                         </div>
                     </div>
@@ -486,8 +486,8 @@ $APPLICATION->SetTitle("Главная страница");
                     <div data-page="about" data-anchor-start="INT" class="anchor sticker-hover-box sticker-color1">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
-                                <h3></h3>
-                                <p>Интерьер</p>
+                                <h3>ИНТ</h3>
+                                <p>(интерьер)</p>
                             </div>
                         </div>
                     </div>
@@ -590,8 +590,8 @@ $APPLICATION->SetTitle("Главная страница");
                     <div data-page="about" data-anchor-start="MAK" class="anchor sticker-hover-box sticker-color2">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
-                                <h3></h3>
-                                <p>(Макетирование)</p>
+                                <h3>МАК</h3>
+                                <p>(макетирование)</p>
                             </div>
                         </div>
                     </div>

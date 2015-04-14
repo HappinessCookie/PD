@@ -62,7 +62,7 @@
                        class="btn btn-link dropdown-toggle pull-left"
                        aria-expanded="false"><span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">ПРОЕКТЫ ПАРТНЕРОВ</a></li>
+                        <li><a href="partners.php" target="_blank">ПРОЕКТЫ ПАРТНЕРОВ</a></li>
                     </ul>
                 </li>
             </ul>

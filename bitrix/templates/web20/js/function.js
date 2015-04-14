@@ -155,7 +155,7 @@ $(window).load(function () {
         $("body").css("background-color", "");
         $(".main-image").attr("src", "/bitrix/templates/web20/images/main-image.png");
     });
-    $(".project-preview").on("click", function () {
+    $(".project-preview").click(function () {
         $.ajax({
             type: "POST",
             url: "/bitrix/templates/web20/ajax/project-get.php",

@@ -4,8 +4,8 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
 <div class="header navbar navbar-default">
     <div class="container side-pad">
         <div class="col15-lg-6 col15-md-6 hidden-sm hidden-xs menu-contact">
-            <div class="first-phone"><b>8 (917) 430-35-47</b></div>
-            <div class="second-phone">8 (917) 430-49-47</div>
+            <div class="first-phone"><b>8 (917) 430-47-35</b></div>
+            <div class="second-phone">8 (917) 430-35-49</div>
             <div class="address">г.Уфа ул.Сагита Агиша 16/1 оф.7</div>
         </div>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">

@@ -36,8 +36,8 @@
 <div class="header navbar navbar-default navbar-fixed-top">
     <div class="container side-pad">
         <div class="col15-lg-6 col15-md-6 hidden-sm hidden-xs menu-contact">
-            <div class="first-phone"><b>8 (917) 430-35-47</b></div>
-            <div class="second-phone">8 (917) 430-49-47</div>
+            <div class="first-phone"><b>8 (917) 430-47-35</b></div>
+            <div class="second-phone">8 (917) 430-35-49</div>
             <div class="address">г.Уфа ул.Сагита Агиша 16/1 оф.7</div>
         </div>
         <div class="col15-lg-3 col15-md-3 col15-sm-7 col15-xs-7">

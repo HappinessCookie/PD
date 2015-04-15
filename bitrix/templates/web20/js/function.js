@@ -67,6 +67,9 @@ $(document).ready(function () {
             center: myLatlng,
             draggable: false,
             scrollwheel: false,
+            mapTypeControl: false,
+            scaleControl: false,
+            streetViewControl: false,
             mapTypeControlOptions: {
                 mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
             }

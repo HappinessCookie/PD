@@ -5,7 +5,7 @@ if (isset($_POST["array"])) {
     $rsLeader = CIBlockElement::GetList(
         array(),
         array(
-            "IBLOCK_ID" => "1",
+            "IBLOCK_ID" => "12",
             "ID" => $_POST["array"]
         ),
         false,

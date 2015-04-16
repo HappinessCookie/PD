@@ -4,34 +4,15 @@ $APPLICATION->SetPageProperty("title", "Демонстрационная вер�
 $APPLICATION->SetPageProperty("NOT_SHOW_NAV_CHAIN", "Y");
 $APPLICATION->SetTitle("Главная страница");
 ?>
-<!--HOUSE EXPERT-->
-    <div class="container page">
+<div class="container page" id="he-page">
     <div id="project_load" class="clearfix well">
-        <div class="clearfix">
-            <div class="col-lg-6" id="project_img"></div>
-            <div class="col-lg-6">
-                <h2 id="project_name" class="page-header">КД-8,4-11,5-134</h2>
-                <h3 id="project_price">Стоимость проекта <span id="price"></span> руб.</h3>
-                <ul class="list-unstyled">
-                    <li><b>Общая площадь дома:</b> <span id="house_area"></span></li>
-                    <li><b>Габариты застройки:</b> <span id="dimensions"></span></li>
-                    <li><b>Перекрытие:</b> <span id="overlap"></span></li>
-                    <li><b>Количество этажей:</b> <span id="floor_count"></span></li>
-                    <li><b>Цокольный этаж:</b> <span id="basement"></span></li>
-                    <li><b>Фундамент:</b> <span id="foundation"></span></li>
-                    <li><b>Материал стен:</b> <span id="wall_material"></span></li>
-                    <li><b>Кровля:</b> <span id="roofing"></span></li>
-                    <li><b>Гараж:</b> <span id="garage"></span></li>
-                </ul>
-            </div>
-        </div>
-        <div class="clearfix" id="images"></div>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <div id="project"></div>
     </div>
-    <!--PROJEKT-->
     <div class="clearfix">
         <?$APPLICATION->IncludeComponent(
             "bitrix:news.list",
-            "project-list",
+            "he-list",
             Array(
                 "DISPLAY_DATE" => "Y",
                 "DISPLAY_NAME" => "Y",
@@ -39,15 +20,15 @@ $APPLICATION->SetTitle("Главная страница");
                 "DISPLAY_PREVIEW_TEXT" => "Y",
                 "AJAX_MODE" => "Y",
                 "IBLOCK_TYPE" => "-",
-                "IBLOCK_ID" => "1",
+                "IBLOCK_ID" => "13",
                 "NEWS_COUNT" => "12",
                 "SORT_BY1" => "ID",
                 "SORT_ORDER1" => "desc",
                 "SORT_BY2" => "",
                 "SORT_ORDER2" => "",
                 "FILTER_NAME" => "",
-                "FIELD_CODE" => array("ID", "NAME", "PREVIEW_PICTURE"),
-                "PROPERTY_CODE" => array("PROPERTY_price"),
+                "FIELD_CODE" => array("ID", "NAME", "DETAIL_PICTURE"),
+                "PROPERTY_CODE" => "",
                 "CHECK_DATES" => "Y",
                 "DETAIL_URL" => "",
                 "PREVIEW_TRUNCATE_LEN" => "",
@@ -82,7 +63,6 @@ $APPLICATION->SetTitle("Главная страница");
             false
         );?>
     </div>
-    <!--HOUSE EXPERT-->
-    <div class="clearfix"></div>
+</div>
 
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

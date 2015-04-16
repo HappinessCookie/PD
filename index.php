@@ -372,9 +372,9 @@ $APPLICATION->SetTitle("Главная страница");
                         <div class="social-sprite sprite-2"></div>
                     </td>
                 </tr>
-                <tr>
+                <tr class="hidden">
                     <td class="social-contact">
-                        <a href="">123</a>
+                        <a href=""></a>
                     </td>
                     <td>
                         <div class="social-sprite sprite-3"></div>

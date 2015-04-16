@@ -30,6 +30,7 @@ a,
 }
 .navbar {
   border: none !important;
+  border-radius: 0 !important;
   margin-bottom: 0;
 }
 .data-info {
@@ -195,7 +196,7 @@ body {
   margin-top: 10px;
 }
 .palette {
-  background-color: #f2de00;
+  background-color: #f8f8f8;
   padding: 15px;
 }
 .palette-color-box {
@@ -268,6 +269,9 @@ body {
 .partners {
   padding: 10px 0;
 }
+.partners .item {
+  padding: 30px;
+}
 .grayscale {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -301,19 +305,18 @@ body {
   padding-right: 10px;
 }
 .project-img {
-  padding: 10px 0;
+  padding: 10px;
 }
-.project-preview {
-  padding: 0 5px;
-}
-.articles-links-block {
-  margin-left: -5px;
-  margin-right: -5px;
+.project-preview,
+.he-preview {
+  padding: 0 5px 0 9px;
+  cursor: pointer;
 }
 .articles-links {
   padding: 5px;
 }
-#finish .page {
+#finish .page,
+#he-page {
   margin-top: 85px;
 }
 #map-canvas {
@@ -332,12 +335,12 @@ body {
 }
 @media (min-width: 992px) {
   .logo {
-    margin: 14px auto;
+    margin: 19px auto;
   }
 }
 @media (min-width: 1200px) {
   .logo {
-    margin: 10px auto;
+    margin: 13px auto;
   }
 }
 .sticker-desc {

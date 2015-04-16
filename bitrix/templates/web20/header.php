@@ -65,7 +65,7 @@
                            class="btn btn-link dropdown-toggle pull-left"
                            aria-expanded="false"><span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="partners.php">АРХГАЗЕТА</a></li>
+                            <li><a href="newspaper.php">АРХГАЗЕТА</a></li>
                         </ul>
                     </li>
                     <li class=" btn-group menu-group-item">
@@ -94,7 +94,7 @@
                            class="btn btn-link dropdown-toggle pull-left"
                            aria-expanded="false"><span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="partners.php">АРХГАЗЕТА</a></li>
+                            <li><a href="newspaper.php">АРХГАЗЕТА</a></li>
                         </ul>
                     </li>
                     <li class="btn-group menu-group-item">

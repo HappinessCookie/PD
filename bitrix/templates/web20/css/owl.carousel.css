@@ -17,7 +17,6 @@
   -webkit-animation-name: fadeOut;
   animation-name: fadeOut;
 }
-
 @-webkit-keyframes fadeOut {
   0% {
     opacity: 1;
@@ -36,7 +35,6 @@
     opacity: 0;
   }
 }
-
 /* 
  * 	Owl Carousel - Auto Height Plugin
  */
@@ -47,7 +45,6 @@
   -o-transition: height 500ms ease-in-out;
   transition: height 500ms ease-in-out;
 }
-
 /* 
  *  Core Owl Carousel CSS File
  */
@@ -76,6 +73,7 @@
   overflow: hidden;
   /* fix for flashing background */
   -webkit-transform: translate3d(0px, 0px, 0px);
+  -moz-transform: translate3d(0px, 0px, 0px);
 }
 .owl-carousel .owl-controls .owl-nav .owl-prev,
 .owl-carousel .owl-controls .owl-nav .owl-next,
@@ -117,6 +115,7 @@
   display: block;
   width: 100%;
   -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
 }
 .owl-carousel.owl-text-select-on .owl-item {
   -webkit-user-select: auto;
@@ -142,7 +141,6 @@
 .no-js .owl-carousel {
   display: block;
 }
-
 /* 
  * 	Owl Carousel - Lazy Load Plugin
  */
@@ -155,9 +153,9 @@
   transition: opacity 400ms ease;
 }
 .owl-carousel .owl-item img {
-  transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
 }
-
 /* 
  * 	Owl Carousel - Video Plugin
  */

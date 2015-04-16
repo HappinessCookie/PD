@@ -2,7 +2,7 @@ $(document).ready(function () {
     if (window.location.pathname == "/") {
         $('.partners').owlCarousel({
             loop: true,
-            margin: 15,
+            margin: 16,
             responsiveClass: true,
             autoplay: true,
             autoplayTimeout: 1500,

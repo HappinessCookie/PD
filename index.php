@@ -121,7 +121,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/9.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="KM" class="anchor sticker-box sticker-color3">
+                    <div data-page="about" data-anchor-start="KP" class="anchor sticker-box sticker-color3">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>КМ</h3>
@@ -522,7 +522,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/9.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="KM" class="anchor sticker-hover-box sticker-color3">
+                    <div data-page="about" data-anchor-start="KP" class="anchor sticker-hover-box sticker-color3">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>КМ</h3>

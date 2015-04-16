@@ -56,7 +56,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/4.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="KP" class="anchor sticker-box sticker-color5">
+                    <div data-page="about" data-anchor-start="AC" class="anchor sticker-box sticker-color5">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>КП</h3>
@@ -82,7 +82,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/6.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="GP" class="anchor sticker-box sticker-color3">
+                    <div data-page="about" data-anchor-start="PZU" class="anchor sticker-box sticker-color3">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>ГП</h3>
@@ -108,7 +108,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/8.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="KJ" class="anchor sticker-box sticker-color4">
+                    <div data-page="about" data-anchor-start="KP" class="anchor sticker-box sticker-color4">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>КЖ</h3>
@@ -147,7 +147,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/11.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="OV" class="anchor sticker-box sticker-color2">
+                    <div data-page="about" data-anchor-start="OVIK" class="anchor sticker-box sticker-color2">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>ОВ</h3>
@@ -173,7 +173,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker sticker-top">
                     <img src="/bitrix/templates/web20/images/section/13.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="KM" class="anchor sticker-box sticker-color1">
+                    <div data-page="about" data-anchor-start="ROI" class="anchor sticker-box sticker-color1">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>КМ</h3>
@@ -444,7 +444,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/4.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="KP" class="anchor sticker-hover-box sticker-color5">
+                    <div data-page="about" data-anchor-start="AC" class="anchor sticker-hover-box sticker-color5">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>КП</h3>
@@ -470,7 +470,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/6.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="GP" class="anchor sticker-hover-box sticker-color3">
+                    <div data-page="about" data-anchor-start="PZU" class="anchor sticker-hover-box sticker-color3">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>ГП</h3>
@@ -496,7 +496,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/8.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="KJ" class="anchor sticker-hover-box sticker-color4">
+                    <div data-page="about" data-anchor-start="KP" class="anchor sticker-hover-box sticker-color4">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>КЖ</h3>
@@ -535,7 +535,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/11.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="OV" class="anchor sticker-hover-box sticker-color2">
+                    <div data-page="about" data-anchor-start="OVIK" class="anchor sticker-hover-box sticker-color2">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>ОВ</h3>
@@ -561,7 +561,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                 <div class="sticker-hover">
                     <img src="/bitrix/templates/web20/images/section/13.jpg" alt="" class="image-responsive">
-                    <div data-page="about" data-anchor-start="KM" class="anchor sticker-hover-box sticker-color1">
+                    <div data-page="about" data-anchor-start="ROI" class="anchor sticker-hover-box sticker-color1">
                         <div class="sticker-desc">
                             <div class="sticker-descript">
                                 <h3>КМ</h3>

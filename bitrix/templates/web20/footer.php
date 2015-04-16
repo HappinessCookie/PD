@@ -16,7 +16,7 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
             <ul class="nav navbar-nav navbar-right">
                 <? if (($_SERVER["REQUEST_URI"] == "/partners.php") || ($_SERVER["REQUEST_URI"] == "/newspaper.php")) { ?>
                     <li class="anchor" data-page="main"><a href="/#index/main">ГЛАВНАЯ</a></li>
-                    <li class="btn-group menu-group-item">
+                    <li class="btn-group menu-group-item dropup">
                         <a data-page="about"
                            type="button"
                            href="/#index/about"
@@ -30,7 +30,7 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
                             <li><a href="newspaper.php">АРХГАЗЕТА</a></li>
                         </ul>
                     </li>
-                    <li class=" btn-group menu-group-item">
+                    <li class=" btn-group menu-group-item dropup">
                         <a data-page="finish"
                            type="button"
                            class="btn btn-link anchor"
@@ -46,7 +46,7 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
                     </li>
                 <? } else { ?>
                     <li class="anchor" data-page="main"><a>ГЛАВНАЯ</a></li>
-                    <li class="btn-group menu-group-item">
+                    <li class="btn-group menu-group-item dropup">
                         <a data-page="about"
                            type="button"
                            class="btn btn-link anchor"
@@ -59,7 +59,7 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
                             <li><a href="newspaper.php">АРХГАЗЕТА</a></li>
                         </ul>
                     </li>
-                    <li class="btn-group menu-group-item">
+                    <li class="btn-group menu-group-item dropup">
                         <a data-page="finish"
                            type="button"
                            class="btn btn-link anchor"

@@ -94,7 +94,7 @@ $(document).ready(function () {
             flightPath.setMap(map);
             /* !Дорога */
             /* Всплывающее окно */
-            var contentString = '<div id="content"><img class="logo" src="/bitrix/templates/web20/images/logo.png"><h4 class="text-center">3 этаж, офис 7</h4></div>';
+            var contentString = '<div id="content"><img class="logo" src="/bitrix/templates/web20/images/logo.png"><h4 class="text-center">3 этаж, офис 6</h4></div>';
             var infowindow = new google.maps.InfoWindow({
                 content: contentString
             });

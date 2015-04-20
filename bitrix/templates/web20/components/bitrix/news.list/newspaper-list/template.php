@@ -1,9 +1,8 @@
 <? if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die(); ?>
 <? CModule::IncludeModule('iblock'); ?>
-
 <? foreach ($arResult["ITEMS"] as $arItem) { ?>
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 newspaper-preview inline-block">
-        <a href="">
+        <a href="<?= $arItem["DETAIL_PAGE_URL"]; ?>">
             <?
             $img = CFile::ResizeImageGet(
                 $arItem["DETAIL_PICTURE"],

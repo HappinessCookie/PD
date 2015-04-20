@@ -1,7 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 ?>
-    <div class="container page">
+    <div class="container page side-pad">
         <?$APPLICATION->IncludeComponent(
             "bitrix:news.list",
             "newspaper-list",
@@ -22,7 +22,7 @@ require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
                 "FIELD_CODE" => array("ID", "NAME", "DETAIL_PICTURE"),
                 "PROPERTY_CODE" => "",
                 "CHECK_DATES" => "Y",
-                "DETAIL_URL" => "",
+                "DETAIL_URL" => "/newspaper/#ELEMENT_ID#/",
                 "PREVIEW_TRUNCATE_LEN" => "",
                 "ACTIVE_DATE_FORMAT" => "d.m.Y",
                 "SET_TITLE" => "N",

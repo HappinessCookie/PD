@@ -37,7 +37,7 @@
         <div class="col-lg-5 col-md-5 hidden-sm hidden-xs menu-contact">
             <div class="first-phone"><b>8 (917) 430-47-35</b></div>
             <div class="second-phone">8 (917) 430-35-49</div>
-            <div class="address">г.Уфа ул.Сагита Агиша 16/1 оф.7</div>
+            <div class="address">г.Уфа ул.Сагита Агиша 16/1 оф.6</div>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-4 col-xs-10">
             <img class="logo img-responsive" src="/bitrix/templates/web20/images/logo.png">

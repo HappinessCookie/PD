@@ -6,7 +6,7 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 menu-contact">
             <div class="first-phone"><b>8 (917) 430-47-35</b></div>
             <div class="second-phone">8 (917) 430-35-49</div>
-            <div class="address">г.Уфа ул.Сагита Агиша 16/1 оф.7</div>
+            <div class="address">г.Уфа ул.Сагита Агиша 16/1 оф.6</div>
         </div>
         <div class="col-lg-2 col-md-2 hidden-sm hidden-xs">
         </div>

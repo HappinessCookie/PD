@@ -1,7 +1,7 @@
 <?
 if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
 ?>
-<div class="header navbar navbar-inverse container">
+<footer class="header navbar navbar-inverse container">
     <div class="container side-pad">
         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 menu-contact">
             <div class="first-phone"><b>8 (917) 430-47-35</b></div>
@@ -76,7 +76,7 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
             </ul>
         </div>
     </div>
-</div>
+</footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->

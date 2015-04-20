@@ -32,7 +32,7 @@
         <? /*$APPLICATION->ShowPanel();*/ ?>
     </div>
 <? endif ?>
-<div class="header navbar navbar-inverse navbar-fixed-top container">
+<header class="header navbar navbar-inverse navbar-fixed-top container">
     <div class="side-pad">
         <div class="col-lg-5 col-md-5 hidden-sm hidden-xs menu-contact">
             <div class="first-phone"><b>8 (917) 430-47-35</b></div>
@@ -114,4 +114,4 @@
             </ul>
         </div>
     </div>
-</div>
+</header>

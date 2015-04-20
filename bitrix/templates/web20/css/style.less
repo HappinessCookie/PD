@@ -18,6 +18,7 @@
 }
 .page {
     margin-top: 80px;
+    min-height: 1000px;
 }
 a, .anchor {
     cursor: pointer;
@@ -235,34 +236,32 @@ body {
     margin-left: -4px;
 }
 .chart {
+    @background-left: -85px;
     background-image: url("/bitrix/templates/web20/images/metric-sprite.png");
-    height: 82px;
-    width: 82px;
-    line-height: 82px;
+    height: 85px;
+    width: 85px;
     margin: auto;
-    font-weight: bold;
-    font-size: 18px;
     + p {
         margin: 10px 0;
     }
-}
-.chart-1 {
-    background-position: 0 0;
-}
-.chart-2 {
-    background-position: -164px 0;
-}
-.chart-3 {
-    background-position: -246px 0;
-}
-.chart-4 {
-    background-position: 0 -82px;
-}
-.chart-5 {
-    background-position: -82px -82px;
-}
-.chart-6 {
-    background-position: -246px -164px;
+    &.chart-1 {
+        background-position: @background-left*0 0;
+    }
+    &.chart-2 {
+        background-position: @background-left*1 0;
+    }
+    &.chart-3 {
+        background-position: @background-left*2 0;
+    }
+    &.chart-4 {
+        background-position: @background-left*3 0;
+    }
+    &.chart-5 {
+        background-position: @background-left*4 0;
+    }
+    &.chart-6 {
+        background-position: @background-left*5 0;
+    }
 }
 .distract-text {
     margin-top: 20px;

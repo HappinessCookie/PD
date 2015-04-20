@@ -263,15 +263,15 @@ $APPLICATION->SetTitle("Главная страница");
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center" style="margin-top: 50px">
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 inline-block">
-                                <div class="chart chart-1">68%</div>
+                                <div class="chart chart-1"></div>
                                 <p>Любят кофе</p>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 inline-block">
-                                <div class="chart chart-2">71%</div>
+                                <div class="chart chart-2"></div>
                                 <p>Совмещают учебу и работу</p>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 inline-block">
-                                <div class="chart chart-3">92%</div>
+                                <div class="chart chart-3"></div>
                                 <p>Пользуются современными технологиями</p>
                             </div>
                             <p class="col-lg-12 col-md-12 hidden-sm hidden-xs h4 text-uppercase distract-text">Отвлекись
@@ -279,15 +279,15 @@ $APPLICATION->SetTitle("Главная страница");
                                                                                                                посмотри
                                                                                                                статистику</p>
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 inline-block">
-                                <div class="chart chart-4">65%</div>
+                                <div class="chart chart-4"></div>
                                 <p>Носят очки</p>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 inline-block">
-                                <div class="chart chart-5">27%</div>
+                                <div class="chart chart-5"></div>
                                 <p>Мечтают о загородном доме</p>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 inline-block">
-                                <div class="chart chart-6">63%</div>
+                                <div class="chart chart-6"></div>
                                 <p>Нравится жить в России</p>
                             </div>
                             <p class="hidden-lg hidden-md col-sm-12 col-xs-12 h4 text-uppercase distract-text">Отвлекись

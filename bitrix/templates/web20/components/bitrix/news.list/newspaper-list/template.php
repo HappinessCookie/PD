@@ -1,24 +1,21 @@
 <? if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die(); ?>
 <? CModule::IncludeModule('iblock'); ?>
 <? foreach ($arResult["ITEMS"] as $arItem) { ?>
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 newspaper-preview inline-block">
+    <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 newspaper-preview inline-block">
         <a href="<?= $arItem["DETAIL_PAGE_URL"]; ?>">
             <?
             $img = CFile::ResizeImageGet(
                 $arItem["DETAIL_PICTURE"],
                 array(
-                    "width" => 350,
-                    "height" => 350
+                    "width" => 345,
+                    "height" => 880
                 ),
-                BX_RESIZE_IMAGE_EXACT,
+                BX_RESIZE_IMAGE_PROPORTIONAL_ALT,
                 false
             );
             ?>
-            <img src="<?= $img["src"]; ?>" alt="" class="img-responsive table-bordered col-centered">
             <p><?= $arItem["NAME"] ?></p>
+            <img src="<?= $img["src"]; ?>" alt="" class="img-responsive table-bordered col-center">
         </a>
     </div>
 <? } ?>
-<? if ($arParams["DISPLAY_BOTTOM_PAGER"]): ?>
-    <br/><?= $arResult["NAV_STRING"] ?>
-<? endif; ?>

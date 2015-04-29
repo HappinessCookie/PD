@@ -77,10 +77,8 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
         </div>
     </div>
 </footer>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
 <?
+$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . "/js/jquery-1.11.2.min.js");
 $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . "/js/bootstrap.js");
 $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . "/js/jquery.sliderPro.min.js");
 $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . "/js/owl.carousel.js");

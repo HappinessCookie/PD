@@ -16,7 +16,7 @@ $APPLICATION->SetTitle("Главная страница");
                     </div>
                     <!--MIN-PORTFOLIO-->
                     <div class="clearfix articles-links-block">
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/1.jpg" alt="" class="image-responsive">
                                 <div data-page="about" data-anchor-start="AC" class="anchor sticker-box sticker-color4">
@@ -29,7 +29,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/2.jpg" alt="" class="image-responsive">
                                 <div data-page="about" data-anchor-start="AP" class="anchor sticker-box sticker-color1">
@@ -42,7 +42,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/3.jpg" alt="" class="image-responsive">
                                 <div data-page="about" data-anchor-start="3D" class="anchor sticker-box sticker-color2">
@@ -55,10 +55,10 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/4.jpg" alt="" class="image-responsive">
-                                <div data-page="about" data-anchor-start="AC" class="anchor sticker-box sticker-color5">
+                                <div data-page="about" data-anchor-start="start" class="anchor sticker-box sticker-color5">
                                     <div class="sticker-desc">
                                         <div class="sticker-descript">
                                             <h3>КП</h3>
@@ -68,7 +68,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/5.jpg" alt="" class="image-responsive">
                                 <div data-page="about"
@@ -83,7 +83,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/6.jpg" alt="" class="image-responsive">
                                 <div data-page="about"
@@ -98,7 +98,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/7.jpg" alt="" class="image-responsive">
                                 <div data-page="about"
@@ -113,7 +113,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/8.jpg" alt="" class="image-responsive">
                                 <div data-page="about" data-anchor-start="KP" class="anchor sticker-box sticker-color4">
@@ -126,7 +126,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/9.jpg" alt="" class="image-responsive">
                                 <div data-page="about" data-anchor-start="KP" class="anchor sticker-box sticker-color3">
@@ -139,7 +139,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/10.jpg"
                                      alt=""
@@ -154,7 +154,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/11.jpg"
                                      alt=""
@@ -171,7 +171,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/12.jpg"
                                      alt=""
@@ -188,7 +188,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/13.jpg"
                                      alt=""
@@ -205,7 +205,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/14.jpg"
                                      alt=""
@@ -222,7 +222,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker sticker-top">
                                 <img src="/bitrix/templates/web20/images/section/15.jpg"
                                      alt=""
@@ -255,45 +255,38 @@ $APPLICATION->SetTitle("Главная страница");
                     </div>
                     <!--PALETTE-->
                     <div class="palette clearfix hidden-sm hidden-xs">
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <p class="text-center h4 text-uppercase">Отвлекись и посмотри статистику</p>
+                        <div class="col15-lg-6 col15-md-6 col15-sm-15 col15-xs-15">
                             <img src="/bitrix/templates/web20/images/analiz.png"
                                  alt=""
                                  class="img-responsive col-center"
-                                 style="margin-top: 50px">
+                                 style="margin-top: 130px">
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center" style="margin-top: 50px">
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 inline-block">
-                                <div class="chart chart-1"></div>
+                        <div class="col15-lg-9 col15-md-9 col15-sm-15 col15-xs-15 text-center social-circle">
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 inline-block side-pad">
+                                <img src="/bitrix/templates/web20/images/social/Кофе.png" alt="" class="img-responsive col-center">
                                 <p>Любят кофе</p>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 inline-block">
-                                <div class="chart chart-2"></div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 inline-block side-pad">
+                                <img src="/bitrix/templates/web20/images/social/Работа и учеба.png" alt="" class="img-responsive col-center">
                                 <p>Совмещают учебу и работу</p>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 inline-block">
-                                <div class="chart chart-3"></div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 inline-block side-pad">
+                                <img src="/bitrix/templates/web20/images/social/современные технлогии.png" alt="" class="img-responsive col-center">
                                 <p>Пользуются современными технологиями</p>
                             </div>
-                            <p class="col-lg-12 col-md-12 hidden-sm hidden-xs h4 text-uppercase distract-text">Отвлекись
-                                                                                                               и
-                                                                                                               посмотри
-                                                                                                               статистику</p>
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 inline-block">
-                                <div class="chart chart-4"></div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 inline-block side-pad">
+                                <img src="/bitrix/templates/web20/images/social/Очки.png" alt="" class="img-responsive col-center">
                                 <p>Носят очки</p>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 inline-block">
-                                <div class="chart chart-5"></div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 inline-block side-pad">
+                                <img src="/bitrix/templates/web20/images/social/Загородом.png" alt="" class="img-responsive col-center">
                                 <p>Мечтают о загородном доме</p>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 inline-block">
-                                <div class="chart chart-6"></div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 inline-block side-pad">
+                                <img src="/bitrix/templates/web20/images/social/Россия.png" alt="" class="img-responsive col-center">
                                 <p>Нравится жить в России</p>
                             </div>
-                            <p class="hidden-lg hidden-md col-sm-12 col-xs-12 h4 text-uppercase distract-text">Отвлекись
-                                                                                                               и
-                                                                                                               посмотри
-                                                                                                               статистику</p>
                         </div>
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <p class="my-pic">Создай свою атмосферу</p>
@@ -321,17 +314,12 @@ $APPLICATION->SetTitle("Главная страница");
                         </div>
                         <div class="item">
                             <img class="img-responsive col-center"
-                                 src="/bitrix/templates/web20/images/partners/GLASSY.jpg"
+                                 src="/bitrix/templates/web20/images/partners/GLASSY.png"
                                  alt=""/>
                         </div>
                         <div class="item">
                             <img class="img-responsive col-center"
-                                 src="/bitrix/templates/web20/images/partners/Holstagram.jpg"
-                                 alt=""/>
-                        </div>
-                        <div class="item">
-                            <img class="img-responsive col-center"
-                                 src="/bitrix/templates/web20/images/partners/NGvideograph.jpg"
+                                 src="/bitrix/templates/web20/images/partners/NGvideograph.png"
                                  alt=""/>
                         </div>
                         <div class="item">
@@ -341,52 +329,52 @@ $APPLICATION->SetTitle("Главная страница");
                         </div>
                         <div class="item">
                             <img class="img-responsive col-center"
-                                 src="/bitrix/templates/web20/images/partners/ВАША ВИНТОВАЯ СВАЯ.jpg"
+                                 src="/bitrix/templates/web20/images/partners/ВАША ВИНТОВАЯ СВАЯ.png"
                                  alt=""/>
                         </div>
                         <div class="item">
                             <img class="img-responsive col-center"
-                                 src="/bitrix/templates/web20/images/partners/ГРОМЕР.jpg"
+                                 src="/bitrix/templates/web20/images/partners/ГРОМЕР.png"
                                  alt=""/>
                         </div>
                         <div class="item">
                             <img class="img-responsive col-center"
-                                 src="/bitrix/templates/web20/images/partners/ДСК РУСЬ.jpg"
+                                 src="/bitrix/templates/web20/images/partners/ДСК РУСЬ.png"
                                  alt=""/>
                         </div>
                         <div class="item">
                             <img class="img-responsive col-center"
-                                 src="/bitrix/templates/web20/images/partners/ИНСИ.jpg"
+                                 src="/bitrix/templates/web20/images/partners/ИНСИ.png"
                                  alt=""/>
                         </div>
                         <div class="item">
                             <img class="img-responsive col-center"
-                                 src="/bitrix/templates/web20/images/partners/Продам-слона.jpg"
+                                 src="/bitrix/templates/web20/images/partners/Продам-слона.png"
                                  alt=""/>
                         </div>
                         <div class="item">
                             <img class="img-responsive col-center"
-                                 src="/bitrix/templates/web20/images/partners/СТАТУС.jpg"
+                                 src="/bitrix/templates/web20/images/partners/СТАТУС.png"
                                  alt=""/>
                         </div>
                         <div class="item">
                             <img class="img-responsive col-center"
-                                 src="/bitrix/templates/web20/images/partners/ТЕПЛОКОМ УФА.jpg"
+                                 src="/bitrix/templates/web20/images/partners/ТЕПЛОКОМ УФА.png"
                                  alt=""/>
                         </div>
                         <div class="item">
                             <img class="img-responsive col-center"
-                                 src="/bitrix/templates/web20/images/partners/ТРАНСНЕФТЬ ЛОГО.png"
+                                 src="/bitrix/templates/web20/images/partners/транснефть.png"
                                  alt=""/>
                         </div>
                         <div class="item">
                             <img class="img-responsive col-center"
-                                 src="/bitrix/templates/web20/images/partners/ХАУСЭКСПЕРТ.jpg"
+                                 src="/bitrix/templates/web20/images/partners/ХАУСЭКСПЕРТ.png"
                                  alt=""/>
                         </div>
                         <div class="item">
                             <img class="img-responsive col-center"
-                                 src="/bitrix/templates/web20/images/partners/ЭнергоЭффект.jpg"
+                                 src="/bitrix/templates/web20/images/partners/ЭнергоЭффект.png"
                                  alt=""/>
                         </div>
                     </div>
@@ -445,7 +433,7 @@ $APPLICATION->SetTitle("Главная страница");
                         </table>
                     </div>
                     <!--PENCIL-->
-                    <div class="clearfix">
+                    <div class="clearfix pencil-block">
                         <img src="/bitrix/templates/web20/images/pencil.png" alt="" class="pencil">
                     </div>
                 </div>
@@ -453,7 +441,7 @@ $APPLICATION->SetTitle("Главная страница");
             <div id="about" class="item sp-slide">
                 <div class="container page">
                     <div class="clearfix articles-links-block">
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker-hover">
                                 <img src="/bitrix/templates/web20/images/section/1.jpg" alt="" class="image-responsive">
                                 <div data-page="about"
@@ -468,7 +456,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker-hover">
                                 <img src="/bitrix/templates/web20/images/section/2.jpg" alt="" class="image-responsive">
                                 <div data-page="about"
@@ -483,7 +471,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker-hover">
                                 <img src="/bitrix/templates/web20/images/section/3.jpg" alt="" class="image-responsive">
                                 <div data-page="about"
@@ -498,11 +486,11 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker-hover">
                                 <img src="/bitrix/templates/web20/images/section/4.jpg" alt="" class="image-responsive">
                                 <div data-page="about"
-                                     data-anchor-start="AC"
+                                     data-anchor-start="start"
                                      class="anchor sticker-hover-box sticker-color5">
                                     <div class="sticker-desc">
                                         <div class="sticker-descript">
@@ -513,7 +501,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker-hover">
                                 <img src="/bitrix/templates/web20/images/section/5.jpg" alt="" class="image-responsive">
                                 <div data-page="about"
@@ -528,7 +516,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker-hover">
                                 <img src="/bitrix/templates/web20/images/section/6.jpg" alt="" class="image-responsive">
                                 <div data-page="about"
@@ -543,7 +531,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker-hover">
                                 <img src="/bitrix/templates/web20/images/section/7.jpg" alt="" class="image-responsive">
                                 <div data-page="about"
@@ -558,7 +546,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker-hover">
                                 <img src="/bitrix/templates/web20/images/section/8.jpg" alt="" class="image-responsive">
                                 <div data-page="about"
@@ -573,7 +561,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker-hover">
                                 <img src="/bitrix/templates/web20/images/section/9.jpg" alt="" class="image-responsive">
                                 <div data-page="about"
@@ -588,7 +576,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker-hover">
                                 <img src="/bitrix/templates/web20/images/section/10.jpg"
                                      alt=""
@@ -605,7 +593,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker-hover">
                                 <img src="/bitrix/templates/web20/images/section/11.jpg"
                                      alt=""
@@ -622,7 +610,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker-hover">
                                 <img src="/bitrix/templates/web20/images/section/12.jpg"
                                      alt=""
@@ -639,7 +627,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker-hover">
                                 <img src="/bitrix/templates/web20/images/section/13.jpg"
                                      alt=""
@@ -656,7 +644,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker-hover">
                                 <img src="/bitrix/templates/web20/images/section/14.jpg"
                                      alt=""
@@ -673,7 +661,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="col15-lg-5 col15-md-3 col15-sm-3 col15-xs-1 articles-links">
+                        <div class="col15-lg-3 col15-md-3 col15-sm-5 col15-xs-5 articles-links">
                             <div class="sticker-hover">
                                 <img src="/bitrix/templates/web20/images/section/15.jpg"
                                      alt=""
@@ -705,6 +693,15 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="clearfix" data-anchor-end="start">
+                        <h2>Добро пожаловать на наш сайт.</h2>
+                        <p>Наша команда проектировщиков, архитекторов, конструкторов и инженеров, помогут Вам в
+                           проектировании зданий и сооружений любой сложности, а так же помогут Вам в выборе типового
+                           строения из нашего каталога. На нашем сайте Вы сможете найти информации о наших услуг,
+                           краткое описание видов и разделов проектных работ, а так же ознакомится с готовыми проектами
+                           разработанными командой «ProjeKt Studio».</p>
+                        <p>Мы всегда готовы сделать все возможное для воплощения в жизнь Вашу архитектурную мечту.</p>
                     </div>
                     <div class="division-info clearfix" data-anchor-end="AC">
                         <h2 class="page-header">Архитектурно-строительный раздел (АС)</h2>

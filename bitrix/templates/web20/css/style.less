@@ -23,6 +23,12 @@
 a, .anchor {
     cursor: pointer;
 }
+.newspaper-preview {
+    cursor: pointer;
+    p {
+        color: #000000;
+    }
+}
 .image-responsive {
     display: block;
     width: 100%;
@@ -125,10 +131,14 @@ body {
 .map {
     position: relative;
 }
-.pencil {
-    margin: 70px auto;
-    display: block;
-    width: 80%;
+.pencil-block {
+    background-color: #f8f8f8;
+    margin: 10px 0;
+    .pencil {
+        margin: 70px auto;
+        display: block;
+        width: 80%;
+    }
 }
 .info-min {
     font-size: 23px;
@@ -202,6 +212,7 @@ body {
 .palette {
     background-color: #f8f8f8;
     padding: 15px;
+    margin-bottom: 10px;
 }
 .palette-color-box {
     margin-bottom: 10px;
@@ -270,9 +281,20 @@ body {
 }
 .partners {
     padding: 10px 0;
+    background-color: #292929;;
+    margin-bottom: 10px;
     .item {
-        padding: 30px;
+        padding: 0 45px;
     }
+}
+.social-circle {
+    margin-top: 10px;
+    img {
+        width: 155px;
+    }
+}
+[name="grouphe"] {
+    width: 100% !important;
 }
 .grayscale {
     -webkit-filter: grayscale(100%);
@@ -385,4 +407,7 @@ body {
         display: block !important;
         float: left;
     }
+}
+.newspaper-image {
+
 }

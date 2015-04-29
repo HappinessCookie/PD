@@ -877,7 +877,7 @@ $APPLICATION->SetTitle("Главная страница");
                         <div class="clearfix" id="images"></div>
                     </div>
                     <!--PROJEKT-->
-                    <div class="clearfix text-center">
+                    <div class="clearfix">
                         <?$APPLICATION->IncludeComponent(
                             "bitrix:news.list",
                             "project-list",

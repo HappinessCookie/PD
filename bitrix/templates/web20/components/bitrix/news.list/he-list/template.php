@@ -10,7 +10,7 @@
                 "width" => 350,
                 "height" => 350
             ),
-            BX_RESIZE_IMAGE_EXACT,
+            BX_RESIZE_IMAGE_PROPORTIONAL_ALT,
             false
         );
         ?>

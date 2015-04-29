@@ -2,23 +2,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <? $APPLICATION->ShowHead() ?>
+    <?
+    $APPLICATION->ShowHead();
+    $APPLICATION->ShowTitle();
+    $APPLICATION->ShowPanel();
+    ?>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>xD</title>
     <link rel="icon" href="bitrix/templates/web20/images/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="bitrix/templates/web20/images/favicon.ico" type="image/x-icon">
-    <link href="<?= SITE_TEMPLATE_PATH ?>/css/bootstrap.css" rel="stylesheet">
-    <link href="<?= SITE_TEMPLATE_PATH ?>/css/font-awesome.css" rel="stylesheet">
-    <link href="<?= SITE_TEMPLATE_PATH ?>/css/style.css" rel="stylesheet">
-    <link href="<?= SITE_TEMPLATE_PATH ?>/css/slider-pro.min.css" rel="stylesheet">
-    <link href="<?= SITE_TEMPLATE_PATH ?>/css/sticker.css" rel="stylesheet">
-    <link href="<?= SITE_TEMPLATE_PATH ?>/css/grid15.css" rel="stylesheet">
-    <link href="<?= SITE_TEMPLATE_PATH ?>/css/owl.carousel.css" rel="stylesheet">
-    <link href="<?= SITE_TEMPLATE_PATH ?>/css/lightbox.css" rel="stylesheet">
-    <link href="<?= SITE_TEMPLATE_PATH ?>/css/media.css" rel="stylesheet">
-    <link href="<?= SITE_TEMPLATE_PATH ?>/css/ekko-lightbox.min.css" rel="stylesheet">
+    <?
+    $APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH . "/css/bootstrap.css");
+    $APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH . "/css/font-awesome.css");
+    $APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH . "/css/style.css");
+    $APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH . "/css/slider-pro.min.css");
+    $APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH . "/css/sticker.css");
+    $APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH . "/css/grid15.css");
+    $APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH . "/css/owl.carousel.css");
+    $APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH . "/css/media.css");
+    $APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH . "/css/ekko-lightbox.min.css");
+    ?>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>

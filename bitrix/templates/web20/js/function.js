@@ -10,15 +10,15 @@ $(document).ready(function () {
             touchDrag: false,
             responsive: {
                 0: {
-                    items: 3,
+                    items: 2,
                     nav: false
                 },
                 600: {
-                    items: 5,
+                    items: 3,
                     nav: false
                 },
                 1000: {
-                    items: 8,
+                    items: 5,
                     nav: false
                 }
             }
@@ -31,6 +31,9 @@ $(document).ready(function () {
             loop: false,
             forceSize: "fullWindow"
         });
+        $('#index').on('gotoSlide', function (event) {
+            $("html, body").animate({scrollTop: 0}, 300);
+        })
         $(document).delegate('*[data-toggle="lightbox"]', 'click', function (event) {
             event.preventDefault();
             $(this).ekkoLightbox();
@@ -117,7 +120,7 @@ $(document).ready(function () {
         /* /Google map */
     }
     if (window.location.pathname == "/partners.php") {
-        $("html").on('click', '.he-preview',function () {
+        $("html").on('click', '.he-preview', function () {
             $.ajax({
                 type: "POST",
                 url: "/bitrix/templates/web20/ajax/he-get.php",
@@ -133,7 +136,7 @@ $(document).ready(function () {
                 success: function (data) {
                     console.log(data);
                     setTimeout(function () {
-                        $("#project").replaceWith('<div id="project">' + data + '</div>');
+                        $("#project").replaceWith('<div id="project" class="col-lg-7 col-md-7 col-sm-12 col-xs-12 side-pad">' + data + '</div><div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 side-pad"><script src="http://grouphe.ru/partbutton.js?pid=9495678" /></script><div id="response-9495678"></div></div>');
                         setTimeout(function () {
                             $("#project_load").slideDown(500);
                         }, 200);
@@ -142,7 +145,7 @@ $(document).ready(function () {
             });
         });
     }
-    $(".close").click(function() {
+    $(".close").click(function () {
         $("#project_load").slideUp(500);
     });
 });
@@ -189,7 +192,7 @@ $(window).load(function () {
             $("body").css("background-color", "");
             $(".main-image").attr("src", "/bitrix/templates/web20/images/main-image.png");
         });
-        $("#finish").on('click', '.project-preview',function () {
+        $("#finish").on('click', '.project-preview', function () {
             $.ajax({
                 type: "POST",
                 url: "/bitrix/templates/web20/ajax/project-get.php",

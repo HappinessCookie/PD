@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>xD</title>
-    <!-- Bootstrap -->
+    <link rel="icon" href="bitrix/templates/web20/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="bitrix/templates/web20/images/favicon.ico" type="image/x-icon">
     <link href="<?= SITE_TEMPLATE_PATH ?>/css/bootstrap.css" rel="stylesheet">
     <link href="<?= SITE_TEMPLATE_PATH ?>/css/font-awesome.css" rel="stylesheet">
     <link href="<?= SITE_TEMPLATE_PATH ?>/css/style.css" rel="stylesheet">

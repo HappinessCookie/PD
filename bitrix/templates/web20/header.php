@@ -16,13 +16,12 @@
     <?
     $APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH . "/css/bootstrap.css");
     $APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH . "/css/font-awesome.css");
-    $APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH . "/css/style.css");
     $APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH . "/css/slider-pro.min.css");
     $APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH . "/css/sticker.css");
     $APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH . "/css/grid15.css");
     $APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH . "/css/owl.carousel.css");
-    $APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH . "/css/media.css");
     $APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH . "/css/ekko-lightbox.min.css");
+    $APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH . "/css/style.css");
     ?>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

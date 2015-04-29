@@ -136,7 +136,7 @@ $(document).ready(function () {
                 success: function (data) {
                     console.log(data);
                     setTimeout(function () {
-                        $("#project").replaceWith('<div id="project" class="col-lg-7 col-md-7 col-sm-12 col-xs-12 side-pad">' + data + '</div><div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 side-pad"><script src="http://grouphe.ru/partbutton.js?pid=9495678" /></script><div id="response-9495678"></div></div>');
+                        $("#project").replaceWith('<div id="project" class="col-lg-7 col-md-7 col-sm-12 col-xs-12 side-pad">' + data + '</div>');
                         setTimeout(function () {
                             $("#project_load").slideDown(500);
                         }, 200);

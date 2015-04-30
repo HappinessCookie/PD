@@ -33,7 +33,7 @@ if (isset($_POST["array"])) {
     $data = array();
     $data["name"] = $rsL["NAME"];
     $data["price"] = $rsL["PROPERTY_PRICE_VALUE"];
-    $data["house_area"] = $rsL["PROPERTY_HOUSE_AREA_VALUE"];
+    $data["house_area"] = $rsL["PROPERTY_HOUSE_AREA_VALUE"] . " кв.м";
     $data["dimensions"] = $rsL["PROPERTY_DIMENSIONS_VALUE"];
     $data["overlap"] = $rsL["PROPERTY_OVERLAP_VALUE"];
     $data["floor_count"] = $rsL["PROPERTY_FLOOR_COUNT_VALUE"];

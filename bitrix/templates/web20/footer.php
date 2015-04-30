@@ -31,10 +31,10 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
                         </ul>
                     </li>
                     <li class=" btn-group menu-group-item dropup">
-                        <a data-page="finish"
+                        <a data-page="projects"
                            type="button"
                            class="btn btn-link anchor"
-                           href="/#index/finish"
+                           href="/#index/projects"
                            style="padding-right: 0; float: left;">ГОТОВЫЕ ПРОЕКТЫ</a>
                         <a type="button"
                            data-toggle="dropdown"
@@ -60,7 +60,7 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
                         </ul>
                     </li>
                     <li class="btn-group menu-group-item dropup">
-                        <a data-page="finish"
+                        <a data-page="projects"
                            type="button"
                            class="btn btn-link anchor"
                            style="padding-right: 0; float: left;">ГОТОВЫЕ ПРОЕКТЫ</a>

@@ -75,7 +75,7 @@
                         <a data-page="projects"
                            type="button"
                            class="btn btn-link anchor"
-                           style="padding-right: 0; float: left;">ГОТОВОЕ РЕШЕНИЕ</a>
+                           style="padding-right: 0; float: left;">ГОТОВЫЕ ПРОЕКТЫ</a>
                         <a type="button"
                            data-toggle="dropdown"
                            class="btn btn-link dropdown-toggle pull-left"
@@ -105,7 +105,7 @@
                            type="button"
                            class="btn btn-link anchor"
                            href="/#index/projects"
-                           style="padding-right: 0; float: left;">ГОТОВОЕ РЕШЕНИЕ</a>
+                           style="padding-right: 0; float: left;">ГОТОВЫЕ ПРОЕКТЫ</a>
                         <a type="button"
                            data-toggle="dropdown"
                            class="btn btn-link dropdown-toggle pull-left"

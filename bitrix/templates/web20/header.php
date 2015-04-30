@@ -62,7 +62,7 @@
                         <a data-page="about"
                            type="button"
                            class="btn btn-link anchor"
-                           style="padding-right: 0; float: left;">О НАС</a>
+                           style="padding-right: 0; float: left;">УСЛУГИ</a>
                         <a type="button"
                            data-toggle="dropdown"
                            class="btn btn-link dropdown-toggle pull-left"
@@ -72,7 +72,7 @@
                         </ul>
                     </li>
                     <li class="btn-group menu-group-item">
-                        <a data-page="finish"
+                        <a data-page="projects"
                            type="button"
                            class="btn btn-link anchor"
                            style="padding-right: 0; float: left;">ГОТОВОЕ РЕШЕНИЕ</a>
@@ -91,7 +91,7 @@
                            type="button"
                            href="/#index/about"
                            class="btn btn-link anchor"
-                           style="padding-right: 0; float: left;">О НАС</a>
+                           style="padding-right: 0; float: left;">УСЛУГИ</a>
                         <a type="button"
                            data-toggle="dropdown"
                            class="btn btn-link dropdown-toggle pull-left"
@@ -101,10 +101,10 @@
                         </ul>
                     </li>
                     <li class=" btn-group menu-group-item">
-                        <a data-page="finish"
+                        <a data-page="projects"
                            type="button"
                            class="btn btn-link anchor"
-                           href="/#index/finish"
+                           href="/#index/projects"
                            style="padding-right: 0; float: left;">ГОТОВОЕ РЕШЕНИЕ</a>
                         <a type="button"
                            data-toggle="dropdown"

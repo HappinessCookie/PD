@@ -852,7 +852,7 @@ $APPLICATION->SetTitle("Главная страница");
                     </div>
                 </div>
             </div>
-            <div id="finish" class="item sp-slide">
+            <div id="projects" class="item sp-slide">
                 <div class="container page">
                     <div id="project_load" class="clearfix well">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>

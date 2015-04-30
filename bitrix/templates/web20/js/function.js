@@ -167,7 +167,7 @@ $(window).load(function () {
                     case "about":
                         page_index = 1;
                         break;
-                    case "finish":
+                    case "projects":
                         page_index = 2;
                         break;
                 }
@@ -195,7 +195,7 @@ $(window).load(function () {
         BX.addCustomEvent('onAjaxSuccess', function(){
             $('#index').sliderPro('update');
         });
-        $("#finish").on('click', '.project-preview', function () {
+        $("#projects").on('click', '.project-preview', function () {
             $.ajax({
                 type: "POST",
                 url: "/bitrix/templates/web20/ajax/project-get.php",

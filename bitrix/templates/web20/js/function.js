@@ -192,6 +192,9 @@ $(window).load(function () {
             $("body").css("background-color", "");
             $(".main-image").attr("src", "/bitrix/templates/web20/images/main-image.png");
         });
+        BX.addCustomEvent('onAjaxSuccess', function(){
+            $('#index').sliderPro('update');
+        });
         $("#finish").on('click', '.project-preview', function () {
             $.ajax({
                 type: "POST",
@@ -206,7 +209,6 @@ $(window).load(function () {
                     }, 300);
                 },
                 success: function (data) {
-                    console.log(data);
                     var images = "<div class='row'>";
                     for (var i = 0; i < data["layout"].length; i++) {
                         images += '<a class="col-lg-2 project-img" data-gallery="multiimages" data-toggle="lightbox" href="' + data["layout"][i] + '"><img class="image-responsive col-centered" src="' + data["layout"][i] + '" alt="" class="image-responsive"></a>';

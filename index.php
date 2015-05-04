@@ -931,6 +931,11 @@ $APPLICATION->SetTitle("Главная страница");
                             false
                         );?>
                     </div>
+                    <script>
+                        BX.addCustomEvent('onAjaxSuccess', function(){
+                            $('#index').sliderPro('update');
+                        });
+                    </script>
                     <!--HOUSE EXPERT-->
                     <div class="clearfix"></div>
                 </div>

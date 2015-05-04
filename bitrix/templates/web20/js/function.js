@@ -192,7 +192,7 @@ $(window).load(function () {
             $("body").css("background-color", "");
             $(".main-image").attr("src", "/bitrix/templates/web20/images/main-image.png");
         });
-        BX.addCustomEvent('onAjaxSuccess', function(){
+        $("html").on("click", ".pagination a", function(){
             $('#index').sliderPro('update');
         });
         $("#projects").on('click', '.project-preview', function () {

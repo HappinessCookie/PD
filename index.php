@@ -933,7 +933,9 @@ $APPLICATION->SetTitle("Главная страница");
                     </div>
                     <script>
                         BX.addCustomEvent('onAjaxSuccess', function(){
-                            $('#index').sliderPro('update');
+                            setTimeout(function () {
+                                $('#index').sliderPro('update');
+                            }, 500);
                         });
                     </script>
                     <!--HOUSE EXPERT-->

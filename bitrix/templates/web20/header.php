@@ -10,8 +10,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><? $APPLICATION->ShowTitle("ProjektStudio") ?></title>
-    <link rel="icon" href="bitrix/templates/web20/images/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="bitrix/templates/web20/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <?
     $APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH . "/css/bootstrap.css");
     $APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH . "/css/font-awesome.css");

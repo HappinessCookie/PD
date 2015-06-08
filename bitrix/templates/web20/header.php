@@ -12,6 +12,8 @@
     <title><? $APPLICATION->ShowTitle("ProjektStudio") ?></title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="title" content="ProjektStudio">
+    <link rel="image_src" href="/bitrix/templates/web20/images/logo_vk.jpg">
     <?
     $APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH . "/css/bootstrap.css");
     $APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH . "/css/font-awesome.css");

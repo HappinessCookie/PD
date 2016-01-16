@@ -389,6 +389,16 @@ $APPLICATION->SetTitle("Главная страница");
                                  src="/bitrix/templates/web20/images/partners/ЭнергоЭффект.png"
                                  alt=""/>
                         </div>
+                        <div class="item">
+                            <img class="img-responsive col-center"
+                                 src="/bitrix/templates/web20/images/partners/ИНМАШ.png"
+                                 alt=""/>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive col-center"
+                                 src="/bitrix/templates/web20/images/partners/сбербанк.png"
+                                 alt=""/>
+                        </div>
                     </div>
                     <!--MAP-->
                     <div class="clearfix map">

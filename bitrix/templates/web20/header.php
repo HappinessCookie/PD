@@ -10,8 +10,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><? $APPLICATION->ShowTitle("ProjektStudio") ?></title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <meta name="title" content="ProjektStudio">
     <link rel="image_src" href="/bitrix/templates/web20/images/logo_vk.jpg">
     <?
@@ -70,7 +70,7 @@
                            class="btn btn-link dropdown-toggle pull-left"
                            aria-expanded="false"><span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="newspaper.php">АРХГАЗЕТА</a></li>
+                            <li><a href="/newspaper.php">АРХГАЗЕТА</a></li>
                         </ul>
                     </li>
                     <li class="btn-group menu-group-item">
@@ -83,7 +83,7 @@
                            class="btn btn-link dropdown-toggle pull-left"
                            aria-expanded="false"><span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="partners.php">ПРОЕКТЫ ПАРТНЕРОВ</a></li>
+                            <li><a href="/partners.php">ПРОЕКТЫ ПАРТНЕРОВ</a></li>
                         </ul>
                     </li>
                 <? } else { ?>
@@ -99,7 +99,7 @@
                            class="btn btn-link dropdown-toggle pull-left"
                            aria-expanded="false"><span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="newspaper.php">АРХГАЗЕТА</a></li>
+                            <li><a href="/newspaper.php">АРХГАЗЕТА</a></li>
                         </ul>
                     </li>
                     <li class=" btn-group menu-group-item">
@@ -113,7 +113,7 @@
                            class="btn btn-link dropdown-toggle pull-left"
                            aria-expanded="false"><span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="partners.php" target="_blank">ПРОЕКТЫ ПАРТНЕРОВ</a></li>
+                            <li><a href="/partners.php" target="_blank">ПРОЕКТЫ ПАРТНЕРОВ</a></li>
                         </ul>
                     </li>
                 <? } ?>

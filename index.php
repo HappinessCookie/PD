@@ -919,7 +919,7 @@ $APPLICATION->SetTitle("Главная страница");
                                 "IBLOCK_ID" => "12",
                                 "NEWS_COUNT" => "12",
                                 "SORT_BY1" => "PROPERTY_house_area",
-                                "SORT_ORDER1" => "asc",
+                                "SORT_ORDER1" => "desc",
                                 "SORT_BY2" => "",
                                 "SORT_ORDER2" => "",
                                 "FILTER_NAME" => "",
